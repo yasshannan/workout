@@ -1,0 +1,11 @@
+# Qt Creator build output and personal settings (for the analyzer)
+build/
+build-*/
+*.user
+*.user.*
+
+# Python
+__pycache__/
+
+# Your real exported workout files do not belong in this public repository
+workout-20*.json

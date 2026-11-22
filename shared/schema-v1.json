@@ -1,0 +1,667 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "workout-tracker/schema-v1.json",
+  "title": "Workout Tracker export file, schema version 1",
+  "description": "The file the phone app exports and the Windows app imports. See SCHEMA.md for a plain-language explanation.",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "app",
+    "exportedAt",
+    "exportType",
+    "changedSince",
+    "settings",
+    "exercises",
+    "templates",
+    "workouts",
+    "bodyWeights"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "app": {
+      "const": "workout-tracker"
+    },
+    "exportedAt": {
+      "$ref": "#/$defs/timestamp"
+    },
+    "exportType": {
+      "enum": [
+        "full",
+        "incremental"
+      ]
+    },
+    "changedSince": {
+      "$ref": "#/$defs/nullableTimestamp"
+    },
+    "settings": {
+      "$ref": "#/$defs/settings"
+    },
+    "exercises": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/exercise"
+      }
+    },
+    "templates": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/template"
+      }
+    },
+    "workouts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/workout"
+      }
+    },
+    "bodyWeights": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/bodyWeight"
+      }
+    },
+    "measurements": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/measurement"
+      },
+      "description": "Optional. Body measurements."
+    }
+  },
+  "$defs": {
+    "timestamp": {
+      "description": "UTC time in ISO 8601 format, e.g. 2026-11-10T17:02:11.000Z",
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d{1,3})?Z$"
+    },
+    "nullableTimestamp": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/timestamp"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80
+    },
+    "muscle": {
+      "enum": [
+        "upper_chest",
+        "chest",
+        "front_delts",
+        "side_delts",
+        "rear_delts",
+        "rotator_cuff",
+        "neck",
+        "traps",
+        "upper_back",
+        "lats",
+        "biceps",
+        "brachialis",
+        "triceps",
+        "brachioradialis",
+        "forearm_flexors",
+        "forearm_extensors",
+        "abs",
+        "obliques",
+        "lower_back",
+        "glutes",
+        "abductors",
+        "adductors",
+        "quads",
+        "hamstrings",
+        "calves",
+        "tibialis",
+        "forearms"
+      ],
+      "description": "Muscle group id. 'forearms' is only in files of older versions; both apps read it as forearm_flexors."
+    },
+    "settings": {
+      "type": "object",
+      "required": [
+        "unit",
+        "defaultRestSec",
+        "soundOn",
+        "keepScreenOn"
+      ],
+      "properties": {
+        "unit": {
+          "enum": [
+            "kg",
+            "lb"
+          ],
+          "description": "Display unit only. Stored weights are always kg."
+        },
+        "defaultRestSec": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "soundOn": {
+          "type": "boolean"
+        },
+        "keepScreenOn": {
+          "type": "boolean"
+        },
+        "effortScale": {
+          "enum": [
+            "rpe",
+            "rir"
+          ]
+        },
+        "theme": {
+          "enum": [
+            "auto",
+            "light",
+            "dark"
+          ]
+        },
+        "soundInSilentMode": {
+          "type": "boolean"
+        },
+        "vibrateOn": {
+          "type": "boolean",
+          "description": "Vibrate (a haptic tick on the iPhone) when the rest is over. Optional."
+        }
+      }
+    },
+    "exercise": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "primaryMuscles",
+        "secondaryMuscles",
+        "movement",
+        "equipment",
+        "loadType",
+        "isCustom",
+        "updatedAt",
+        "deletedAt"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id",
+          "description": "Built-in exercises: fixed slug such as barbell-bench-press. Custom exercises: UUID."
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "primaryMuscles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/muscle"
+          },
+          "description": "Each set counts as 1 set for these muscles."
+        },
+        "secondaryMuscles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/muscle"
+          },
+          "description": "Each set counts as 0.5 set for these muscles."
+        },
+        "movement": {
+          "enum": [
+            "push",
+            "pull",
+            "legs",
+            "core"
+          ]
+        },
+        "equipment": {
+          "enum": [
+            "barbell",
+            "dumbbell",
+            "machine",
+            "cable",
+            "bodyweight",
+            "other"
+          ]
+        },
+        "loadType": {
+          "enum": [
+            "external",
+            "bodyweight",
+            "assisted"
+          ],
+          "description": "external: weightKg is the load. bodyweight: weightKg is EXTRA weight on top of body weight. assisted: weightKg is the assistance taken OFF body weight."
+        },
+        "bodyweightFraction": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Only for loadType bodyweight: share of body weight that counts as load (1 = pull-up, 0.65 = push-up, 0 = count sets only). Defaults to 1."
+        },
+        "isCustom": {
+          "type": "boolean"
+        },
+        "updatedAt": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "deletedAt": {
+          "$ref": "#/$defs/nullableTimestamp"
+        },
+        "muscleShares": {
+          "type": "object",
+          "description": "Optional. How much one set counts for each secondary muscle, 0.1 to 0.9 (default 0.5). Primary muscles always count 1.",
+          "propertyNames": {
+            "$ref": "#/$defs/muscle"
+          },
+          "additionalProperties": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        "compound": {
+          "type": "boolean",
+          "description": "Optional. Multi-joint exercise. Only these get an estimated 1RM."
+        },
+        "load": {
+          "enum": [
+            "total",
+            "perHand",
+            "perSide"
+          ],
+          "description": "Optional, default total. perHand: two equal weights at once, weightKg is one of them (volume x2). perSide: one side at a time, reps per side (see set.repsLeft)."
+        },
+        "weightStep": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "Optional. How much the - / + buttons change the weight."
+        },
+        "setup": {
+          "type": "string",
+          "maxLength": 200,
+          "description": "Optional. Your note for the machine settings, e.g. 'Seat 4, gym A'."
+        },
+        "editedByUser": {
+          "type": "boolean",
+          "description": "Optional. Changed by you; library updates leave it alone."
+        },
+        "unit": {
+          "enum": [
+            "reps",
+            "seconds",
+            "minutes"
+          ],
+          "description": "Optional, default reps. What a set's reps field counts. seconds: holds, hangs and carries (they count as hard sets, but add nothing to the volume in kg). minutes: cardio (no hard sets, no volume)."
+        },
+        "cues": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Optional. Short technique tips, shown under \"Technik\" on the phone."
+        }
+      }
+    },
+    "template": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "items",
+        "updatedAt",
+        "deletedAt"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "type": "string"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "exerciseId",
+              "targetSets",
+              "restSec"
+            ],
+            "properties": {
+              "exerciseId": {
+                "$ref": "#/$defs/id"
+              },
+              "targetSets": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "restSec": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "repsMin": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 1,
+                "description": "Target reps, or the lower end of a rep range. Optional."
+              },
+              "repsMax": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 1,
+                "description": "Upper end of the rep range (equal to repsMin for a fixed number). Optional."
+              },
+              "supersetGroup": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "maxLength": 4,
+                "description": "Optional. Items with the same letter are done as a superset."
+              }
+            }
+          }
+        },
+        "updatedAt": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "deletedAt": {
+          "$ref": "#/$defs/nullableTimestamp"
+        }
+      }
+    },
+    "workout": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "templateId",
+        "startedAt",
+        "finishedAt",
+        "utcOffsetMin",
+        "notes",
+        "updatedAt",
+        "deletedAt",
+        "exercises"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "type": "string"
+        },
+        "templateId": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "startedAt": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "finishedAt": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "utcOffsetMin": {
+          "type": "integer",
+          "description": "Local time minus UTC, in minutes, at the moment the workout started (Vienna: 60 in winter, 120 in summer)."
+        },
+        "notes": {
+          "type": "string"
+        },
+        "updatedAt": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "deletedAt": {
+          "$ref": "#/$defs/nullableTimestamp"
+        },
+        "exercises": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/workoutExercise"
+          }
+        }
+      }
+    },
+    "workoutExercise": {
+      "description": "One exercise performed in one workout.",
+      "type": "object",
+      "required": [
+        "id",
+        "exerciseId",
+        "order",
+        "notes",
+        "sets"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "exerciseId": {
+          "$ref": "#/$defs/id"
+        },
+        "order": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "notes": {
+          "type": "string"
+        },
+        "targetRepsMin": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Rep target from the template (lower end of a range). Optional."
+        },
+        "targetRepsMax": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Upper end of the rep target. Optional."
+        },
+        "sets": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/set"
+          }
+        },
+        "supersetGroup": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 4,
+          "description": "Optional. Exercises with the same letter are done as a superset."
+        }
+      }
+    },
+    "set": {
+      "type": "object",
+      "required": [
+        "id",
+        "order",
+        "type",
+        "weightKg",
+        "reps",
+        "rpe",
+        "startedAt",
+        "completedAt",
+        "targetRestSec"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "order": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "type": {
+          "enum": [
+            "work",
+            "warmup",
+            "drop",
+            "restpause"
+          ],
+          "description": "work = normal hard set. drop / restpause = one part of a drop set or rest-pause set (counts 1/2 hard set). Warm-up sets do not count."
+        },
+        "weightKg": {
+          "type": "number",
+          "minimum": 0
+        },
+        "reps": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Reps. For an exercise with unit seconds or minutes: the seconds or minutes."
+        },
+        "rpe": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 10,
+          "description": "Always null from the current app. Kept for older files."
+        },
+        "startedAt": {
+          "$ref": "#/$defs/nullableTimestamp",
+          "description": "When 'Start set' was tapped. null if it was skipped."
+        },
+        "completedAt": {
+          "$ref": "#/$defs/nullableTimestamp",
+          "description": "When the set was logged. null only for sets added by hand later."
+        },
+        "targetRestSec": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "description": "The rest target that was running after this set."
+        },
+        "repsLeft": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "description": "Optional, only for load perSide: reps of the left side when they differ from 'reps' (right side)."
+        },
+        "partials": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "description": "Optional. Partial reps done after the full reps. Not counted in volume."
+        }
+      }
+    },
+    "bodyWeight": {
+      "type": "object",
+      "required": [
+        "id",
+        "measuredAt",
+        "weightKg",
+        "updatedAt",
+        "deletedAt"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "measuredAt": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "weightKg": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "updatedAt": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "deletedAt": {
+          "$ref": "#/$defs/nullableTimestamp"
+        }
+      }
+    },
+    "measurement": {
+      "type": "object",
+      "required": [
+        "id",
+        "measuredAt",
+        "updatedAt",
+        "deletedAt"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "measuredAt": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "waistCm": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "chestCm": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "armCm": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "thighCm": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "calfCm": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "bodyFatPct": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "updatedAt": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "deletedAt": {
+          "$ref": "#/$defs/nullableTimestamp"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

@@ -1,0 +1,95 @@
+/*
+  theme.css — every colour of the app.
+
+  The four greys come from Main.qml of the Qt project:
+    reallyDark #1f1f1f   dark #262626   reallyLight #e7e7e7   light #e0e0e0
+  As in Main.qml, buttons are "inverted": dark buttons in light mode, light
+  buttons in dark mode. The only other colours: three status colours and gold
+  for records.
+  Cards are lighter than the page in both modes and have a clear border, so
+  they stand out from the background.
+  Dark mode is true black for the OLED screen of the iPhone (black pixels are
+  switched off: deeper contrast, a little less battery), with the dark greys
+  of iOS for cards and dialogs.
+*/
+
+:root {
+  --really-dark: #1f1f1f;
+  --dark: #262626;
+  --really-light: #e7e7e7;
+  --light: #e0e0e0;
+
+  /* The edges iOS keeps free (Dynamic Island / status bar, home bar). One place,
+     so a test can set them to the iPhone 15 Pro's values. */
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+
+  --radius: 12px;                        /* the corner radius of iOS buttons and cards */
+  --font: -apple-system, BlinkMacSystemFont, system-ui, sans-serif;           /* San Francisco */
+  --font-numbers: ui-rounded, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;   /* SF Rounded for big numbers */
+}
+
+/* Light (the default) */
+:root,
+:root[data-theme="light"] {
+  --bg: var(--really-light);             /* page background */
+  --surface: #f6f6f6;                    /* cards: lighter than the page */
+  --bar: rgba(246, 246, 246, 0.78);      /* tab bar: see-through, the page blurs behind it */
+  --sheet: var(--bg);                    /* dialogs that slide up from below */
+  --field: #ffffff;                      /* input fields */
+  --text: var(--dark);
+  --muted: rgba(38, 38, 38, 0.76);       /* secondary text */
+  --line: rgba(38, 38, 38, 0.22);        /* borders */
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  --btn-bg: var(--dark);
+  --btn-text: var(--light);
+  --ok: #2f7d4f;
+  --warn: #a86a12;
+  --high: #b3392c;
+  --gold: #b8860b;
+  --gold-soft: rgba(212, 160, 23, 0.20);
+}
+
+/* Dark: chosen in Settings (app.js puts data-theme on <html>) … */
+:root[data-theme="dark"] {
+  --bg: #000000;                         /* true black: on the OLED screen black pixels are off */
+  --surface: #1c1c1e;                    /* cards, as the raised surfaces of iOS */
+  --sheet: #1c1c1e;                      /* dialogs from below stand out from the black page */
+  --bar: rgba(22, 22, 22, 0.78);
+  --field: #2c2c2e;
+  --text: var(--light);
+  --muted: rgba(224, 224, 224, 0.72);
+  --line: rgba(224, 224, 224, 0.16);
+  --shadow: none;
+  --btn-bg: var(--light);
+  --btn-text: #000000;
+  --ok: #5fbf86;
+  --warn: #e0a84a;
+  --high: #e8776b;
+  --gold: #f2c14e;
+  --gold-soft: rgba(242, 193, 78, 0.18);
+}
+
+/* … or from the phone's setting, until the JavaScript has started */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --bg: #000000;                         /* true black: on the OLED screen black pixels are off */
+    --surface: #1c1c1e;                    /* cards, as the raised surfaces of iOS */
+    --sheet: #1c1c1e;                      /* dialogs from below stand out from the black page */
+    --bar: rgba(22, 22, 22, 0.78);
+    --field: #2c2c2e;
+    --text: var(--light);
+    --muted: rgba(224, 224, 224, 0.72);
+    --line: rgba(224, 224, 224, 0.16);
+    --shadow: none;
+    --btn-bg: var(--light);
+    --btn-text: #000000;
+    --ok: #5fbf86;
+    --warn: #e0a84a;
+    --high: #e8776b;
+    --gold: #f2c14e;
+    --gold-soft: rgba(242, 193, 78, 0.18);
+  }
+}

@@ -1,0 +1,454 @@
+/*
+  app.css — layout and components. All colours come from theme.css.
+  Made for the iPhone only (SE up to Pro Max, portrait): full width, around
+  the Dynamic Island and the home bar, San Francisco font, iOS-like bars.
+  Rule of thumb for the gym: everything tappable is at least 44 px high,
+  the important buttons 56 px or more.
+*/
+
+/* ---------- Basics ---------- */
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-size: 17px;
+  line-height: 1.35;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;            /* no "copy / look up" menu on a long press … */
+  -webkit-user-select: none; user-select: none;
+  overscroll-behavior-y: none;            /* no rubber-band "pull to refresh" */
+}
+input, textarea { -webkit-user-select: text; user-select: text; }    /* … except where you type */
+
+/* The area every screen is drawn into: the full width of the iPhone.
+   --safe-… (theme.css) keeps clear of the Dynamic Island and the home bar. */
+#screen, .overlay {
+  padding: calc(8px + var(--safe-top)) max(16px, var(--safe-right))
+           calc(110px + var(--safe-bottom)) max(16px, var(--safe-left));
+}
+
+/* the big title at the top of a screen, as in iOS */
+h1 { font-size: 34px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.12; margin: 6px 0 14px; }
+h1 .logo-mark { width: 0.78em; height: 0.78em; margin-right: 0.22em; vertical-align: -0.04em; fill: currentColor; }
+h2 { font-size: 15px; font-weight: 700; color: var(--muted); margin: 26px 0 8px; text-transform: uppercase; letter-spacing: 0.04em; }
+p { margin: 8px 0; }
+a { color: inherit; }
+.muted { color: var(--muted); }
+.small { font-size: 14px; }
+.center { text-align: center; }
+.spacer { height: 12px; }
+
+.row { display: flex; gap: 10px; align-items: stretch; }
+.row > * { flex: 1; min-width: 0; }
+.row > .fixed { flex: 0 0 auto; }
+.stack > * + * { margin-top: 10px; }
+.topbar { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
+
+/* ---------- Moving between screens ---------- */
+
+@keyframes enter { from { opacity: 0; } }
+@keyframes enter-deeper { from { opacity: 0; transform: translateX(28px); } }
+@keyframes enter-back { from { opacity: 0; transform: translateX(-28px); } }
+.enter { animation: enter 0.16s ease-out; }
+.enter-deeper { animation: enter-deeper 0.2s ease-out; }
+.enter-back { animation: enter-back 0.2s ease-out; }
+
+/* ---------- Buttons ---------- */
+
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  min-height: 56px; padding: 0 18px;
+  border: 2px solid var(--btn-bg); border-radius: var(--radius);
+  background: var(--btn-bg); color: var(--btn-text);
+  font: inherit; font-size: 18px; font-weight: 600; text-decoration: none;
+  touch-action: manipulation;             /* no double-tap zoom on buttons */
+  -webkit-user-select: none; user-select: none;
+  cursor: pointer;
+  transition: transform 0.08s ease-out, opacity 0.08s;
+}
+.btn:active { opacity: 0.75; transform: scale(0.98); }
+.btn:disabled { opacity: 0.4; }
+.btn.block { display: flex; width: 100%; }
+.btn.big { min-height: 68px; font-size: 21px; }
+.btn.small { min-height: 44px; padding: 0 14px; font-size: 16px; }
+.btn.round { width: 44px; min-height: 44px; padding: 0; border-radius: 22px; }
+.btn.round svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.btn.secondary { background: transparent; color: var(--text); }
+.btn.ghost { background: transparent; color: var(--text); border-color: transparent; padding: 0 10px; }
+.btn.danger { background: transparent; color: var(--high); border-color: var(--high); }
+.btn.step { min-height: 60px; padding: 0; font-size: 30px; font-weight: 500; -webkit-touch-callout: none; }
+
+/* ---------- Cards and lists ---------- */
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 14px; margin: 12px 0;
+}
+.card h3 { margin: 0 0 6px; font-size: 18px; }
+.card-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.card-head h3 { margin: 0; }
+.notice { border-left: 4px solid var(--warn); }
+.overdue-card { border-left: 4px solid var(--warn); }
+.overdue { font-weight: 800; color: var(--warn); margin-bottom: 4px; }
+.about { display: flex; align-items: center; gap: 14px; }
+.about-logo { flex: 0 0 auto; width: 52px; height: 52px; padding: 11px; border-radius: 12px; background: #fff; fill: #000; box-shadow: 0 0 0 0.5px var(--line); }
+.about-name { font-size: 20px; font-weight: 800; }
+.inline-icon { width: 1.15em; height: 1.15em; vertical-align: -0.2em; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.status-warn { color: var(--warn); font-weight: 600; }
+.tag {
+  display: inline-block; padding: 1px 8px; border-radius: 10px;
+  border: 1px solid var(--line); font-size: 12px; font-weight: 700; color: var(--muted);
+}
+
+.list-item {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  width: 100%; min-height: 60px; padding: 10px 14px; margin: 8px 0;
+  background: var(--surface); color: inherit;
+  border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow);
+  font: inherit; text-align: left; text-decoration: none;
+  touch-action: manipulation; cursor: pointer;
+}
+.list-item:active { opacity: 0.75; }
+.list-item .title { font-weight: 600; }
+.list-item .sub { font-size: 14px; color: var(--muted); }
+.list-item .end { flex: 0 0 auto; color: var(--muted); font-size: 15px; text-align: right; }
+.list-item.saved { opacity: 0.85; }
+.saved-check { font-size: 26px; font-weight: 800; color: var(--ok) !important; }
+.link-row {
+  display: flex; justify-content: space-between; align-items: center;
+  min-height: 48px; margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--line);
+  text-decoration: none; font-weight: 600;
+}
+
+.stats { display: flex; gap: 10px; }
+.stat { flex: 1; text-align: center; }
+.stat .value { font-family: var(--font-numbers); font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.stat .name { font-size: 13px; color: var(--muted); }
+
+.today-weight { display: flex; align-items: center; font-size: 20px; font-weight: 700; }
+.today-weight .saved-check { font-size: 22px; margin-right: 6px; }
+
+/* ---------- Form controls ---------- */
+
+input[type="text"], input[type="search"], textarea, select {
+  width: 100%; min-height: 52px; padding: 10px 12px;
+  border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--field); color: var(--text);
+  font: inherit; font-size: 18px;         /* 16 px or more stops iOS zooming in on focus */
+  -webkit-appearance: none; appearance: none;
+}
+input:focus, textarea:focus, select:focus { outline: 2px solid var(--text); outline-offset: -1px; }
+textarea { min-height: 76px; resize: vertical; }
+label.field { display: block; margin: 12px 0; }
+label.field > span { display: block; font-size: 14px; color: var(--muted); margin-bottom: 4px; }
+
+.setting {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  min-height: 60px; padding: 8px 0; border-bottom: 1px solid var(--line);
+}
+.setting .label { flex: 1; }
+.setting .control { flex: 0 0 auto; }
+
+/* Chips: small toggle buttons */
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chips.scroll { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; -webkit-overflow-scrolling: touch; }
+.chips.fill { flex-wrap: nowrap; }
+.chips.fill .chip { flex: 1; min-width: 0; padding: 0; }
+.chip {
+  flex: 0 0 auto; min-height: 44px; min-width: 48px; padding: 0 14px;
+  border: 2px solid var(--line); border-radius: 10px;
+  background: transparent; color: var(--text);
+  font: inherit; font-size: 16px; font-weight: 600;
+  touch-action: manipulation; cursor: pointer;
+}
+.chip.on { background: var(--btn-bg); color: var(--btn-text); border-color: var(--btn-bg); }
+.chips.small { gap: 6px; }
+.chips.small .chip { min-height: 40px; padding: 0 10px; font-size: 15px; }
+
+/* Stepper: [ − ]  value  [ + ], with its label (and a small note) above */
+.stepper { margin: 10px 0; }
+.stepper-label {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 8px;
+  font-size: 14px; color: var(--muted); margin-bottom: 4px;
+}
+.stepper-note { font-size: 13px; font-weight: 700; color: var(--text); }
+.stepper-row { display: grid; grid-template-columns: 64px 1fr 64px; gap: 8px; }
+input.stepper-input {
+  min-height: 60px; text-align: center; padding: 0 4px;
+  font-family: var(--font-numbers); font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums;
+}
+.row > .stepper .stepper-row { grid-template-columns: 48px 1fr 48px; gap: 6px; }
+.plates { margin-top: 6px; text-align: center; font-variant-numeric: tabular-nums; }
+
+/* ---------- The running workout ---------- */
+
+.clock { font-family: var(--font-numbers); font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; }
+
+.entry-top { display: flex; align-items: center; gap: 6px; }
+.entry-head {
+  flex: 1; min-height: 48px; padding: 0; border: 0; background: none; color: inherit;
+  font: inherit; text-align: left; touch-action: manipulation; cursor: pointer;
+}
+.entry-name { display: block; font-size: 19px; font-weight: 700; }
+.card.open { border: 2px solid var(--text); }
+/* exercises of one superset are joined by a bar on the left */
+.card.linked { margin-top: -6px; border-top-left-radius: 0; border-top-right-radius: 0; box-shadow: inset 4px 0 0 var(--text), var(--shadow); }
+.setup-line { font-size: 14px; font-weight: 600; margin: 2px 0 4px; }
+.last-time { font-size: 15px; color: var(--muted); margin: 4px 0 8px; }
+.progress-line { font-size: 15px; font-weight: 700; color: var(--ok); margin: 0 0 8px; }
+
+/* "Technik": tips folded away under a small heading */
+.cues { margin: 0 0 6px; font-size: 15px; }
+.cues summary {
+  display: inline-flex; align-items: center; gap: 6px; min-height: 32px;
+  font-weight: 700; color: var(--muted); list-style: none; cursor: pointer;
+}
+.cues summary::-webkit-details-marker { display: none; }
+.cues summary::before { content: '›'; display: inline-block; font-size: 20px; line-height: 1; transition: transform 0.2s ease; }
+.cues[open] summary::before { transform: rotate(90deg); }
+.cues ul { margin: 2px 0 8px; padding-left: 20px; }
+.cues li { margin: 3px 0; }
+
+/* the trend of an exercise: a small line and the change */
+.trend-line { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 600; color: var(--muted); margin: -2px 0 8px; }
+.sparkline { flex: 0 0 auto; width: 112px; height: 30px; overflow: visible; }
+.sparkline polyline { fill: none; stroke: var(--text); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; opacity: 0.75; }
+.sparkline circle { fill: var(--text); }
+.sparkline circle.today { fill: var(--gold); }
+.volume-line { font-size: 14px; color: var(--muted); margin: 2px 0 6px; font-variant-numeric: tabular-nums; }
+.record-note {
+  margin: 6px 0; padding: 8px 10px; border-radius: 6px;
+  background: var(--gold-soft); color: var(--gold); font-weight: 700;
+  animation: gold-in 0.6s ease-out;
+}
+.warmup-line { display: flex; align-items: center; gap: 8px; font-size: 14px; margin: 6px 0; }
+.warmup-line > span { flex: 1; }
+.next-set { border-top: 1px solid var(--line); margin-top: 6px; padding-top: 6px; }
+.next-set > .btn.big { margin-top: 12px; }
+.next-set > .btn.ghost { margin-top: 6px; color: var(--muted); }
+.next-set > .next-exercise { margin-top: 10px; }
+.next-exercise .next-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.type-row .chips { flex-wrap: nowrap; }
+.type-row .chips .chip { flex: 1; min-width: 0; padding: 0 2px; font-size: 13px; white-space: nowrap; }
+.type-row > .btn { display: flex; margin-left: auto; margin-top: 4px; color: var(--muted); }
+
+.set-row {
+  display: flex; align-items: center; gap: 10px;
+  width: 100%; min-height: 48px; padding: 6px 2px;
+  border: 0; border-top: 1px solid var(--line);
+  background: none; color: inherit; font: inherit; text-align: left;
+  touch-action: manipulation; cursor: pointer;
+}
+.set-no { flex: 0 0 28px; font-weight: 700; color: var(--muted); font-variant-numeric: tabular-nums; }
+.set-main { flex: 1; font-weight: 600; font-variant-numeric: tabular-nums; }
+.set-side { flex: 0 0 auto; font-size: 14px; color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+
+/* Gold: a set that is a personal record turns gold … */
+.record { color: var(--gold); }
+.set-row.pr { background: var(--gold-soft); border-radius: 6px; box-shadow: inset 4px 0 0 var(--gold); padding-left: 12px; }
+.set-row.pr .set-no, .set-row.pr .set-main { color: var(--gold); }
+/* … and an exercise with more kilograms than ever (at the same number of sets) as a whole */
+.card.gold {
+  border: 2px solid var(--gold);
+  background: linear-gradient(135deg, var(--gold-soft), var(--surface) 70%);
+  animation: gold-in 0.6s ease-out;
+}
+.card.gold .entry-name { color: var(--gold); }
+.gold-text { color: var(--gold); font-weight: 700; }
+@keyframes gold-in { 50% { box-shadow: 0 0 18px 2px var(--gold-soft); } }
+
+/* The rest timer: a slim bar at the bottom, inverted colours so it cannot be
+   missed. Tapping the time shows it big (for reading it from the bench). */
+.rest {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+  padding: 0 12px calc(10px + var(--safe-bottom));
+  background: var(--btn-bg); color: var(--btn-text);
+  border-radius: 18px 18px 0 0;
+  box-shadow: 0 -2px 16px rgba(0, 0, 0, 0.2);
+}
+.rest-inner { margin: 0 auto; }
+.rest-bar { height: 5px; margin: 0 -12px 8px; background: rgba(128, 128, 128, 0.35); overflow: hidden; border-radius: 18px 18px 0 0; }
+/* moved with transform (not width): the graphics chip animates it, smooth at the 120 Hz of the Pro iPhones */
+.rest-bar-fill { height: 100%; width: 100%; transform: scaleX(0); transform-origin: left center; background: var(--btn-text); transition: transform 0.25s linear; will-change: transform; }
+.rest-main { display: flex; align-items: center; gap: 10px; }
+.rest-clock {
+  flex: 1; min-width: 0; min-height: 52px; padding: 0; border: 0; background: none; color: inherit;
+  display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto; column-gap: 10px;
+  text-align: left; font: inherit; cursor: pointer; touch-action: manipulation;
+}
+.rest-label { grid-column: 1; grid-row: 1; font-size: 13px; font-weight: 700; opacity: 0.85; }
+.rest-target { grid-column: 1; grid-row: 2; font-size: 13px; opacity: 0.75; }
+.rest-time { grid-column: 2; grid-row: 1 / span 2; align-self: center; font-family: var(--font-numbers); font-size: 36px; line-height: 1; font-weight: 800; font-variant-numeric: tabular-nums; }
+.rest-buttons { display: flex; gap: 6px; flex: 0 0 auto; }
+.rest .btn { background: transparent; color: var(--btn-text); border-color: var(--btn-text); padding: 0 12px; }
+.rest .btn.solid { background: var(--btn-text); color: var(--btn-bg); }
+.rest.expanded .rest-main { flex-direction: column; align-items: stretch; }
+.rest.expanded .rest-clock { grid-template-columns: 1fr auto; }
+.rest.expanded .rest-time { grid-column: 1 / span 2; grid-row: 2; font-size: 84px; text-align: center; margin: 4px 0; }
+.rest.expanded .rest-target { grid-column: 2; grid-row: 1; text-align: right; }
+.rest.expanded .rest-buttons .btn { flex: 1; min-height: 52px; }
+.rest-spacer { height: 100px; }            /* room to scroll the last card above the bar */
+body.resting .rest-spacer { height: 140px; }
+
+/* Blink when the rest is over (the signal you see; the phone also vibrates) */
+@keyframes flash { 0%, 100% { opacity: 1; } 50% { opacity: 0.15; } }
+body.flash .rest { animation: flash 0.45s 3; }
+
+/* While typing, the bars at the bottom step aside for the keyboard */
+body.typing .rest, body.typing #tabbar { display: none; }
+
+/* ---------- Template editor ---------- */
+
+.template-item { padding: 0; }
+.template-item > .tag { margin: 10px 0 0 12px; }
+.item-head { display: flex; align-items: center; min-height: 64px; }
+.drag-handle {
+  flex: 0 0 48px; align-self: stretch; border: 0; background: none; color: var(--muted);
+  font-size: 24px; cursor: grab; touch-action: none;
+}
+.item-title {
+  flex: 1; min-width: 0; padding: 10px 4px; border: 0; background: none; color: inherit;
+  font: inherit; text-align: left; cursor: pointer; touch-action: manipulation;
+}
+.item-title .title { display: block; font-weight: 700; }
+.item-title .sub { display: block; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.chevron { flex: 0 0 40px; text-align: center; color: var(--muted); }
+.item-body { padding: 0 14px 12px; border-top: 1px solid var(--line); }
+.template-item.dragging { position: relative; z-index: 3; opacity: 0.92; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25); transition: none; }
+.template-item.linked { margin-top: -6px; box-shadow: inset 4px 0 0 var(--text), var(--shadow); }
+
+/* ---------- Exercise editor, measurements ---------- */
+
+.share-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 48px; }
+.measure-row { display: grid; grid-template-columns: 1fr 110px 28px; align-items: center; gap: 8px; min-height: 60px; border-bottom: 1px solid var(--line); }
+.measure-name { display: flex; flex-direction: column; font-weight: 600; }
+.measure-row input { text-align: right; }
+
+/* ---------- Muscle figure (template editor) ---------- */
+
+.bodymap svg { display: block; width: 100%; max-width: 420px; margin: 4px auto 8px; }
+.bm-outline { fill: none; stroke: var(--text); stroke-opacity: 0.5; stroke-width: 3; stroke-linejoin: round; }
+.bm-body { fill: var(--surface); }
+/* a thin line in the card colour around every muscle keeps neighbours apart */
+.bm-primary, .bm-secondary, .bm-none, .bm-tired, .bm-recovering, .bm-fresh { stroke: var(--surface); stroke-width: 1.4; stroke-linejoin: round; cursor: pointer; }
+.overlay .bm-body { fill: var(--bg); }
+.overlay .bm-primary, .overlay .bm-secondary, .overlay .bm-none { stroke: var(--bg); }
+.bm-primary { fill: var(--text); }
+.bm-secondary { fill: var(--text); fill-opacity: 0.45; }
+.bm-none { fill: var(--text); fill-opacity: 0.16; }
+/* recovery on Home */
+.bm-tired { fill: var(--high); }
+.bm-recovering { fill: var(--warn); fill-opacity: 0.85; }
+.bm-fresh { fill: var(--ok); fill-opacity: 0.3; }
+.bm-picked { stroke: var(--gold); stroke-width: 2.6; }
+.bm-label { fill: var(--muted); font-size: 14px; font-weight: 600; text-anchor: middle; }
+.bm-info { min-height: 40px; font-size: 14px; font-weight: 600; margin: 0 0 8px; }
+.bm-sticky { position: sticky; top: 0; z-index: 2; background: var(--bg); padding: 6px 0; }
+.bm-legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin-bottom: 4px; }
+.bm-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.bm-dot { display: inline-block; width: 14px; height: 14px; border-radius: 4px; background: var(--text); }
+.bm-dot.bm-secondary { opacity: 0.45; }
+.bm-dot.bm-none { opacity: 0.16; }
+.bm-dot.bm-tired { background: var(--high); }
+.bm-dot.bm-recovering { background: var(--warn); opacity: 0.85; }
+.bm-dot.bm-fresh { background: var(--ok); opacity: 0.3; }
+
+/* ---------- Tab bar ---------- */
+
+/* as in iOS: see-through with the page blurred behind it, symbols above the names */
+#tabbar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 5;
+  display: flex;
+  padding: 0 var(--safe-right) var(--safe-bottom) var(--safe-left);
+  background: var(--bar);
+  -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px);
+  border-top: 0.5px solid var(--line);
+}
+#tabbar a {
+  flex: 1; min-width: 0; min-height: 54px; padding-top: 6px;
+  display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 2px;
+  color: var(--muted); font-size: 11px; font-weight: 600; letter-spacing: 0.01em; text-decoration: none;
+  touch-action: manipulation; -webkit-user-select: none; user-select: none;
+}
+#tabbar .tab-icon {
+  width: 27px; height: 27px; fill: none; stroke: currentColor; stroke-width: 1.7;
+  stroke-linecap: round; stroke-linejoin: round;
+}
+#tabbar a.on { color: var(--text); }
+#tabbar a.on .tab-icon { stroke-width: 2.3; }
+#tabbar a:active .tab-icon { transform: scale(0.9); }
+
+/* ---------- Dialogs, layers, messages ---------- */
+
+@keyframes fade-in { from { opacity: 0; } }
+@keyframes slide-up { from { transform: translateY(100%); } }
+.sheet-backdrop {
+  position: fixed; inset: 0; z-index: 30; background: rgba(0, 0, 0, 0.5);
+  display: flex; align-items: flex-end;
+  animation: fade-in 0.18s ease-out;
+}
+.sheet {
+  width: 100%; max-height: 88vh; overflow-y: auto; overscroll-behavior: contain;
+  padding: 6px max(16px, var(--safe-right)) calc(16px + var(--safe-bottom)) max(16px, var(--safe-left));
+  background: var(--sheet); border-radius: 18px 18px 0 0;
+  animation: slide-up 0.22s ease-out;
+  transition: transform 0.12s;
+}
+.sheet-backdrop.closing { opacity: 0; transition: opacity 0.18s; pointer-events: none; }
+.sheet-backdrop.closing .sheet { transform: translateY(40%); transition: transform 0.18s ease-in; }
+.sheet-grip { width: 40px; height: 5px; margin: 4px auto 12px; border-radius: 3px; background: var(--line); }
+.sheet h3 { margin: 0 0 10px; font-size: 20px; }
+.overlay-wrap {
+  position: fixed; inset: 0; z-index: 20; background: var(--bg); overflow-y: auto; -webkit-overflow-scrolling: touch;
+  animation: enter-deeper 0.2s ease-out;
+}
+
+.toast {   /* at the top, below the Dynamic Island, so it never covers the rest timer */
+  position: fixed; left: 16px; right: 16px; top: calc(8px + var(--safe-top)); z-index: 40;
+  margin: 0 auto; padding: 14px 16px;
+  background: var(--btn-bg); color: var(--btn-text); border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
+  font-weight: 600; text-align: center;
+  animation: fade-in 0.15s ease-out;
+  pointer-events: none;                   /* taps go through to the buttons below it */
+}
+
+/* ---------- Intro (index.html): the logo draws itself, then the app appears ---------- */
+
+#intro {
+  position: fixed; inset: 0; z-index: 100;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  background: var(--bg); color: var(--text);
+  animation: intro-out 0.45s cubic-bezier(0.4, 0, 1, 1) 1.55s forwards;
+}
+#intro.skip { animation: intro-out 0.2s ease-in forwards; }
+.intro-logo { width: 108px; height: 108px; overflow: visible; margin-top: -40px; }
+.intro-fill { fill: currentColor; opacity: 0; transform-origin: 50% 60%; animation: intro-fill 0.45s ease-out 0.6s forwards; }
+.intro-line {
+  fill: none; stroke: currentColor; stroke-width: 44; stroke-linejoin: round;
+  stroke-dasharray: 1; stroke-dashoffset: 1;
+  animation: intro-draw 0.75s cubic-bezier(0.65, 0, 0.35, 1) forwards, intro-line-off 0.3s ease-out 0.85s forwards;
+}
+.intro-line.inner { animation-delay: 0.15s, 0.85s; }
+.intro-name, .intro-version { opacity: 0; transform: translateY(10px); animation: intro-rise 0.45s ease-out forwards; }
+.intro-name { margin-top: 22px; font-size: 30px; font-weight: 800; letter-spacing: -0.01em; animation-delay: 0.8s; }
+.intro-version { margin-top: 4px; font-size: 14px; font-weight: 600; color: var(--muted); letter-spacing: 0.06em; text-transform: uppercase; animation-delay: 0.95s; }
+@keyframes intro-draw { to { stroke-dashoffset: 0; } }
+@keyframes intro-line-off { to { opacity: 0; } }
+@keyframes intro-fill { from { opacity: 0; transform: scale(0.94); } to { opacity: 1; transform: scale(1); } }
+@keyframes intro-rise { to { opacity: 1; transform: none; } }
+@keyframes intro-out { to { opacity: 0; transform: scale(1.06); visibility: hidden; } }
+
+/* Less motion if the phone asks for it */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}

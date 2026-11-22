@@ -1,0 +1,5251 @@
+{
+ "appVersion": "1.0.3",
+ "dbVersion": 3,
+ "stores": {
+  "archive": {
+   "keyPath": "id",
+   "indexes": [],
+   "records": [
+    {
+     "id": "0351b09d-0dc5-4b06-8d58-09b7f740d87c",
+     "name": "Push Day",
+     "startedAt": "2026-11-09T16:30:00.000Z",
+     "finishedAt": "2026-11-09T17:31:16.000Z",
+     "archivedAt": "2026-11-21T10:19:25.356Z",
+     "durationMs": 3676000,
+     "workSets": 17,
+     "volumeKg": 6064.25,
+     "exerciseNames": [
+      "Bench Press",
+      "Incline Dumbbell Press",
+      "Cable Fly",
+      "Barbell Overhead Press",
+      "Dumbbell Lateral Raise",
+      "Triceps Pushdown"
+     ]
+    },
+    {
+     "id": "06cb0fb3-9a1d-4644-815e-f6d13b8faa18",
+     "name": "Push Day",
+     "startedAt": "2026-09-21T15:17:00.000Z",
+     "finishedAt": "2026-09-21T16:22:14.000Z",
+     "archivedAt": "2026-11-21T10:19:25.362Z",
+     "durationMs": 3914000,
+     "workSets": 17,
+     "volumeKg": 5028.5,
+     "exerciseNames": [
+      "Bench Press",
+      "Incline Dumbbell Press",
+      "Cable Fly",
+      "Barbell Overhead Press",
+      "Dumbbell Lateral Raise",
+      "Triceps Pushdown"
+     ]
+    },
+    {
+     "id": "10275b53-2285-42ef-8fbe-4fe92ea9c542",
+     "name": "Leg Day",
+     "startedAt": "2026-10-08T17:10:00.000Z",
+     "finishedAt": "2026-10-08T18:18:04.000Z",
+     "archivedAt": "2026-11-21T10:19:25.367Z",
+     "durationMs": 4084000,
+     "workSets": 17,
+     "volumeKg": 10313.75,
+     "exerciseNames": [
+      "Barbell Back Squat",
+      "Leg Press",
+      "Leg Extension",
+      "Lying Leg Curl",
+      "Back Extension",
+      "Standing Calf Raise"
+     ]
+    },
+    {
+     "id": "22e9e527-3849-4ecc-8891-57fd2804d0ac",
+     "name": "Pull Day",
+     "startedAt": "2026-11-10T16:50:00.000Z",
+     "finishedAt": "2026-11-10T18:03:44.000Z",
+     "archivedAt": "2026-11-21T10:19:25.372Z",
+     "durationMs": 4424000,
+     "workSets": 22,
+     "volumeKg": 9762.5,
+     "exerciseNames": [
+      "Lat Pulldown",
+      "Barbell Row",
+      "Seated Cable Row",
+      "Straight-Arm Pulldown",
+      "Face Pull",
+      "Barbell Curl",
+      "Hammer Curl"
+     ]
+    },
+    {
+     "id": "2e8d0e87-5334-40e6-99d8-0b8d7e8adee7",
+     "name": "Push Day",
+     "startedAt": "2026-09-28T14:53:00.000Z",
+     "finishedAt": "2026-09-28T15:56:33.000Z",
+     "archivedAt": "2026-11-21T10:19:25.379Z",
+     "durationMs": 3813000,
+     "workSets": 17,
+     "volumeKg": 5598.5,
+     "exerciseNames": [
+      "Bench Press",
+      "Incline Dumbbell Press",
+      "Cable Fly",
+      "Barbell Overhead Press",
+      "Dumbbell Lateral Raise",
+      "Triceps Pushdown"
+     ]
+    },
+    {
+     "id": "349b5089-2733-4670-b3ad-a2ba797209c0",
+     "name": "Leg Day",
+     "startedAt": "2026-11-05T17:22:00.000Z",
+     "finishedAt": "2026-11-05T18:24:04.000Z",
+     "archivedAt": "2026-11-21T10:19:25.385Z",
+     "durationMs": 3724000,
+     "workSets": 17,
+     "volumeKg": 10491.25,
+     "exerciseNames": [
+      "Barbell Back Squat",
+      "Leg Press",
+      "Leg Extension",
+      "Lying Leg Curl",
+      "Back Extension",
+      "Standing Calf Raise"
+     ]
+    },
+    {
+     "id": "372f871a-45ee-432d-aa07-f2137129cec7",
+     "name": "Push Day",
+     "startedAt": "2026-10-05T16:07:00.000Z",
+     "finishedAt": "2026-10-05T17:13:40.000Z",
+     "archivedAt": "2026-11-21T10:19:25.393Z",
+     "durationMs": 4000000,
+     "workSets": 17,
+     "volumeKg": 5254.75,
+     "exerciseNames": [
+      "Bench Press",
+      "Incline Dumbbell Press",
+      "Cable Fly",
+      "Barbell Overhead Press",
+      "Dumbbell Lateral Raise",
+      "Triceps Pushdown"
+     ]
+    },
+    {
+     "id": "414f4994-2845-4780-9e20-c9572ab8bd33",
+     "name": "Push Day",
+     "startedAt": "2026-10-26T17:02:00.000Z",
+     "finishedAt": "2026-10-26T18:04:35.000Z",
+     "archivedAt": "2026-11-21T10:19:25.407Z",
+     "durationMs": 3755000,
+     "workSets": 17,
+     "volumeKg": 5858.5,
+     "exerciseNames": [
+      "Bench Press",
+      "Incline Dumbbell Press",
+      "Cable Fly",
+      "Barbell Overhead Press",
+      "Dumbbell Lateral Raise",
+      "Triceps Pushdown"
+     ]
+    },
+    {
+     "id": "5176a9d1-9a36-44d6-ae9c-e8ff084a3c4b",
+     "name": "Upper Body",
+     "startedAt": "2026-10-31T10:02:00.000Z",
+     "finishedAt": "2026-10-31T11:05:20.000Z",
+     "archivedAt": "2026-11-21T10:19:25.412Z",
+     "durationMs": 3800000,
+     "workSets": 17,
+     "volumeKg": 7688,
+     "exerciseNames": [
+      "Dumbbell Bench Press",
+      "Pull-Up",
+      "Dumbbell Shoulder Press",
+      "Machine Row",
+      "Dumbbell Curl",
+      "Overhead Triceps Extension"
+     ]
+    },
+    {
+     "id": "54cc1e2a-5e4c-4287-8442-51dbd0d4ea67",
+     "name": "Pull Day",
+     "startedAt": "2026-10-13T15:50:00.000Z",
+     "finishedAt": "2026-10-13T17:05:49.000Z",
+     "archivedAt": "2026-11-21T10:19:25.418Z",
+     "durationMs": 4549000,
+     "workSets": 22,
+     "volumeKg": 8872.5,
+     "exerciseNames": [
+      "Lat Pulldown",
+      "Barbell Row",
+      "Seated Cable Row",
+      "Straight-Arm Pulldown",
+      "Face Pull",
+      "Barbell Curl",
+      "Hammer Curl"
+     ]
+    },
+    {
+     "id": "67c96204-28e3-43b6-8e8a-dc4b77242041",
+     "name": "Leg Day",
+     "startedAt": "2026-10-15T16:05:00.000Z",
+     "finishedAt": "2026-10-15T17:11:12.000Z",
+     "archivedAt": "2026-11-21T10:19:25.425Z",
+     "durationMs": 3972000,
+     "workSets": 17,
+     "volumeKg": 11055,
+     "exerciseNames": [
+      "Barbell Back Squat",
+      "Leg Press",
+      "Leg Extension",
+      "Lying Leg Curl",
+      "Back Extension",
+      "Standing Calf Raise"
+     ]
+    },
+    {
+     "id": "722764e6-8c41-461b-a827-a1b9d4a02e53",
+     "name": "Upper Body",
+     "startedAt": "2026-09-26T08:44:00.000Z",
+     "finishedAt": "2026-09-26T09:49:22.000Z",
+     "archivedAt": "2026-11-21T10:19:25.432Z",
+     "durationMs": 3922000,
+     "workSets": 19,
+     "volumeKg": 6854,
+     "exerciseNames": [
+      "Dumbbell Bench Press",
+      "Pull-Up",
+      "Dumbbell Shoulder Press",
+      "Machine Row",
+      "Dumbbell Curl",
+      "Overhead Triceps Extension",
+      "Landmine Press"
+     ]
+    },
+    {
+     "id": "7779857f-37dc-4c78-8082-fcda7580e4e9",
+     "name": "Pull Day",
+     "startedAt": "2026-11-03T16:34:00.000Z",
+     "finishedAt": "2026-11-03T17:48:01.000Z",
+     "archivedAt": "2026-11-21T10:19:25.443Z",
+     "durationMs": 4441000,
+     "workSets": 22,
+     "volumeKg": 8837.5,
+     "exerciseNames": [
+      "Lat Pulldown",
+      "Barbell Row",
+      "Seated Cable Row",
+      "Straight-Arm Pulldown",
+      "Face Pull",
+      "Barbell Curl",
+      "Hammer Curl"
+     ]
+    },
+    {
+     "id": "8ea02346-092c-4801-a98f-04f86747d24a",
+     "name": "Upper Body",
+     "startedAt": "2026-11-07T09:03:00.000Z",
+     "finishedAt": "2026-11-07T10:11:33.000Z",
+     "archivedAt": "2026-11-21T10:19:25.451Z",
+     "durationMs": 4113000,
+     "workSets": 19,
+     "volumeKg": 8076,
+     "exerciseNames": [
+      "Dumbbell Bench Press",
+      "Pull-Up",
+      "Dumbbell Shoulder Press",
+      "Machine Row",
+      "Dumbbell Curl",
+      "Overhead Triceps Extension",
+      "Landmine Press"
+     ]
+    },
+    {
+     "id": "9e91a71c-7374-4cbf-978c-57d3508850d3",
+     "name": "Leg Day",
+     "startedAt": "2026-10-22T16:13:00.000Z",
+     "finishedAt": "2026-10-22T17:22:20.000Z",
+     "archivedAt": "2026-11-21T10:19:25.458Z",
+     "durationMs": 4160000,
+     "workSets": 17,
+     "volumeKg": 10312.5,
+     "exerciseNames": [
+      "Barbell Back Squat",
+      "Leg Press",
+      "Leg Extension",
+      "Lying Leg Curl",
+      "Back Extension",
+      "Standing Calf Raise"
+     ]
+    },
+    {
+     "id": "a4b05c89-f10b-4e9c-982b-91eef8e8035b",
+     "name": "Upper Body",
+     "startedAt": "2026-10-17T07:56:00.000Z",
+     "finishedAt": "2026-10-17T09:01:02.000Z",
+     "archivedAt": "2026-11-21T10:19:25.466Z",
+     "durationMs": 3902000,
+     "workSets": 17,
+     "volumeKg": 7283.25,
+     "exerciseNames": [
+      "Dumbbell Bench Press",
+      "Pull-Up",
+      "Dumbbell Shoulder Press",
+      "Machine Row",
+      "Dumbbell Curl",
+      "Overhead Triceps Extension"
+     ]
+    },
+    {
+     "id": "a8149562-da00-4f16-b946-9bcf4082cbb9",
+     "name": "Pull Day",
+     "startedAt": "2026-10-06T15:26:00.000Z",
+     "finishedAt": "2026-10-06T16:40:29.000Z",
+     "archivedAt": "2026-11-21T10:19:25.473Z",
+     "durationMs": 4469000,
+     "workSets": 22,
+     "volumeKg": 7925.75,
+     "exerciseNames": [
+      "Lat Pulldown",
+      "Barbell Row",
+      "Seated Cable Row",
+      "Straight-Arm Pulldown",
+      "Face Pull",
+      "Barbell Curl",
+      "Hammer Curl"
+     ]
+    },
+    {
+     "id": "aabc25fa-3fe1-4e47-ae9b-ec3635c7936c",
+     "name": "Leg Day",
+     "startedAt": "2026-09-24T16:35:00.000Z",
+     "finishedAt": "2026-09-24T17:37:36.000Z",
+     "archivedAt": "2026-11-21T10:19:25.478Z",
+     "durationMs": 3756000,
+     "workSets": 17,
+     "volumeKg": 10145,
+     "exerciseNames": [
+      "Barbell Back Squat",
+      "Leg Press",
+      "Leg Extension",
+      "Lying Leg Curl",
+      "Back Extension",
+      "Standing Calf Raise"
+     ]
+    },
+    {
+     "id": "b862acc3-5489-4c37-8fa9-026b6a241f46",
+     "name": "Leg Day",
+     "startedAt": "2026-11-12T17:19:00.000Z",
+     "finishedAt": "2026-11-12T18:23:41.000Z",
+     "archivedAt": "2026-11-21T10:19:25.484Z",
+     "durationMs": 3881000,
+     "workSets": 17,
+     "volumeKg": 11701.25,
+     "exerciseNames": [
+      "Barbell Back Squat",
+      "Leg Press",
+      "Leg Extension",
+      "Lying Leg Curl",
+      "Back Extension",
+      "Standing Calf Raise"
+     ]
+    },
+    {
+     "id": "b9787c4b-09aa-4570-9be9-50c7147d7bfc",
+     "name": "Upper Body",
+     "startedAt": "2026-11-14T09:37:00.000Z",
+     "finishedAt": "2026-11-14T10:38:28.000Z",
+     "archivedAt": "2026-11-21T10:19:25.491Z",
+     "durationMs": 3688000,
+     "workSets": 17,
+     "volumeKg": 8111,
+     "exerciseNames": [
+      "Dumbbell Bench Press",
+      "Pull-Up",
+      "Dumbbell Shoulder Press",
+      "Machine Row",
+      "Dumbbell Curl",
+      "Overhead Triceps Extension"
+     ]
+    },
+    {
+     "id": "b9da5f8c-4e35-4a80-a027-9a186576a410",
+     "name": "Upper Body",
+     "startedAt": "2026-10-24T07:56:00.000Z",
+     "finishedAt": "2026-10-24T09:02:06.000Z",
+     "archivedAt": "2026-11-21T10:19:25.497Z",
+     "durationMs": 3966000,
+     "workSets": 19,
+     "volumeKg": 7670.5,
+     "exerciseNames": [
+      "Dumbbell Bench Press",
+      "Pull-Up",
+      "Dumbbell Shoulder Press",
+      "Machine Row",
+      "Dumbbell Curl",
+      "Overhead Triceps Extension",
+      "Landmine Press"
+     ]
+    },
+    {
+     "id": "cb80f288-446f-44dd-9abc-a6e5d0b1e3eb",
+     "name": "Push Day",
+     "startedAt": "2026-10-19T15:22:00.000Z",
+     "finishedAt": "2026-10-19T16:27:17.000Z",
+     "archivedAt": "2026-11-21T10:19:25.511Z",
+     "durationMs": 3917000,
+     "workSets": 17,
+     "volumeKg": 5565.5,
+     "exerciseNames": [
+      "Bench Press",
+      "Incline Dumbbell Press",
+      "Cable Fly",
+      "Barbell Overhead Press",
+      "Dumbbell Lateral Raise",
+      "Triceps Pushdown"
+     ]
+    },
+    {
+     "id": "d4d60735-0e2f-4958-9e43-1e06e9247069",
+     "name": "Push Day",
+     "startedAt": "2026-10-12T15:54:00.000Z",
+     "finishedAt": "2026-10-12T16:56:23.000Z",
+     "archivedAt": "2026-11-21T10:19:25.515Z",
+     "durationMs": 3743000,
+     "workSets": 17,
+     "volumeKg": 5661.75,
+     "exerciseNames": [
+      "Bench Press",
+      "Incline Dumbbell Press",
+      "Cable Fly",
+      "Barbell Overhead Press",
+      "Dumbbell Lateral Raise",
+      "Triceps Pushdown"
+     ]
+    },
+    {
+     "id": "d6016237-ac9e-4156-b63f-ce413a9aca5e",
+     "name": "Pull Day",
+     "startedAt": "2026-09-29T15:01:00.000Z",
+     "finishedAt": "2026-09-29T16:15:22.000Z",
+     "archivedAt": "2026-11-21T10:19:25.521Z",
+     "durationMs": 4462000,
+     "workSets": 22,
+     "volumeKg": 8632.5,
+     "exerciseNames": [
+      "Lat Pulldown",
+      "Barbell Row",
+      "Seated Cable Row",
+      "Straight-Arm Pulldown",
+      "Face Pull",
+      "Barbell Curl",
+      "Hammer Curl"
+     ]
+    },
+    {
+     "id": "dc08bf29-d2d3-4488-90c3-00186e3cdd4f",
+     "name": "Pull Day",
+     "startedAt": "2026-10-20T15:32:00.000Z",
+     "finishedAt": "2026-10-20T16:44:06.000Z",
+     "archivedAt": "2026-11-21T10:19:25.525Z",
+     "durationMs": 4326000,
+     "workSets": 22,
+     "volumeKg": 8506,
+     "exerciseNames": [
+      "Lat Pulldown",
+      "Barbell Row",
+      "Seated Cable Row",
+      "Straight-Arm Pulldown",
+      "Face Pull",
+      "Barbell Curl",
+      "Hammer Curl"
+     ]
+    },
+    {
+     "id": "edcd465e-3638-4821-b6e0-7cc06c52c49f",
+     "name": "Pull Day",
+     "startedAt": "2026-09-22T16:07:00.000Z",
+     "finishedAt": "2026-09-22T17:19:07.000Z",
+     "archivedAt": "2026-11-21T10:19:25.530Z",
+     "durationMs": 4327000,
+     "workSets": 22,
+     "volumeKg": 7658,
+     "exerciseNames": [
+      "Lat Pulldown",
+      "Barbell Row",
+      "Seated Cable Row",
+      "Straight-Arm Pulldown",
+      "Face Pull",
+      "Barbell Curl",
+      "Hammer Curl"
+     ]
+    },
+    {
+     "id": "f1faf665-7115-43f3-92e8-9d1028711733",
+     "name": "Leg Day",
+     "startedAt": "2026-10-01T16:59:00.000Z",
+     "finishedAt": "2026-10-01T18:04:35.000Z",
+     "archivedAt": "2026-11-21T10:19:25.534Z",
+     "durationMs": 3935000,
+     "workSets": 17,
+     "volumeKg": 10630,
+     "exerciseNames": [
+      "Barbell Back Squat",
+      "Leg Press",
+      "Leg Extension",
+      "Lying Leg Curl",
+      "Back Extension",
+      "Standing Calf Raise"
+     ]
+    },
+    {
+     "id": "f8dfcc3a-2acb-4fbd-bbff-8a7df2f5b176",
+     "name": "Push Day",
+     "startedAt": "2026-11-02T16:12:00.000Z",
+     "finishedAt": "2026-11-02T17:13:19.000Z",
+     "archivedAt": "2026-11-21T10:19:25.538Z",
+     "durationMs": 3679000,
+     "workSets": 17,
+     "volumeKg": 5832.25,
+     "exerciseNames": [
+      "Bench Press",
+      "Incline Dumbbell Press",
+      "Cable Fly",
+      "Barbell Overhead Press",
+      "Dumbbell Lateral Raise",
+      "Triceps Pushdown"
+     ]
+    },
+    {
+     "id": "fb8986c8-c7ec-4e71-9493-47fc0fc98d2e",
+     "name": "Leg Day",
+     "startedAt": "2026-10-29T16:51:00.000Z",
+     "finishedAt": "2026-10-29T18:00:17.000Z",
+     "archivedAt": "2026-11-21T10:19:25.542Z",
+     "durationMs": 4157000,
+     "workSets": 17,
+     "volumeKg": 11087.5,
+     "exerciseNames": [
+      "Barbell Back Squat",
+      "Leg Press",
+      "Leg Extension",
+      "Lying Leg Curl",
+      "Back Extension",
+      "Standing Calf Raise"
+     ]
+    },
+    {
+     "id": "fcce96f6-250a-4578-bbe9-4499dbc080fd",
+     "name": "Upper Body",
+     "startedAt": "2026-10-03T08:25:00.000Z",
+     "finishedAt": "2026-10-03T09:26:08.000Z",
+     "archivedAt": "2026-11-21T10:19:25.546Z",
+     "durationMs": 3668000,
+     "workSets": 17,
+     "volumeKg": 6779,
+     "exerciseNames": [
+      "Dumbbell Bench Press",
+      "Pull-Up",
+      "Dumbbell Shoulder Press",
+      "Machine Row",
+      "Dumbbell Curl",
+      "Overhead Triceps Extension"
+     ]
+    }
+   ]
+  },
+  "bodyWeights": {
+   "keyPath": "id",
+   "indexes": [],
+   "records": [
+    {
+     "id": "f5e90352-3745-49f2-b1d1-88b913f39289",
+     "measuredAt": "2026-11-15T05:54:00.000Z",
+     "weightKg": 77.5,
+     "updatedAt": "2026-11-15T05:54:00.000Z",
+     "deletedAt": null
+    }
+   ]
+  },
+  "exerciseStats": {
+   "keyPath": "exerciseId",
+   "indexes": [],
+   "records": [
+    {
+     "exerciseId": "back-extension",
+     "maxWeightKg": 0,
+     "bestE1rm": 0,
+     "bestSet": {
+      "weightKg": 0,
+      "reps": 16
+     },
+     "repsAt": [
+      [
+       0,
+       16
+      ]
+     ],
+     "volumeBySets": [
+      0,
+      0
+     ],
+     "lastSession": {
+      "workoutId": "b862acc3-5489-4c37-8fa9-026b6a241f46",
+      "startedAt": "2026-11-12T17:19:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 0,
+        "reps": 15,
+        "targetRestSec": 75
+       },
+       {
+        "type": "work",
+        "weightKg": 0,
+        "reps": 15,
+        "targetRestSec": 75
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "back-squat",
+     "maxWeightKg": 90,
+     "bestE1rm": 108,
+     "bestSet": {
+      "weightKg": 90,
+      "reps": 6
+     },
+     "repsAt": [
+      [
+       85,
+       8
+      ],
+      [
+       90,
+       6
+      ],
+      [
+       87.5,
+       7
+      ],
+      [
+       80,
+       8
+      ],
+      [
+       82.5,
+       8
+      ]
+     ],
+     "volumeBySets": [
+      680,
+      1280,
+      1840
+     ],
+     "lastSession": {
+      "workoutId": "b862acc3-5489-4c37-8fa9-026b6a241f46",
+      "startedAt": "2026-11-12T17:19:00.000Z",
+      "sets": [
+       {
+        "type": "warmup",
+        "weightKg": 50,
+        "reps": 8,
+        "targetRestSec": 60
+       },
+       {
+        "type": "warmup",
+        "weightKg": 70,
+        "reps": 5,
+        "targetRestSec": 60
+       },
+       {
+        "type": "work",
+        "weightKg": 90,
+        "reps": 6,
+        "targetRestSec": 210
+       },
+       {
+        "type": "work",
+        "weightKg": 90,
+        "reps": 6,
+        "targetRestSec": 210
+       },
+       {
+        "type": "work",
+        "weightKg": 90,
+        "reps": 5,
+        "targetRestSec": 210
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "barbell-bench-press",
+     "maxWeightKg": 70,
+     "bestE1rm": 84,
+     "bestSet": {
+      "weightKg": 70,
+      "reps": 6
+     },
+     "repsAt": [
+      [
+       70,
+       6
+      ],
+      [
+       60,
+       8
+      ],
+      [
+       62.5,
+       8
+      ],
+      [
+       65,
+       8
+      ]
+     ],
+     "volumeBySets": [
+      520,
+      1040,
+      1495
+     ],
+     "lastSession": {
+      "workoutId": "0351b09d-0dc5-4b06-8d58-09b7f740d87c",
+      "startedAt": "2026-11-09T16:30:00.000Z",
+      "sets": [
+       {
+        "type": "warmup",
+        "weightKg": 40,
+        "reps": 10,
+        "targetRestSec": 60
+       },
+       {
+        "type": "work",
+        "weightKg": 70,
+        "reps": 6,
+        "targetRestSec": 180
+       },
+       {
+        "type": "work",
+        "weightKg": 70,
+        "reps": 6,
+        "targetRestSec": 180
+       },
+       {
+        "type": "work",
+        "weightKg": 70,
+        "reps": 5,
+        "targetRestSec": 180
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "barbell-curl",
+     "maxWeightKg": 31.25,
+     "bestE1rm": 0,
+     "bestSet": {
+      "weightKg": 31.25,
+      "reps": 11
+     },
+     "repsAt": [
+      [
+       31.25,
+       11
+      ],
+      [
+       28.75,
+       11
+      ],
+      [
+       27.5,
+       11
+      ],
+      [
+       30,
+       10
+      ]
+     ],
+     "volumeBySets": [
+      343.75,
+      656.25,
+      968.75
+     ],
+     "lastSession": {
+      "workoutId": "22e9e527-3849-4ecc-8891-57fd2804d0ac",
+      "startedAt": "2026-11-10T16:50:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 31.25,
+        "reps": 11,
+        "targetRestSec": 90
+       },
+       {
+        "type": "work",
+        "weightKg": 31.25,
+        "reps": 10,
+        "targetRestSec": 90
+       },
+       {
+        "type": "work",
+        "weightKg": 31.25,
+        "reps": 10,
+        "targetRestSec": 90
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "barbell-row",
+     "maxWeightKg": 62.5,
+     "bestE1rm": 79.16666666666666,
+     "bestSet": {
+      "weightKg": 62.5,
+      "reps": 8
+     },
+     "repsAt": [
+      [
+       62.5,
+       8
+      ],
+      [
+       57.5,
+       9
+      ],
+      [
+       55,
+       8
+      ],
+      [
+       60,
+       8
+      ]
+     ],
+     "volumeBySets": [
+      517.5,
+      1000,
+      1437.5,
+      1875
+     ],
+     "lastSession": {
+      "workoutId": "22e9e527-3849-4ecc-8891-57fd2804d0ac",
+      "startedAt": "2026-11-10T16:50:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 62.5,
+        "reps": 8,
+        "targetRestSec": 150
+       },
+       {
+        "type": "work",
+        "weightKg": 62.5,
+        "reps": 8,
+        "targetRestSec": 150
+       },
+       {
+        "type": "work",
+        "weightKg": 62.5,
+        "reps": 7,
+        "targetRestSec": 150
+       },
+       {
+        "type": "work",
+        "weightKg": 62.5,
+        "reps": 7,
+        "targetRestSec": 150
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "bdd640fb-0667-4ad1-9c80-317fa3b1799d",
+     "maxWeightKg": 32.5,
+     "bestE1rm": 0,
+     "bestSet": {
+      "weightKg": 32.5,
+      "reps": 10
+     },
+     "repsAt": [
+      [
+       25,
+       10
+      ],
+      [
+       32.5,
+       10
+      ],
+      [
+       30,
+       10
+      ]
+     ],
+     "volumeBySets": [
+      325,
+      617.5
+     ],
+     "lastSession": {
+      "workoutId": "8ea02346-092c-4801-a98f-04f86747d24a",
+      "startedAt": "2026-11-07T09:03:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 32.5,
+        "reps": 10,
+        "targetRestSec": 120
+       },
+       {
+        "type": "work",
+        "weightKg": 32.5,
+        "reps": 9,
+        "targetRestSec": 120
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "cable-fly",
+     "maxWeightKg": 18.75,
+     "bestE1rm": 0,
+     "bestSet": {
+      "weightKg": 18.75,
+      "reps": 12
+     },
+     "repsAt": [
+      [
+       18.75,
+       12
+      ],
+      [
+       15,
+       12
+      ],
+      [
+       16.25,
+       12
+      ],
+      [
+       17.5,
+       13
+      ]
+     ],
+     "volumeBySets": [
+      227.5,
+      437.5
+     ],
+     "lastSession": {
+      "workoutId": "0351b09d-0dc5-4b06-8d58-09b7f740d87c",
+      "startedAt": "2026-11-09T16:30:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 18.75,
+        "reps": 12,
+        "targetRestSec": 90
+       },
+       {
+        "type": "work",
+        "weightKg": 18.75,
+        "reps": 11,
+        "targetRestSec": 90
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "dumbbell-bench-press",
+     "maxWeightKg": 27,
+     "bestE1rm": 34.199999999999996,
+     "bestSet": {
+      "weightKg": 27,
+      "reps": 10
+     },
+     "repsAt": [
+      [
+       26,
+       11
+      ],
+      [
+       24,
+       11
+      ],
+      [
+       27,
+       10
+      ],
+      [
+       25,
+       11
+      ]
+     ],
+     "volumeBySets": [
+      572,
+      1092,
+      1612
+     ],
+     "lastSession": {
+      "workoutId": "b9787c4b-09aa-4570-9be9-50c7147d7bfc",
+      "startedAt": "2026-11-14T09:37:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 27,
+        "reps": 10,
+        "targetRestSec": 150
+       },
+       {
+        "type": "work",
+        "weightKg": 27,
+        "reps": 9,
+        "targetRestSec": 150
+       },
+       {
+        "type": "work",
+        "weightKg": 27,
+        "reps": 10,
+        "targetRestSec": 150
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "dumbbell-curl",
+     "maxWeightKg": 12.5,
+     "bestE1rm": 0,
+     "bestSet": {
+      "weightKg": 12.5,
+      "reps": 13
+     },
+     "repsAt": [
+      [
+       12,
+       13
+      ],
+      [
+       11,
+       12
+      ],
+      [
+       12.5,
+       13
+      ],
+      [
+       11.5,
+       13
+      ]
+     ],
+     "volumeBySets": [
+      325,
+      625
+     ],
+     "lastSession": {
+      "workoutId": "b9787c4b-09aa-4570-9be9-50c7147d7bfc",
+      "startedAt": "2026-11-14T09:37:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 12.5,
+        "reps": 13,
+        "targetRestSec": 75
+       },
+       {
+        "type": "work",
+        "weightKg": 12.5,
+        "reps": 12,
+        "targetRestSec": 75
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "dumbbell-lateral-raise",
+     "maxWeightKg": 9.5,
+     "bestE1rm": 0,
+     "bestSet": {
+      "weightKg": 9.5,
+      "reps": 15
+     },
+     "repsAt": [
+      [
+       9.5,
+       15
+      ],
+      [
+       8,
+       14
+      ],
+      [
+       8.5,
+       15
+      ],
+      [
+       9,
+       15
+      ]
+     ],
+     "volumeBySets": [
+      285,
+      551,
+      798
+     ],
+     "lastSession": {
+      "workoutId": "0351b09d-0dc5-4b06-8d58-09b7f740d87c",
+      "startedAt": "2026-11-09T16:30:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 9.5,
+        "reps": 15,
+        "targetRestSec": 75
+       },
+       {
+        "type": "work",
+        "weightKg": 9.5,
+        "reps": 14,
+        "targetRestSec": 75
+       },
+       {
+        "type": "work",
+        "weightKg": 9.5,
+        "reps": 13,
+        "targetRestSec": 75
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "dumbbell-shoulder-press",
+     "maxWeightKg": 21,
+     "bestE1rm": 22.799999999999997,
+     "bestSet": {
+      "weightKg": 21,
+      "reps": 11
+     },
+     "repsAt": [
+      [
+       20,
+       10
+      ],
+      [
+       18,
+       11
+      ],
+      [
+       21,
+       11
+      ],
+      [
+       19,
+       10
+      ]
+     ],
+     "volumeBySets": [
+      462,
+      840
+     ],
+     "lastSession": {
+      "workoutId": "b9787c4b-09aa-4570-9be9-50c7147d7bfc",
+      "startedAt": "2026-11-14T09:37:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 21,
+        "reps": 11,
+        "targetRestSec": 120
+       },
+       {
+        "type": "work",
+        "weightKg": 21,
+        "reps": 9,
+        "targetRestSec": 120
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "face-pull",
+     "maxWeightKg": 21.25,
+     "bestE1rm": 0,
+     "bestSet": {
+      "weightKg": 21.25,
+      "reps": 16
+     },
+     "repsAt": [
+      [
+       21.25,
+       16
+      ],
+      [
+       18.75,
+       16
+      ],
+      [
+       17.5,
+       15
+      ],
+      [
+       20,
+       15
+      ]
+     ],
+     "volumeBySets": [
+      340,
+      658.75
+     ],
+     "lastSession": {
+      "workoutId": "22e9e527-3849-4ecc-8891-57fd2804d0ac",
+      "startedAt": "2026-11-10T16:50:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 21.25,
+        "reps": 16,
+        "targetRestSec": 75
+       },
+       {
+        "type": "work",
+        "weightKg": 21.25,
+        "reps": 15,
+        "targetRestSec": 75
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "hammer-curl",
+     "maxWeightKg": 15,
+     "bestE1rm": 0,
+     "bestSet": {
+      "weightKg": 15,
+      "reps": 13
+     },
+     "repsAt": [
+      [
+       15,
+       13
+      ],
+      [
+       13,
+       13
+      ],
+      [
+       12,
+       13
+      ],
+      [
+       14,
+       12
+      ]
+     ],
+     "volumeBySets": [
+      390,
+      750
+     ],
+     "lastSession": {
+      "workoutId": "22e9e527-3849-4ecc-8891-57fd2804d0ac",
+      "startedAt": "2026-11-10T16:50:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 15,
+        "reps": 13,
+        "targetRestSec": 75
+       },
+       {
+        "type": "work",
+        "weightKg": 15,
+        "reps": 12,
+        "targetRestSec": 75
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "incline-dumbbell-press",
+     "maxWeightKg": 25,
+     "bestE1rm": 31.666666666666664,
+     "bestSet": {
+      "weightKg": 25,
+      "reps": 11
+     },
+     "repsAt": [
+      [
+       25,
+       11
+      ],
+      [
+       22,
+       11
+      ],
+      [
+       23,
+       11
+      ],
+      [
+       24,
+       11
+      ]
+     ],
+     "volumeBySets": [
+      550,
+      1050,
+      1550
+     ],
+     "lastSession": {
+      "workoutId": "0351b09d-0dc5-4b06-8d58-09b7f740d87c",
+      "startedAt": "2026-11-09T16:30:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 25,
+        "reps": 11,
+        "targetRestSec": 150
+       },
+       {
+        "type": "work",
+        "weightKg": 25,
+        "reps": 10,
+        "targetRestSec": 150
+       },
+       {
+        "type": "work",
+        "weightKg": 25,
+        "reps": 10,
+        "targetRestSec": 150
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "lat-pulldown",
+     "maxWeightKg": 62.5,
+     "bestE1rm": 79.16666666666666,
+     "bestSet": {
+      "weightKg": 62.5,
+      "reps": 11
+     },
+     "repsAt": [
+      [
+       62.5,
+       11
+      ],
+      [
+       57.5,
+       10
+      ],
+      [
+       55,
+       11
+      ],
+      [
+       60,
+       9
+      ]
+     ],
+     "volumeBySets": [
+      687.5,
+      1250,
+      1875,
+      2437.5
+     ],
+     "lastSession": {
+      "workoutId": "22e9e527-3849-4ecc-8891-57fd2804d0ac",
+      "startedAt": "2026-11-10T16:50:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 62.5,
+        "reps": 11,
+        "targetRestSec": 120
+       },
+       {
+        "type": "work",
+        "weightKg": 62.5,
+        "reps": 9,
+        "targetRestSec": 120
+       },
+       {
+        "type": "work",
+        "weightKg": 62.5,
+        "reps": 10,
+        "targetRestSec": 120
+       },
+       {
+        "type": "work",
+        "weightKg": 62.5,
+        "reps": 9,
+        "targetRestSec": 120
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "leg-extension",
+     "maxWeightKg": 52.5,
+     "bestE1rm": 0,
+     "bestSet": {
+      "weightKg": 52.5,
+      "reps": 13
+     },
+     "repsAt": [
+      [
+       47.5,
+       12
+      ],
+      [
+       52.5,
+       13
+      ],
+      [
+       50,
+       13
+      ],
+      [
+       45,
+       13
+      ]
+     ],
+     "volumeBySets": [
+      682.5,
+      1312.5,
+      1942.5,
+      2467.5
+     ],
+     "lastSession": {
+      "workoutId": "b862acc3-5489-4c37-8fa9-026b6a241f46",
+      "startedAt": "2026-11-12T17:19:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 52.5,
+        "reps": 13,
+        "targetRestSec": 90
+       },
+       {
+        "type": "work",
+        "weightKg": 52.5,
+        "reps": 12,
+        "targetRestSec": 90
+       },
+       {
+        "type": "work",
+        "weightKg": 52.5,
+        "reps": 12,
+        "targetRestSec": 90
+       },
+       {
+        "type": "work",
+        "weightKg": 52.5,
+        "reps": 10,
+        "targetRestSec": 90
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "leg-press",
+     "maxWeightKg": 155,
+     "bestE1rm": 196.33333333333331,
+     "bestSet": {
+      "weightKg": 155,
+      "reps": 11
+     },
+     "repsAt": [
+      [
+       145,
+       11
+      ],
+      [
+       155,
+       11
+      ],
+      [
+       150,
+       11
+      ],
+      [
+       140,
+       10
+      ]
+     ],
+     "volumeBySets": [
+      1705,
+      3100,
+      4650
+     ],
+     "lastSession": {
+      "workoutId": "b862acc3-5489-4c37-8fa9-026b6a241f46",
+      "startedAt": "2026-11-12T17:19:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 155,
+        "reps": 11,
+        "targetRestSec": 180
+       },
+       {
+        "type": "work",
+        "weightKg": 155,
+        "reps": 9,
+        "targetRestSec": 180
+       },
+       {
+        "type": "work",
+        "weightKg": 155,
+        "reps": 10,
+        "targetRestSec": 180
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "lying-leg-curl",
+     "maxWeightKg": 38.75,
+     "bestE1rm": 0,
+     "bestSet": {
+      "weightKg": 38.75,
+      "reps": 13
+     },
+     "repsAt": [
+      [
+       36.25,
+       13
+      ],
+      [
+       38.75,
+       13
+      ],
+      [
+       37.5,
+       12
+      ],
+      [
+       35,
+       13
+      ]
+     ],
+     "volumeBySets": [
+      503.75,
+      968.75,
+      1433.75
+     ],
+     "lastSession": {
+      "workoutId": "b862acc3-5489-4c37-8fa9-026b6a241f46",
+      "startedAt": "2026-11-12T17:19:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 38.75,
+        "reps": 13,
+        "targetRestSec": 90
+       },
+       {
+        "type": "work",
+        "weightKg": 38.75,
+        "reps": 12,
+        "targetRestSec": 90
+       },
+       {
+        "type": "work",
+        "weightKg": 38.75,
+        "reps": 12,
+        "targetRestSec": 90
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "machine-row",
+     "maxWeightKg": 57.5,
+     "bestE1rm": 72.83333333333333,
+     "bestSet": {
+      "weightKg": 57.5,
+      "reps": 11
+     },
+     "repsAt": [
+      [
+       55,
+       10
+      ],
+      [
+       50,
+       10
+      ],
+      [
+       57.5,
+       11
+      ],
+      [
+       52.5,
+       10
+      ]
+     ],
+     "volumeBySets": [
+      632.5,
+      1150,
+      1667.5,
+      2185
+     ],
+     "lastSession": {
+      "workoutId": "b9787c4b-09aa-4570-9be9-50c7147d7bfc",
+      "startedAt": "2026-11-14T09:37:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 57.5,
+        "reps": 11,
+        "targetRestSec": 120
+       },
+       {
+        "type": "work",
+        "weightKg": 57.5,
+        "reps": 9,
+        "targetRestSec": 120
+       },
+       {
+        "type": "work",
+        "weightKg": 57.5,
+        "reps": 9,
+        "targetRestSec": 120
+       },
+       {
+        "type": "work",
+        "weightKg": 57.5,
+        "reps": 9,
+        "targetRestSec": 120
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "overhead-press",
+     "maxWeightKg": 41.25,
+     "bestE1rm": 52.25,
+     "bestSet": {
+      "weightKg": 41.25,
+      "reps": 9
+     },
+     "repsAt": [
+      [
+       41.25,
+       9
+      ],
+      [
+       37.5,
+       9
+      ],
+      [
+       38.75,
+       9
+      ],
+      [
+       40,
+       9
+      ]
+     ],
+     "volumeBySets": [
+      371.25,
+      701.25,
+      1031.25
+     ],
+     "lastSession": {
+      "workoutId": "0351b09d-0dc5-4b06-8d58-09b7f740d87c",
+      "startedAt": "2026-11-09T16:30:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 41.25,
+        "reps": 9,
+        "targetRestSec": 150
+       },
+       {
+        "type": "work",
+        "weightKg": 41.25,
+        "reps": 8,
+        "targetRestSec": 150
+       },
+       {
+        "type": "work",
+        "weightKg": 41.25,
+        "reps": 8,
+        "targetRestSec": 150
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "overhead-triceps-extension",
+     "maxWeightKg": 23.75,
+     "bestE1rm": 0,
+     "bestSet": {
+      "weightKg": 23.75,
+      "reps": 12
+     },
+     "repsAt": [
+      [
+       22.5,
+       13
+      ],
+      [
+       20,
+       13
+      ],
+      [
+       23.75,
+       12
+      ],
+      [
+       21.25,
+       13
+      ]
+     ],
+     "volumeBySets": [
+      292.5,
+      570
+     ],
+     "lastSession": {
+      "workoutId": "b9787c4b-09aa-4570-9be9-50c7147d7bfc",
+      "startedAt": "2026-11-14T09:37:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 23.75,
+        "reps": 12,
+        "targetRestSec": 75
+       },
+       {
+        "type": "work",
+        "weightKg": 23.75,
+        "reps": 12,
+        "targetRestSec": 75
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "pull-up",
+     "maxWeightKg": 0,
+     "bestE1rm": 0,
+     "bestSet": {
+      "weightKg": 0,
+      "reps": 9
+     },
+     "repsAt": [
+      [
+       0,
+       9
+      ]
+     ],
+     "volumeBySets": [
+      697.5,
+      1317.5,
+      1860,
+      2325
+     ],
+     "lastSession": {
+      "workoutId": "b9787c4b-09aa-4570-9be9-50c7147d7bfc",
+      "startedAt": "2026-11-14T09:37:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 0,
+        "reps": 9,
+        "targetRestSec": 150
+       },
+       {
+        "type": "work",
+        "weightKg": 0,
+        "reps": 8,
+        "targetRestSec": 150
+       },
+       {
+        "type": "work",
+        "weightKg": 0,
+        "reps": 7,
+        "targetRestSec": 150
+       },
+       {
+        "type": "work",
+        "weightKg": 0,
+        "reps": 6,
+        "targetRestSec": 150
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "seated-cable-row",
+     "maxWeightKg": 57.5,
+     "bestE1rm": 72.83333333333333,
+     "bestSet": {
+      "weightKg": 57.5,
+      "reps": 10
+     },
+     "repsAt": [
+      [
+       57.5,
+       10
+      ],
+      [
+       52.5,
+       10
+      ],
+      [
+       50,
+       11
+      ],
+      [
+       55,
+       9
+      ]
+     ],
+     "volumeBySets": [
+      575,
+      1092.5,
+      1610,
+      2127.5
+     ],
+     "lastSession": {
+      "workoutId": "22e9e527-3849-4ecc-8891-57fd2804d0ac",
+      "startedAt": "2026-11-10T16:50:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 57.5,
+        "reps": 10,
+        "targetRestSec": 120
+       },
+       {
+        "type": "work",
+        "weightKg": 57.5,
+        "reps": 9,
+        "targetRestSec": 120
+       },
+       {
+        "type": "work",
+        "weightKg": 57.5,
+        "reps": 9,
+        "targetRestSec": 120
+       },
+       {
+        "type": "work",
+        "weightKg": 57.5,
+        "reps": 9,
+        "targetRestSec": 120
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "standing-calf-raise",
+     "maxWeightKg": 67.5,
+     "bestE1rm": 0,
+     "bestSet": {
+      "weightKg": 67.5,
+      "reps": 13
+     },
+     "repsAt": [
+      [
+       62.5,
+       13
+      ],
+      [
+       67.5,
+       13
+      ],
+      [
+       65,
+       12
+      ],
+      [
+       60,
+       12
+      ]
+     ],
+     "volumeBySets": [
+      877.5,
+      1620
+     ],
+     "lastSession": {
+      "workoutId": "b862acc3-5489-4c37-8fa9-026b6a241f46",
+      "startedAt": "2026-11-12T17:19:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 67.5,
+        "reps": 13,
+        "targetRestSec": 75
+       },
+       {
+        "type": "work",
+        "weightKg": 67.5,
+        "reps": 11,
+        "targetRestSec": 75
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "straight-arm-pulldown",
+     "maxWeightKg": 26.25,
+     "bestE1rm": 0,
+     "bestSet": {
+      "weightKg": 26.25,
+      "reps": 13
+     },
+     "repsAt": [
+      [
+       26.25,
+       13
+      ],
+      [
+       23.75,
+       13
+      ],
+      [
+       22.5,
+       13
+      ],
+      [
+       25,
+       12
+      ]
+     ],
+     "volumeBySets": [
+      341.25,
+      630,
+      945
+     ],
+     "lastSession": {
+      "workoutId": "22e9e527-3849-4ecc-8891-57fd2804d0ac",
+      "startedAt": "2026-11-10T16:50:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 26.25,
+        "reps": 13,
+        "targetRestSec": 90
+       },
+       {
+        "type": "work",
+        "weightKg": 26.25,
+        "reps": 11,
+        "targetRestSec": 90
+       },
+       {
+        "type": "work",
+        "weightKg": 26.25,
+        "reps": 12,
+        "targetRestSec": 90
+       }
+      ]
+     }
+    },
+    {
+     "exerciseId": "triceps-pushdown",
+     "maxWeightKg": 28.75,
+     "bestE1rm": 0,
+     "bestSet": {
+      "weightKg": 28.75,
+      "reps": 13
+     },
+     "repsAt": [
+      [
+       28.75,
+       13
+      ],
+      [
+       25,
+       12
+      ],
+      [
+       26.25,
+       12
+      ],
+      [
+       27.5,
+       12
+      ]
+     ],
+     "volumeBySets": [
+      373.75,
+      718.75,
+      1063.75
+     ],
+     "lastSession": {
+      "workoutId": "0351b09d-0dc5-4b06-8d58-09b7f740d87c",
+      "startedAt": "2026-11-09T16:30:00.000Z",
+      "sets": [
+       {
+        "type": "work",
+        "weightKg": 28.75,
+        "reps": 13,
+        "targetRestSec": 90
+       },
+       {
+        "type": "work",
+        "weightKg": 28.75,
+        "reps": 12,
+        "targetRestSec": 90
+       },
+       {
+        "type": "work",
+        "weightKg": 28.75,
+        "reps": 12,
+        "targetRestSec": 90
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "exercises": {
+   "keyPath": "id",
+   "indexes": [],
+   "records": [
+    {
+     "id": "ab-wheel-rollout",
+     "name": "Ab Wheel Rollout",
+     "primaryMuscles": [
+      "abs"
+     ],
+     "secondaryMuscles": [
+      "obliques"
+     ],
+     "movement": "core",
+     "equipment": "other",
+     "loadType": "bodyweight",
+     "bodyweightFraction": 0,
+     "compound": false,
+     "load": "total",
+     "weightStep": 1.25,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "arnold-press",
+     "name": "Arnold Press",
+     "primaryMuscles": [
+      "front_delts"
+     ],
+     "secondaryMuscles": [
+      "side_delts",
+      "triceps"
+     ],
+     "movement": "push",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "perHand",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "assisted-dip",
+     "name": "Assisted Dip",
+     "primaryMuscles": [
+      "chest",
+      "triceps"
+     ],
+     "secondaryMuscles": [
+      "front_delts"
+     ],
+     "muscleShares": {
+      "front_delts": 0.75
+     },
+     "movement": "push",
+     "equipment": "machine",
+     "loadType": "assisted",
+     "compound": true,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "assisted-pull-up",
+     "name": "Assisted Pull-Up",
+     "primaryMuscles": [
+      "lats"
+     ],
+     "secondaryMuscles": [
+      "upper_back",
+      "biceps",
+      "brachialis",
+      "brachioradialis",
+      "forearm_flexors",
+      "rear_delts"
+     ],
+     "muscleShares": {
+      "upper_back": 0.6,
+      "biceps": 0.5,
+      "brachialis": 0.4,
+      "brachioradialis": 0.3,
+      "forearm_flexors": 0.3,
+      "rear_delts": 0.2
+     },
+     "movement": "pull",
+     "equipment": "machine",
+     "loadType": "assisted",
+     "compound": true,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "back-extension",
+     "name": "Back Extension",
+     "primaryMuscles": [
+      "lower_back"
+     ],
+     "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+     ],
+     "movement": "core",
+     "equipment": "bodyweight",
+     "loadType": "bodyweight",
+     "bodyweightFraction": 0,
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "back-squat",
+     "name": "Barbell Back Squat",
+     "primaryMuscles": [
+      "quads",
+      "glutes"
+     ],
+     "secondaryMuscles": [
+      "lower_back",
+      "adductors"
+     ],
+     "muscleShares": {
+      "lower_back": 0.25
+     },
+     "movement": "legs",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "barbell-bench-press",
+     "name": "Bench Press",
+     "primaryMuscles": [
+      "chest"
+     ],
+     "secondaryMuscles": [
+      "upper_chest",
+      "triceps",
+      "front_delts"
+     ],
+     "muscleShares": {
+      "upper_chest": 0.6,
+      "triceps": 0.6,
+      "front_delts": 0.5
+     },
+     "movement": "push",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "barbell-curl",
+     "name": "Barbell Curl",
+     "primaryMuscles": [
+      "biceps"
+     ],
+     "secondaryMuscles": [
+      "brachialis",
+      "brachioradialis"
+     ],
+     "muscleShares": {
+      "brachioradialis": 0.25
+     },
+     "movement": "pull",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "barbell-row",
+     "name": "Barbell Row",
+     "primaryMuscles": [
+      "lats",
+      "upper_back"
+     ],
+     "secondaryMuscles": [
+      "biceps",
+      "rear_delts",
+      "lower_back"
+     ],
+     "muscleShares": {
+      "lower_back": 0.25
+     },
+     "movement": "pull",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "barbell-shrug",
+     "name": "Barbell Shrug",
+     "primaryMuscles": [
+      "traps"
+     ],
+     "secondaryMuscles": [
+      "forearm_flexors"
+     ],
+     "muscleShares": {
+      "forearm_flexors": 0.25
+     },
+     "movement": "pull",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "bayesian-cable-curl",
+     "name": "Bayesian Cable Curl",
+     "primaryMuscles": [
+      "biceps"
+     ],
+     "secondaryMuscles": [
+      "brachialis",
+      "brachioradialis"
+     ],
+     "muscleShares": {
+      "brachialis": 0.5,
+      "brachioradialis": 0.3
+     },
+     "movement": "pull",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": false,
+     "load": "perSide",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "bdd640fb-0667-4ad1-9c80-317fa3b1799d",
+     "name": "Landmine Press",
+     "primaryMuscles": [
+      "front_delts"
+     ],
+     "secondaryMuscles": [
+      "chest",
+      "triceps"
+     ],
+     "movement": "push",
+     "equipment": "barbell",
+     "loadType": "external",
+     "isCustom": true,
+     "updatedAt": "2026-09-21T14:40:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "bulgarian-split-squat",
+     "name": "Bulgarian Split Squat",
+     "primaryMuscles": [
+      "quads",
+      "glutes"
+     ],
+     "secondaryMuscles": [
+      "adductors"
+     ],
+     "movement": "legs",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "perSide",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "cable-crunch",
+     "name": "Cable Crunch",
+     "primaryMuscles": [
+      "abs"
+     ],
+     "secondaryMuscles": [
+      "obliques"
+     ],
+     "muscleShares": {
+      "obliques": 0.4
+     },
+     "movement": "core",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "cable-curl",
+     "name": "Cable Curl",
+     "primaryMuscles": [
+      "biceps"
+     ],
+     "secondaryMuscles": [
+      "brachialis",
+      "brachioradialis"
+     ],
+     "muscleShares": {
+      "brachioradialis": 0.25
+     },
+     "movement": "pull",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "cable-face-pull",
+     "name": "Cable Face Pull",
+     "primaryMuscles": [
+      "rear_delts"
+     ],
+     "secondaryMuscles": [
+      "upper_back",
+      "rotator_cuff",
+      "traps",
+      "side_delts",
+      "biceps",
+      "brachialis",
+      "brachioradialis"
+     ],
+     "muscleShares": {
+      "upper_back": 0.7,
+      "rotator_cuff": 0.5,
+      "traps": 0.4,
+      "side_delts": 0.3,
+      "biceps": 0.2,
+      "brachialis": 0.2,
+      "brachioradialis": 0.2
+     },
+     "movement": "pull",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "cable-fly",
+     "name": "Cable Fly",
+     "primaryMuscles": [
+      "chest"
+     ],
+     "secondaryMuscles": [
+      "upper_chest",
+      "front_delts"
+     ],
+     "muscleShares": {
+      "front_delts": 0.25
+     },
+     "movement": "push",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "cable-hammer-curl",
+     "name": "Cable Hammer Curl",
+     "primaryMuscles": [
+      "brachioradialis"
+     ],
+     "secondaryMuscles": [
+      "brachialis",
+      "biceps"
+     ],
+     "muscleShares": {
+      "brachialis": 0.8,
+      "biceps": 0.5
+     },
+     "movement": "pull",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "cable-internal-rotation",
+     "name": "Cable Internal Rotation",
+     "primaryMuscles": [
+      "rotator_cuff"
+     ],
+     "secondaryMuscles": [
+      "chest",
+      "lats"
+     ],
+     "muscleShares": {
+      "chest": 0.2,
+      "lats": 0.1
+     },
+     "movement": "push",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": false,
+     "load": "perSide",
+     "weightStep": 1.25,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "cable-lateral-raise",
+     "name": "Cable Lateral Raise",
+     "primaryMuscles": [
+      "side_delts"
+     ],
+     "secondaryMuscles": [
+      "front_delts",
+      "traps",
+      "rear_delts"
+     ],
+     "muscleShares": {
+      "front_delts": 0.3,
+      "traps": 0.3,
+      "rear_delts": 0.2
+     },
+     "movement": "push",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": false,
+     "load": "perSide",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "cable-overhead-triceps-extension-bar",
+     "name": "Cable Overhead Triceps Extension (Bar)",
+     "primaryMuscles": [
+      "triceps"
+     ],
+     "secondaryMuscles": [],
+     "movement": "push",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "cable-pronation",
+     "name": "Cable Pronation",
+     "primaryMuscles": [
+      "forearm_flexors"
+     ],
+     "secondaryMuscles": [
+      "brachioradialis"
+     ],
+     "muscleShares": {
+      "brachioradialis": 0.3
+     },
+     "movement": "pull",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": false,
+     "load": "perSide",
+     "weightStep": 1.25,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "cable-pull-through",
+     "name": "Cable Pull-Through",
+     "primaryMuscles": [
+      "glutes"
+     ],
+     "secondaryMuscles": [
+      "hamstrings"
+     ],
+     "movement": "legs",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "cable-reverse-curl",
+     "name": "Cable Reverse Curl",
+     "primaryMuscles": [
+      "brachioradialis"
+     ],
+     "secondaryMuscles": [
+      "brachialis",
+      "forearm_extensors",
+      "biceps"
+     ],
+     "muscleShares": {
+      "brachialis": 0.8,
+      "forearm_extensors": 0.5,
+      "biceps": 0.4
+     },
+     "movement": "pull",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "cable-supination",
+     "name": "Cable Supination",
+     "primaryMuscles": [
+      "forearm_extensors"
+     ],
+     "secondaryMuscles": [
+      "biceps",
+      "brachioradialis"
+     ],
+     "muscleShares": {
+      "biceps": 0.6,
+      "brachioradialis": 0.3
+     },
+     "movement": "pull",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": false,
+     "load": "perSide",
+     "weightStep": 1.25,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "cable-triceps-pushdown-bar",
+     "name": "Cable Triceps Pushdown (Bar)",
+     "primaryMuscles": [
+      "triceps"
+     ],
+     "secondaryMuscles": [],
+     "movement": "push",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "cable-woodchopper",
+     "name": "Cable Woodchopper",
+     "primaryMuscles": [
+      "obliques"
+     ],
+     "secondaryMuscles": [
+      "abs"
+     ],
+     "movement": "core",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "chest-supported-row",
+     "name": "Chest-Supported Row",
+     "primaryMuscles": [
+      "upper_back",
+      "lats"
+     ],
+     "secondaryMuscles": [
+      "biceps",
+      "rear_delts"
+     ],
+     "movement": "pull",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "chest-supported-t-bar-row-pronated",
+     "name": "Chest Supported T-Bar Row (Pronated)",
+     "primaryMuscles": [
+      "upper_back"
+     ],
+     "secondaryMuscles": [
+      "rear_delts",
+      "lats",
+      "brachioradialis",
+      "biceps",
+      "brachialis",
+      "traps",
+      "forearm_flexors"
+     ],
+     "muscleShares": {
+      "rear_delts": 0.7,
+      "lats": 0.6,
+      "brachioradialis": 0.5,
+      "biceps": 0.4,
+      "brachialis": 0.4,
+      "traps": 0.3,
+      "forearm_flexors": 0.2
+     },
+     "movement": "pull",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "chin-up",
+     "name": "Chin-Up",
+     "primaryMuscles": [
+      "lats"
+     ],
+     "secondaryMuscles": [
+      "biceps",
+      "upper_back",
+      "brachialis",
+      "forearm_flexors"
+     ],
+     "muscleShares": {
+      "biceps": 0.75,
+      "brachialis": 0.25,
+      "forearm_flexors": 0.25
+     },
+     "movement": "pull",
+     "equipment": "bodyweight",
+     "loadType": "bodyweight",
+     "bodyweightFraction": 1,
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "close-grip-bench-press",
+     "name": "Close-Grip Bench Press",
+     "primaryMuscles": [
+      "triceps"
+     ],
+     "secondaryMuscles": [
+      "chest",
+      "upper_chest",
+      "front_delts"
+     ],
+     "muscleShares": {
+      "upper_chest": 0.25
+     },
+     "movement": "push",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "close-grip-lat-pulldown",
+     "name": "Close-Grip Lat Pulldown",
+     "primaryMuscles": [
+      "lats"
+     ],
+     "secondaryMuscles": [
+      "biceps",
+      "upper_back",
+      "brachialis"
+     ],
+     "muscleShares": {
+      "biceps": 0.75,
+      "brachialis": 0.25
+     },
+     "movement": "pull",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "concentration-curl",
+     "name": "Concentration Curl",
+     "primaryMuscles": [
+      "biceps"
+     ],
+     "secondaryMuscles": [
+      "brachialis"
+     ],
+     "movement": "pull",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": false,
+     "load": "perSide",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "crunch",
+     "name": "Crunch",
+     "primaryMuscles": [
+      "abs"
+     ],
+     "secondaryMuscles": [],
+     "movement": "core",
+     "equipment": "bodyweight",
+     "loadType": "bodyweight",
+     "bodyweightFraction": 0,
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "dead-hang",
+     "name": "Dead Hang",
+     "primaryMuscles": [
+      "forearm_flexors"
+     ],
+     "secondaryMuscles": [
+      "forearm_extensors"
+     ],
+     "muscleShares": {
+      "forearm_extensors": 0.2
+     },
+     "movement": "pull",
+     "equipment": "bodyweight",
+     "loadType": "bodyweight",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "unit": "seconds",
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "deadlift",
+     "name": "Deadlift",
+     "primaryMuscles": [
+      "glutes",
+      "hamstrings",
+      "lower_back"
+     ],
+     "secondaryMuscles": [
+      "quads",
+      "traps",
+      "forearm_flexors"
+     ],
+     "muscleShares": {
+      "forearm_flexors": 0.25
+     },
+     "movement": "legs",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "decline-bench-press",
+     "name": "Decline Bench Press",
+     "primaryMuscles": [
+      "chest"
+     ],
+     "secondaryMuscles": [
+      "triceps",
+      "front_delts"
+     ],
+     "muscleShares": {
+      "front_delts": 0.25
+     },
+     "movement": "push",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "decline-sit-up",
+     "name": "Decline Sit-Up",
+     "primaryMuscles": [
+      "abs"
+     ],
+     "secondaryMuscles": [],
+     "movement": "core",
+     "equipment": "bodyweight",
+     "loadType": "bodyweight",
+     "bodyweightFraction": 0,
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "dip",
+     "name": "Dip",
+     "primaryMuscles": [
+      "chest",
+      "triceps"
+     ],
+     "secondaryMuscles": [
+      "front_delts"
+     ],
+     "muscleShares": {
+      "front_delts": 0.75
+     },
+     "movement": "push",
+     "equipment": "bodyweight",
+     "loadType": "bodyweight",
+     "bodyweightFraction": 1,
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "dumbbell-bench-press",
+     "name": "Dumbbell Bench Press",
+     "primaryMuscles": [
+      "chest"
+     ],
+     "secondaryMuscles": [
+      "upper_chest",
+      "triceps",
+      "front_delts"
+     ],
+     "movement": "push",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "perHand",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "dumbbell-curl",
+     "name": "Dumbbell Curl",
+     "primaryMuscles": [
+      "biceps"
+     ],
+     "secondaryMuscles": [
+      "brachialis",
+      "brachioradialis"
+     ],
+     "muscleShares": {
+      "brachioradialis": 0.25
+     },
+     "movement": "pull",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": false,
+     "load": "perHand",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "dumbbell-fly",
+     "name": "Dumbbell Fly",
+     "primaryMuscles": [
+      "chest"
+     ],
+     "secondaryMuscles": [
+      "upper_chest",
+      "front_delts"
+     ],
+     "muscleShares": {
+      "front_delts": 0.25
+     },
+     "movement": "push",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": false,
+     "load": "perHand",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "dumbbell-lateral-raise",
+     "name": "Dumbbell Lateral Raise",
+     "primaryMuscles": [
+      "side_delts"
+     ],
+     "secondaryMuscles": [],
+     "movement": "push",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": false,
+     "load": "perHand",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "dumbbell-pullover",
+     "name": "Dumbbell Pullover",
+     "primaryMuscles": [
+      "lats"
+     ],
+     "secondaryMuscles": [
+      "chest"
+     ],
+     "movement": "pull",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "dumbbell-reverse-fly",
+     "name": "Dumbbell Reverse Fly",
+     "primaryMuscles": [
+      "rear_delts"
+     ],
+     "secondaryMuscles": [
+      "upper_back"
+     ],
+     "movement": "pull",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": false,
+     "load": "perHand",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "dumbbell-romanian-deadlift",
+     "name": "Dumbbell Romanian Deadlift",
+     "primaryMuscles": [
+      "hamstrings",
+      "glutes"
+     ],
+     "secondaryMuscles": [
+      "lower_back"
+     ],
+     "movement": "legs",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "perHand",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "dumbbell-row",
+     "name": "One-Arm Dumbbell Row",
+     "primaryMuscles": [
+      "lats",
+      "upper_back"
+     ],
+     "secondaryMuscles": [
+      "biceps",
+      "rear_delts"
+     ],
+     "movement": "pull",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "perSide",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "dumbbell-shoulder-press",
+     "name": "Dumbbell Shoulder Press",
+     "primaryMuscles": [
+      "front_delts"
+     ],
+     "secondaryMuscles": [
+      "triceps",
+      "side_delts"
+     ],
+     "movement": "push",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "perHand",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "dumbbell-shrug",
+     "name": "Dumbbell Shrug",
+     "primaryMuscles": [
+      "traps"
+     ],
+     "secondaryMuscles": [
+      "forearm_flexors"
+     ],
+     "muscleShares": {
+      "forearm_flexors": 0.25
+     },
+     "movement": "pull",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": false,
+     "load": "perHand",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "dumbbell-side-bend",
+     "name": "Dumbbell Side Bend",
+     "primaryMuscles": [
+      "obliques"
+     ],
+     "secondaryMuscles": [],
+     "movement": "core",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": false,
+     "load": "perSide",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "ez-bar-curl",
+     "name": "EZ-Bar Curl",
+     "primaryMuscles": [
+      "biceps"
+     ],
+     "secondaryMuscles": [
+      "brachialis",
+      "brachioradialis"
+     ],
+     "muscleShares": {
+      "brachioradialis": 0.25
+     },
+     "movement": "pull",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "ez-bar-preacher-curl",
+     "name": "EZ Bar Preacher Curl",
+     "primaryMuscles": [
+      "biceps"
+     ],
+     "secondaryMuscles": [
+      "brachialis",
+      "brachioradialis"
+     ],
+     "muscleShares": {
+      "brachialis": 0.6,
+      "brachioradialis": 0.4
+     },
+     "movement": "pull",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "face-pull",
+     "name": "Face Pull",
+     "primaryMuscles": [
+      "rear_delts"
+     ],
+     "secondaryMuscles": [
+      "upper_back",
+      "traps"
+     ],
+     "muscleShares": {
+      "traps": 0.25
+     },
+     "movement": "pull",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "farmers-walk",
+     "name": "Farmer's Walk",
+     "primaryMuscles": [
+      "forearm_flexors"
+     ],
+     "secondaryMuscles": [
+      "traps",
+      "obliques",
+      "lower_back",
+      "abs",
+      "abductors",
+      "forearm_extensors"
+     ],
+     "muscleShares": {
+      "traps": 0.5,
+      "obliques": 0.3,
+      "lower_back": 0.3,
+      "abs": 0.2,
+      "abductors": 0.2,
+      "forearm_extensors": 0.2
+     },
+     "movement": "pull",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "perHand",
+     "weightStep": 2,
+     "unit": "seconds",
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "front-raise",
+     "name": "Front Raise",
+     "primaryMuscles": [
+      "front_delts"
+     ],
+     "secondaryMuscles": [],
+     "movement": "push",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": false,
+     "load": "perHand",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "front-squat",
+     "name": "Front Squat",
+     "primaryMuscles": [
+      "quads"
+     ],
+     "secondaryMuscles": [
+      "glutes",
+      "lower_back",
+      "adductors"
+     ],
+     "muscleShares": {
+      "lower_back": 0.25,
+      "adductors": 0.25
+     },
+     "movement": "legs",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "glute-bridge",
+     "name": "Glute Bridge",
+     "primaryMuscles": [
+      "glutes"
+     ],
+     "secondaryMuscles": [
+      "hamstrings"
+     ],
+     "muscleShares": {
+      "hamstrings": 0.25
+     },
+     "movement": "legs",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "glute-kickback",
+     "name": "Cable Glute Kickback",
+     "primaryMuscles": [
+      "glutes"
+     ],
+     "secondaryMuscles": [],
+     "movement": "legs",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": false,
+     "load": "perSide",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "goblet-squat",
+     "name": "Goblet Squat",
+     "primaryMuscles": [
+      "quads"
+     ],
+     "secondaryMuscles": [
+      "glutes",
+      "adductors"
+     ],
+     "muscleShares": {
+      "adductors": 0.25
+     },
+     "movement": "legs",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "good-morning",
+     "name": "Good Morning",
+     "primaryMuscles": [
+      "hamstrings",
+      "lower_back"
+     ],
+     "secondaryMuscles": [
+      "glutes"
+     ],
+     "movement": "legs",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "hack-squat",
+     "name": "Hack Squat",
+     "primaryMuscles": [
+      "quads"
+     ],
+     "secondaryMuscles": [
+      "glutes",
+      "adductors"
+     ],
+     "muscleShares": {
+      "glutes": 0.4,
+      "adductors": 0.4
+     },
+     "movement": "legs",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "hammer-curl",
+     "name": "Hammer Curl",
+     "primaryMuscles": [
+      "brachialis",
+      "biceps"
+     ],
+     "secondaryMuscles": [
+      "brachioradialis"
+     ],
+     "muscleShares": {
+      "brachioradialis": 0.75
+     },
+     "movement": "pull",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": false,
+     "load": "perHand",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "hanging-knee-raise",
+     "name": "Hanging Knee Raise",
+     "primaryMuscles": [
+      "abs"
+     ],
+     "secondaryMuscles": [
+      "obliques",
+      "forearm_flexors"
+     ],
+     "muscleShares": {
+      "obliques": 0.6,
+      "forearm_flexors": 0.3
+     },
+     "movement": "core",
+     "equipment": "bodyweight",
+     "loadType": "bodyweight",
+     "bodyweightFraction": 0.3,
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "hanging-leg-raise",
+     "name": "Hanging Leg Raise",
+     "primaryMuscles": [
+      "abs"
+     ],
+     "secondaryMuscles": [
+      "obliques"
+     ],
+     "movement": "core",
+     "equipment": "bodyweight",
+     "loadType": "bodyweight",
+     "bodyweightFraction": 0,
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "hip-abduction-machine",
+     "name": "Hip Abduction Machine",
+     "primaryMuscles": [
+      "abductors"
+     ],
+     "secondaryMuscles": [
+      "glutes"
+     ],
+     "movement": "legs",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "hip-adduction-machine",
+     "name": "Hip Adduction Machine",
+     "primaryMuscles": [
+      "adductors"
+     ],
+     "secondaryMuscles": [],
+     "movement": "legs",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "hip-thrust",
+     "name": "Barbell Hip Thrust",
+     "primaryMuscles": [
+      "glutes"
+     ],
+     "secondaryMuscles": [
+      "hamstrings"
+     ],
+     "muscleShares": {
+      "hamstrings": 0.25
+     },
+     "movement": "legs",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "incline-barbell-bench-press",
+     "name": "Incline Barbell Bench Press",
+     "primaryMuscles": [
+      "upper_chest"
+     ],
+     "secondaryMuscles": [
+      "chest",
+      "front_delts",
+      "triceps"
+     ],
+     "muscleShares": {
+      "front_delts": 0.75,
+      "triceps": 0.25
+     },
+     "movement": "push",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "incline-bench-press",
+     "name": "Incline Bench Press",
+     "primaryMuscles": [
+      "upper_chest"
+     ],
+     "secondaryMuscles": [
+      "front_delts",
+      "chest",
+      "triceps"
+     ],
+     "muscleShares": {
+      "front_delts": 0.7,
+      "chest": 0.6,
+      "triceps": 0.5
+     },
+     "movement": "push",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "incline-dumbbell-curl",
+     "name": "Incline Bench Curl",
+     "primaryMuscles": [
+      "biceps"
+     ],
+     "secondaryMuscles": [
+      "brachialis",
+      "brachioradialis"
+     ],
+     "muscleShares": {
+      "brachialis": 0.5,
+      "brachioradialis": 0.3
+     },
+     "movement": "pull",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": false,
+     "load": "perHand",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "incline-dumbbell-press",
+     "name": "Incline Dumbbell Press",
+     "primaryMuscles": [
+      "upper_chest"
+     ],
+     "secondaryMuscles": [
+      "front_delts",
+      "chest",
+      "triceps"
+     ],
+     "muscleShares": {
+      "front_delts": 0.7,
+      "chest": 0.6,
+      "triceps": 0.4
+     },
+     "movement": "push",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "perHand",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "incline-machine-press",
+     "name": "Incline Machine Press",
+     "primaryMuscles": [
+      "upper_chest"
+     ],
+     "secondaryMuscles": [
+      "chest",
+      "front_delts",
+      "triceps"
+     ],
+     "muscleShares": {
+      "front_delts": 0.75,
+      "triceps": 0.25
+     },
+     "movement": "push",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "incline-treadmill-walk",
+     "name": "Incline Treadmill Walk",
+     "primaryMuscles": [
+      "calves"
+     ],
+     "secondaryMuscles": [
+      "glutes",
+      "hamstrings"
+     ],
+     "muscleShares": {
+      "glutes": 0.5,
+      "hamstrings": 0.3
+     },
+     "movement": "legs",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 0.5,
+     "unit": "minutes",
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "lat-pulldown",
+     "name": "Lat Pulldown",
+     "primaryMuscles": [
+      "lats"
+     ],
+     "secondaryMuscles": [
+      "upper_back",
+      "biceps",
+      "brachialis",
+      "rear_delts",
+      "brachioradialis",
+      "forearm_flexors"
+     ],
+     "muscleShares": {
+      "upper_back": 0.6,
+      "biceps": 0.5,
+      "brachialis": 0.4,
+      "rear_delts": 0.3,
+      "brachioradialis": 0.3,
+      "forearm_flexors": 0.2
+     },
+     "movement": "pull",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "leg-extension",
+     "name": "Leg Extension",
+     "primaryMuscles": [
+      "quads"
+     ],
+     "secondaryMuscles": [],
+     "movement": "legs",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "leg-press",
+     "name": "Leg Press",
+     "primaryMuscles": [
+      "quads"
+     ],
+     "secondaryMuscles": [
+      "glutes",
+      "adductors"
+     ],
+     "muscleShares": {
+      "glutes": 0.5,
+      "adductors": 0.4
+     },
+     "movement": "legs",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "leg-press-calf-raise",
+     "name": "Leg Press Calf Raise",
+     "primaryMuscles": [
+      "calves"
+     ],
+     "secondaryMuscles": [],
+     "movement": "legs",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "low-to-high-cable-fly",
+     "name": "Low-to-High Cable Fly",
+     "primaryMuscles": [
+      "upper_chest"
+     ],
+     "secondaryMuscles": [
+      "chest",
+      "front_delts"
+     ],
+     "muscleShares": {
+      "front_delts": 0.5
+     },
+     "movement": "push",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "lunge",
+     "name": "Lunge",
+     "primaryMuscles": [
+      "quads",
+      "glutes"
+     ],
+     "secondaryMuscles": [
+      "adductors"
+     ],
+     "movement": "legs",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "perSide",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "lying-leg-curl",
+     "name": "Lying Leg Curl",
+     "primaryMuscles": [
+      "hamstrings"
+     ],
+     "secondaryMuscles": [
+      "calves"
+     ],
+     "muscleShares": {
+      "calves": 0.2
+     },
+     "movement": "legs",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "lying-leg-raise",
+     "name": "Lying Leg Raise",
+     "primaryMuscles": [
+      "abs"
+     ],
+     "secondaryMuscles": [],
+     "movement": "core",
+     "equipment": "bodyweight",
+     "loadType": "bodyweight",
+     "bodyweightFraction": 0,
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "machine-chest-press",
+     "name": "Machine Chest Press",
+     "primaryMuscles": [
+      "chest"
+     ],
+     "secondaryMuscles": [
+      "upper_chest",
+      "triceps",
+      "front_delts"
+     ],
+     "movement": "push",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "machine-chest-press-pronated",
+     "name": "Machine Chest Press (Pronated Grip)",
+     "primaryMuscles": [
+      "chest"
+     ],
+     "secondaryMuscles": [
+      "front_delts",
+      "upper_chest",
+      "triceps"
+     ],
+     "muscleShares": {
+      "front_delts": 0.5,
+      "upper_chest": 0.4,
+      "triceps": 0.4
+     },
+     "movement": "push",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "machine-fly",
+     "name": "Machine Fly",
+     "primaryMuscles": [
+      "chest"
+     ],
+     "secondaryMuscles": [
+      "upper_chest",
+      "front_delts"
+     ],
+     "muscleShares": {
+      "upper_chest": 0.5,
+      "front_delts": 0.3
+     },
+     "movement": "push",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "machine-lateral-raise",
+     "name": "Machine Lateral Raise",
+     "primaryMuscles": [
+      "side_delts"
+     ],
+     "secondaryMuscles": [],
+     "movement": "push",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "machine-row",
+     "name": "Machine Row",
+     "primaryMuscles": [
+      "lats",
+      "upper_back"
+     ],
+     "secondaryMuscles": [
+      "biceps",
+      "rear_delts"
+     ],
+     "movement": "pull",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "machine-shoulder-press",
+     "name": "Machine Shoulder Press",
+     "primaryMuscles": [
+      "front_delts"
+     ],
+     "secondaryMuscles": [
+      "triceps",
+      "side_delts"
+     ],
+     "movement": "push",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "neck-curl",
+     "name": "Neck Curl (plate)",
+     "primaryMuscles": [
+      "neck"
+     ],
+     "secondaryMuscles": [],
+     "movement": "core",
+     "equipment": "other",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 1.25,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "neck-extension",
+     "name": "Neck Extension (harness)",
+     "primaryMuscles": [
+      "neck"
+     ],
+     "secondaryMuscles": [
+      "traps"
+     ],
+     "muscleShares": {
+      "traps": 0.25
+     },
+     "movement": "core",
+     "equipment": "other",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 1.25,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "overhead-press",
+     "name": "Barbell Overhead Press",
+     "primaryMuscles": [
+      "front_delts"
+     ],
+     "secondaryMuscles": [
+      "triceps",
+      "side_delts"
+     ],
+     "movement": "push",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "overhead-triceps-extension",
+     "name": "Overhead Triceps Extension",
+     "primaryMuscles": [
+      "triceps"
+     ],
+     "secondaryMuscles": [],
+     "movement": "push",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "pec-deck",
+     "name": "Pec Deck (Machine Fly)",
+     "primaryMuscles": [
+      "chest"
+     ],
+     "secondaryMuscles": [
+      "upper_chest",
+      "front_delts"
+     ],
+     "muscleShares": {
+      "front_delts": 0.25
+     },
+     "movement": "push",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "plate-pinch",
+     "name": "Plate Pinch",
+     "primaryMuscles": [
+      "forearm_flexors"
+     ],
+     "secondaryMuscles": [
+      "forearm_extensors"
+     ],
+     "muscleShares": {
+      "forearm_extensors": 0.2
+     },
+     "movement": "pull",
+     "equipment": "other",
+     "loadType": "external",
+     "compound": false,
+     "load": "perHand",
+     "weightStep": 5,
+     "unit": "seconds",
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "preacher-curl",
+     "name": "Preacher Curl",
+     "primaryMuscles": [
+      "biceps"
+     ],
+     "secondaryMuscles": [
+      "brachialis",
+      "brachioradialis"
+     ],
+     "muscleShares": {
+      "brachioradialis": 0.25
+     },
+     "movement": "pull",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "pull-up",
+     "name": "Pull-Up",
+     "primaryMuscles": [
+      "lats"
+     ],
+     "secondaryMuscles": [
+      "biceps",
+      "upper_back",
+      "forearm_flexors"
+     ],
+     "muscleShares": {
+      "forearm_flexors": 0.25
+     },
+     "movement": "pull",
+     "equipment": "bodyweight",
+     "loadType": "bodyweight",
+     "bodyweightFraction": 1,
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "push-up",
+     "name": "Push-Up",
+     "primaryMuscles": [
+      "chest"
+     ],
+     "secondaryMuscles": [
+      "upper_chest",
+      "triceps",
+      "front_delts"
+     ],
+     "movement": "push",
+     "equipment": "bodyweight",
+     "loadType": "bodyweight",
+     "bodyweightFraction": 0.65,
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "reverse-curl",
+     "name": "Reverse Curl",
+     "primaryMuscles": [
+      "brachioradialis",
+      "brachialis"
+     ],
+     "secondaryMuscles": [
+      "forearm_extensors",
+      "biceps"
+     ],
+     "muscleShares": {
+      "biceps": 0.25
+     },
+     "movement": "pull",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "reverse-pec-deck",
+     "name": "Reverse Pec Deck",
+     "primaryMuscles": [
+      "rear_delts"
+     ],
+     "secondaryMuscles": [
+      "upper_back"
+     ],
+     "movement": "pull",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "reverse-wrist-curl",
+     "name": "Reverse Wrist Curl",
+     "primaryMuscles": [
+      "forearm_extensors"
+     ],
+     "secondaryMuscles": [],
+     "movement": "pull",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 1.25,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "romanian-deadlift",
+     "name": "Romanian Deadlift",
+     "primaryMuscles": [
+      "hamstrings"
+     ],
+     "secondaryMuscles": [
+      "glutes",
+      "lower_back",
+      "adductors",
+      "forearm_flexors"
+     ],
+     "muscleShares": {
+      "glutes": 0.7,
+      "lower_back": 0.5,
+      "adductors": 0.4,
+      "forearm_flexors": 0.2
+     },
+     "movement": "legs",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "russian-twist",
+     "name": "Russian Twist",
+     "primaryMuscles": [
+      "obliques"
+     ],
+     "secondaryMuscles": [
+      "abs"
+     ],
+     "movement": "core",
+     "equipment": "bodyweight",
+     "loadType": "bodyweight",
+     "bodyweightFraction": 0,
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "seated-cable-row",
+     "name": "Seated Cable Row",
+     "primaryMuscles": [
+      "upper_back"
+     ],
+     "secondaryMuscles": [
+      "lats",
+      "rear_delts",
+      "traps",
+      "biceps",
+      "brachialis",
+      "brachioradialis",
+      "forearm_flexors"
+     ],
+     "muscleShares": {
+      "lats": 0.8,
+      "rear_delts": 0.5,
+      "traps": 0.4,
+      "biceps": 0.4,
+      "brachialis": 0.4,
+      "brachioradialis": 0.3,
+      "forearm_flexors": 0.2
+     },
+     "movement": "pull",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "seated-calf-raise",
+     "name": "Seated Calf Raise",
+     "primaryMuscles": [
+      "calves"
+     ],
+     "secondaryMuscles": [],
+     "movement": "legs",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "seated-dumbbell-shoulder-press",
+     "name": "Seated Dumbbell Shoulder Press",
+     "primaryMuscles": [
+      "front_delts"
+     ],
+     "secondaryMuscles": [
+      "side_delts",
+      "triceps",
+      "upper_chest",
+      "traps"
+     ],
+     "muscleShares": {
+      "side_delts": 0.5,
+      "triceps": 0.5,
+      "upper_chest": 0.3,
+      "traps": 0.2
+     },
+     "movement": "push",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "perHand",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "seated-leg-curl",
+     "name": "Seated Leg Curl",
+     "primaryMuscles": [
+      "hamstrings"
+     ],
+     "secondaryMuscles": [
+      "calves"
+     ],
+     "muscleShares": {
+      "calves": 0.2
+     },
+     "movement": "legs",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "single-arm-cable-wrist-curl",
+     "name": "Single-Arm Cable Wrist Curl",
+     "primaryMuscles": [
+      "forearm_flexors"
+     ],
+     "secondaryMuscles": [],
+     "movement": "pull",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": false,
+     "load": "perSide",
+     "weightStep": 1.25,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "single-arm-cable-wrist-extension",
+     "name": "Single-Arm Cable Wrist Extension",
+     "primaryMuscles": [
+      "forearm_extensors"
+     ],
+     "secondaryMuscles": [],
+     "movement": "pull",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": false,
+     "load": "perSide",
+     "weightStep": 1.25,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "skull-crusher",
+     "name": "Skull Crusher",
+     "primaryMuscles": [
+      "triceps"
+     ],
+     "secondaryMuscles": [],
+     "movement": "push",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "smith-machine-bench-press",
+     "name": "Smith Machine Bench Press",
+     "primaryMuscles": [
+      "chest"
+     ],
+     "secondaryMuscles": [
+      "upper_chest",
+      "triceps",
+      "front_delts"
+     ],
+     "movement": "push",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "smith-machine-squat",
+     "name": "Smith Machine Squat",
+     "primaryMuscles": [
+      "quads",
+      "glutes"
+     ],
+     "secondaryMuscles": [],
+     "movement": "legs",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "standing-calf-raise",
+     "name": "Standing Calf Raise",
+     "primaryMuscles": [
+      "calves"
+     ],
+     "secondaryMuscles": [],
+     "movement": "legs",
+     "equipment": "machine",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "straight-arm-pulldown",
+     "name": "Straight-Arm Pulldown",
+     "primaryMuscles": [
+      "lats"
+     ],
+     "secondaryMuscles": [],
+     "movement": "pull",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "sumo-deadlift",
+     "name": "Sumo Deadlift",
+     "primaryMuscles": [
+      "glutes",
+      "hamstrings"
+     ],
+     "secondaryMuscles": [
+      "quads",
+      "lower_back",
+      "traps",
+      "forearm_flexors",
+      "adductors"
+     ],
+     "muscleShares": {
+      "quads": 0.25,
+      "forearm_flexors": 0.25
+     },
+     "movement": "legs",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "t-bar-row",
+     "name": "T-Bar Row",
+     "primaryMuscles": [
+      "lats",
+      "upper_back"
+     ],
+     "secondaryMuscles": [
+      "biceps",
+      "rear_delts",
+      "lower_back"
+     ],
+     "muscleShares": {
+      "lower_back": 0.25
+     },
+     "movement": "pull",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "tibialis-raise",
+     "name": "Tibialis Raise",
+     "primaryMuscles": [
+      "tibialis"
+     ],
+     "secondaryMuscles": [],
+     "movement": "legs",
+     "equipment": "bodyweight",
+     "loadType": "bodyweight",
+     "bodyweightFraction": 0,
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "trap-bar-deadlift",
+     "name": "Trap-Bar Deadlift",
+     "primaryMuscles": [
+      "quads",
+      "glutes"
+     ],
+     "secondaryMuscles": [
+      "hamstrings",
+      "lower_back",
+      "traps",
+      "forearm_flexors"
+     ],
+     "muscleShares": {
+      "traps": 0.25,
+      "forearm_flexors": 0.25
+     },
+     "movement": "legs",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "triceps-kickback",
+     "name": "Triceps Kickback",
+     "primaryMuscles": [
+      "triceps"
+     ],
+     "secondaryMuscles": [],
+     "movement": "push",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": false,
+     "load": "perSide",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "triceps-pushdown",
+     "name": "Triceps Pushdown",
+     "primaryMuscles": [
+      "triceps"
+     ],
+     "secondaryMuscles": [],
+     "movement": "push",
+     "equipment": "cable",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "upright-row",
+     "name": "Upright Row",
+     "primaryMuscles": [
+      "side_delts"
+     ],
+     "secondaryMuscles": [
+      "traps",
+      "biceps"
+     ],
+     "muscleShares": {
+      "biceps": 0.25
+     },
+     "movement": "pull",
+     "equipment": "barbell",
+     "loadType": "external",
+     "compound": true,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "weighted-decline-crunch",
+     "name": "Weighted Decline Crunch",
+     "primaryMuscles": [
+      "abs"
+     ],
+     "secondaryMuscles": [
+      "obliques"
+     ],
+     "muscleShares": {
+      "obliques": 0.4
+     },
+     "movement": "core",
+     "equipment": "bodyweight",
+     "loadType": "bodyweight",
+     "bodyweightFraction": 0.4,
+     "compound": false,
+     "load": "total",
+     "weightStep": 2.5,
+     "isCustom": false,
+     "updatedAt": "2026-11-19T06:54:56.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "wrist-curl",
+     "name": "Wrist Curl",
+     "primaryMuscles": [
+      "forearm_flexors"
+     ],
+     "secondaryMuscles": [],
+     "movement": "pull",
+     "equipment": "dumbbell",
+     "loadType": "external",
+     "compound": false,
+     "load": "perHand",
+     "weightStep": 2,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "wrist-roller",
+     "name": "Wrist Roller",
+     "primaryMuscles": [
+      "forearm_flexors",
+      "forearm_extensors"
+     ],
+     "secondaryMuscles": [],
+     "movement": "pull",
+     "equipment": "other",
+     "loadType": "external",
+     "compound": false,
+     "load": "total",
+     "weightStep": 1.25,
+     "isCustom": false,
+     "updatedAt": "2026-11-17T17:00:00.000Z",
+     "deletedAt": null
+    }
+   ]
+  },
+  "measurements": {
+   "keyPath": "id",
+   "indexes": [],
+   "records": [
+    {
+     "id": "f82785c8-3d91-423c-8099-a16c9ba08125",
+     "measuredAt": "2026-11-21T10:19:26.198Z",
+     "updatedAt": "2026-11-21T10:19:26.198Z",
+     "deletedAt": null,
+     "waistCm": 81,
+     "chestCm": null,
+     "armCm": null,
+     "thighCm": null,
+     "calfCm": null,
+     "bodyFatPct": null
+    }
+   ]
+  },
+  "meta": {
+   "keyPath": "key",
+   "indexes": [],
+   "records": [
+    {
+     "key": "active",
+     "value": {
+      "workoutId": "b3014b84-1042-4bb0-bc3e-1ec39c99e595",
+      "entryId": "73d58f06-ab1c-4722-bf49-42dc25c3831c",
+      "setStartedAt": null,
+      "restExpanded": false,
+      "signalledSetId": null,
+      "plan": {
+       "73d58f06-ab1c-4722-bf49-42dc25c3831c": {
+        "targetSets": null,
+        "restSec": 180,
+        "repsMin": null,
+        "repsMax": null
+       }
+      },
+      "warmups": {}
+     }
+    },
+    {
+     "key": "appVersion",
+     "value": "1.0.3"
+    },
+    {
+     "key": "lastExportAt",
+     "value": "2026-11-21T10:19:26.568Z"
+    },
+    {
+     "key": "lastExportFile",
+     "value": {
+      "name": "workout-2026-11-21-1119.json",
+      "text": "{\n \"schemaVersion\": 1,\n \"app\": \"workout-tracker\",\n \"exportedAt\": \"2026-11-21T10:19:26.568Z\",\n \"exportType\": \"full\",\n \"changedSince\": null,\n \"settings\": {\n  \"unit\": \"kg\",\n  \"defaultRestSec\": 120,\n  \"soundOn\": false,\n  \"vibrateOn\": true,\n  \"keepScreenOn\": true,\n  \"effortScale\": \"rpe\",\n  \"theme\": \"dark\"\n },\n \"exercises\": [\n  {\n   \"id\": \"ab-wheel-rollout\",\n   \"name\": \"Ab Wheel Rollout\",\n   \"primaryMuscles\": [\n    \"abs\"\n   ],\n   \"secondaryMuscles\": [\n    \"obliques\"\n   ],\n   \"movement\": \"core\",\n   \"equipment\": \"other\",\n   \"loadType\": \"bodyweight\",\n   \"bodyweightFraction\": 0,\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 1.25,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"arnold-press\",\n   \"name\": \"Arnold Press\",\n   \"primaryMuscles\": [\n    \"front_delts\"\n   ],\n   \"secondaryMuscles\": [\n    \"side_delts\",\n    \"triceps\"\n   ],\n   \"movement\": \"push\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"perHand\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"assisted-dip\",\n   \"name\": \"Assisted Dip\",\n   \"primaryMuscles\": [\n    \"chest\",\n    \"triceps\"\n   ],\n   \"secondaryMuscles\": [\n    \"front_delts\"\n   ],\n   \"muscleShares\": {\n    \"front_delts\": 0.75\n   },\n   \"movement\": \"push\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"assisted\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"assisted-pull-up\",\n   \"name\": \"Assisted Pull-Up\",\n   \"primaryMuscles\": [\n    \"lats\"\n   ],\n   \"secondaryMuscles\": [\n    \"upper_back\",\n    \"biceps\",\n    \"brachialis\",\n    \"brachioradialis\",\n    \"forearm_flexors\",\n    \"rear_delts\"\n   ],\n   \"muscleShares\": {\n    \"upper_back\": 0.6,\n    \"biceps\": 0.5,\n    \"brachialis\": 0.4,\n    \"brachioradialis\": 0.3,\n    \"forearm_flexors\": 0.3,\n    \"rear_delts\": 0.2\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"assisted\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"back-extension\",\n   \"name\": \"Back Extension\",\n   \"primaryMuscles\": [\n    \"lower_back\"\n   ],\n   \"secondaryMuscles\": [\n    \"glutes\",\n    \"hamstrings\"\n   ],\n   \"movement\": \"core\",\n   \"equipment\": \"bodyweight\",\n   \"loadType\": \"bodyweight\",\n   \"bodyweightFraction\": 0,\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"back-squat\",\n   \"name\": \"Barbell Back Squat\",\n   \"primaryMuscles\": [\n    \"quads\",\n    \"glutes\"\n   ],\n   \"secondaryMuscles\": [\n    \"lower_back\",\n    \"adductors\"\n   ],\n   \"muscleShares\": {\n    \"lower_back\": 0.25\n   },\n   \"movement\": \"legs\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"barbell-bench-press\",\n   \"name\": \"Bench Press\",\n   \"primaryMuscles\": [\n    \"chest\"\n   ],\n   \"secondaryMuscles\": [\n    \"upper_chest\",\n    \"triceps\",\n    \"front_delts\"\n   ],\n   \"muscleShares\": {\n    \"upper_chest\": 0.6,\n    \"triceps\": 0.6,\n    \"front_delts\": 0.5\n   },\n   \"movement\": \"push\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"barbell-curl\",\n   \"name\": \"Barbell Curl\",\n   \"primaryMuscles\": [\n    \"biceps\"\n   ],\n   \"secondaryMuscles\": [\n    \"brachialis\",\n    \"brachioradialis\"\n   ],\n   \"muscleShares\": {\n    \"brachioradialis\": 0.25\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"barbell-row\",\n   \"name\": \"Barbell Row\",\n   \"primaryMuscles\": [\n    \"lats\",\n    \"upper_back\"\n   ],\n   \"secondaryMuscles\": [\n    \"biceps\",\n    \"rear_delts\",\n    \"lower_back\"\n   ],\n   \"muscleShares\": {\n    \"lower_back\": 0.25\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"barbell-shrug\",\n   \"name\": \"Barbell Shrug\",\n   \"primaryMuscles\": [\n    \"traps\"\n   ],\n   \"secondaryMuscles\": [\n    \"forearm_flexors\"\n   ],\n   \"muscleShares\": {\n    \"forearm_flexors\": 0.25\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"bayesian-cable-curl\",\n   \"name\": \"Bayesian Cable Curl\",\n   \"primaryMuscles\": [\n    \"biceps\"\n   ],\n   \"secondaryMuscles\": [\n    \"brachialis\",\n    \"brachioradialis\"\n   ],\n   \"muscleShares\": {\n    \"brachialis\": 0.5,\n    \"brachioradialis\": 0.3\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"perSide\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"bdd640fb-0667-4ad1-9c80-317fa3b1799d\",\n   \"name\": \"Landmine Press\",\n   \"primaryMuscles\": [\n    \"front_delts\"\n   ],\n   \"secondaryMuscles\": [\n    \"chest\",\n    \"triceps\"\n   ],\n   \"movement\": \"push\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"isCustom\": true,\n   \"updatedAt\": \"2026-09-21T14:40:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"bulgarian-split-squat\",\n   \"name\": \"Bulgarian Split Squat\",\n   \"primaryMuscles\": [\n    \"quads\",\n    \"glutes\"\n   ],\n   \"secondaryMuscles\": [\n    \"adductors\"\n   ],\n   \"movement\": \"legs\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"perSide\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"cable-crunch\",\n   \"name\": \"Cable Crunch\",\n   \"primaryMuscles\": [\n    \"abs\"\n   ],\n   \"secondaryMuscles\": [\n    \"obliques\"\n   ],\n   \"muscleShares\": {\n    \"obliques\": 0.4\n   },\n   \"movement\": \"core\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"cable-curl\",\n   \"name\": \"Cable Curl\",\n   \"primaryMuscles\": [\n    \"biceps\"\n   ],\n   \"secondaryMuscles\": [\n    \"brachialis\",\n    \"brachioradialis\"\n   ],\n   \"muscleShares\": {\n    \"brachioradialis\": 0.25\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"cable-face-pull\",\n   \"name\": \"Cable Face Pull\",\n   \"primaryMuscles\": [\n    \"rear_delts\"\n   ],\n   \"secondaryMuscles\": [\n    \"upper_back\",\n    \"rotator_cuff\",\n    \"traps\",\n    \"side_delts\",\n    \"biceps\",\n    \"brachialis\",\n    \"brachioradialis\"\n   ],\n   \"muscleShares\": {\n    \"upper_back\": 0.7,\n    \"rotator_cuff\": 0.5,\n    \"traps\": 0.4,\n    \"side_delts\": 0.3,\n    \"biceps\": 0.2,\n    \"brachialis\": 0.2,\n    \"brachioradialis\": 0.2\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"cable-fly\",\n   \"name\": \"Cable Fly\",\n   \"primaryMuscles\": [\n    \"chest\"\n   ],\n   \"secondaryMuscles\": [\n    \"upper_chest\",\n    \"front_delts\"\n   ],\n   \"muscleShares\": {\n    \"front_delts\": 0.25\n   },\n   \"movement\": \"push\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"cable-hammer-curl\",\n   \"name\": \"Cable Hammer Curl\",\n   \"primaryMuscles\": [\n    \"brachioradialis\"\n   ],\n   \"secondaryMuscles\": [\n    \"brachialis\",\n    \"biceps\"\n   ],\n   \"muscleShares\": {\n    \"brachialis\": 0.8,\n    \"biceps\": 0.5\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"cable-internal-rotation\",\n   \"name\": \"Cable Internal Rotation\",\n   \"primaryMuscles\": [\n    \"rotator_cuff\"\n   ],\n   \"secondaryMuscles\": [\n    \"chest\",\n    \"lats\"\n   ],\n   \"muscleShares\": {\n    \"chest\": 0.2,\n    \"lats\": 0.1\n   },\n   \"movement\": \"push\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"perSide\",\n   \"weightStep\": 1.25,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"cable-lateral-raise\",\n   \"name\": \"Cable Lateral Raise\",\n   \"primaryMuscles\": [\n    \"side_delts\"\n   ],\n   \"secondaryMuscles\": [\n    \"front_delts\",\n    \"traps\",\n    \"rear_delts\"\n   ],\n   \"muscleShares\": {\n    \"front_delts\": 0.3,\n    \"traps\": 0.3,\n    \"rear_delts\": 0.2\n   },\n   \"movement\": \"push\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"perSide\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"cable-overhead-triceps-extension-bar\",\n   \"name\": \"Cable Overhead Triceps Extension (Bar)\",\n   \"primaryMuscles\": [\n    \"triceps\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"push\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"cable-pronation\",\n   \"name\": \"Cable Pronation\",\n   \"primaryMuscles\": [\n    \"forearm_flexors\"\n   ],\n   \"secondaryMuscles\": [\n    \"brachioradialis\"\n   ],\n   \"muscleShares\": {\n    \"brachioradialis\": 0.3\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"perSide\",\n   \"weightStep\": 1.25,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"cable-pull-through\",\n   \"name\": \"Cable Pull-Through\",\n   \"primaryMuscles\": [\n    \"glutes\"\n   ],\n   \"secondaryMuscles\": [\n    \"hamstrings\"\n   ],\n   \"movement\": \"legs\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"cable-reverse-curl\",\n   \"name\": \"Cable Reverse Curl\",\n   \"primaryMuscles\": [\n    \"brachioradialis\"\n   ],\n   \"secondaryMuscles\": [\n    \"brachialis\",\n    \"forearm_extensors\",\n    \"biceps\"\n   ],\n   \"muscleShares\": {\n    \"brachialis\": 0.8,\n    \"forearm_extensors\": 0.5,\n    \"biceps\": 0.4\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"cable-supination\",\n   \"name\": \"Cable Supination\",\n   \"primaryMuscles\": [\n    \"forearm_extensors\"\n   ],\n   \"secondaryMuscles\": [\n    \"biceps\",\n    \"brachioradialis\"\n   ],\n   \"muscleShares\": {\n    \"biceps\": 0.6,\n    \"brachioradialis\": 0.3\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"perSide\",\n   \"weightStep\": 1.25,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"cable-triceps-pushdown-bar\",\n   \"name\": \"Cable Triceps Pushdown (Bar)\",\n   \"primaryMuscles\": [\n    \"triceps\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"push\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"cable-woodchopper\",\n   \"name\": \"Cable Woodchopper\",\n   \"primaryMuscles\": [\n    \"obliques\"\n   ],\n   \"secondaryMuscles\": [\n    \"abs\"\n   ],\n   \"movement\": \"core\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"chest-supported-row\",\n   \"name\": \"Chest-Supported Row\",\n   \"primaryMuscles\": [\n    \"upper_back\",\n    \"lats\"\n   ],\n   \"secondaryMuscles\": [\n    \"biceps\",\n    \"rear_delts\"\n   ],\n   \"movement\": \"pull\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"chest-supported-t-bar-row-pronated\",\n   \"name\": \"Chest Supported T-Bar Row (Pronated)\",\n   \"primaryMuscles\": [\n    \"upper_back\"\n   ],\n   \"secondaryMuscles\": [\n    \"rear_delts\",\n    \"lats\",\n    \"brachioradialis\",\n    \"biceps\",\n    \"brachialis\",\n    \"traps\",\n    \"forearm_flexors\"\n   ],\n   \"muscleShares\": {\n    \"rear_delts\": 0.7,\n    \"lats\": 0.6,\n    \"brachioradialis\": 0.5,\n    \"biceps\": 0.4,\n    \"brachialis\": 0.4,\n    \"traps\": 0.3,\n    \"forearm_flexors\": 0.2\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"chin-up\",\n   \"name\": \"Chin-Up\",\n   \"primaryMuscles\": [\n    \"lats\"\n   ],\n   \"secondaryMuscles\": [\n    \"biceps\",\n    \"upper_back\",\n    \"brachialis\",\n    \"forearm_flexors\"\n   ],\n   \"muscleShares\": {\n    \"biceps\": 0.75,\n    \"brachialis\": 0.25,\n    \"forearm_flexors\": 0.25\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"bodyweight\",\n   \"loadType\": \"bodyweight\",\n   \"bodyweightFraction\": 1,\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"close-grip-bench-press\",\n   \"name\": \"Close-Grip Bench Press\",\n   \"primaryMuscles\": [\n    \"triceps\"\n   ],\n   \"secondaryMuscles\": [\n    \"chest\",\n    \"upper_chest\",\n    \"front_delts\"\n   ],\n   \"muscleShares\": {\n    \"upper_chest\": 0.25\n   },\n   \"movement\": \"push\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"close-grip-lat-pulldown\",\n   \"name\": \"Close-Grip Lat Pulldown\",\n   \"primaryMuscles\": [\n    \"lats\"\n   ],\n   \"secondaryMuscles\": [\n    \"biceps\",\n    \"upper_back\",\n    \"brachialis\"\n   ],\n   \"muscleShares\": {\n    \"biceps\": 0.75,\n    \"brachialis\": 0.25\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"concentration-curl\",\n   \"name\": \"Concentration Curl\",\n   \"primaryMuscles\": [\n    \"biceps\"\n   ],\n   \"secondaryMuscles\": [\n    \"brachialis\"\n   ],\n   \"movement\": \"pull\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"perSide\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"crunch\",\n   \"name\": \"Crunch\",\n   \"primaryMuscles\": [\n    \"abs\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"core\",\n   \"equipment\": \"bodyweight\",\n   \"loadType\": \"bodyweight\",\n   \"bodyweightFraction\": 0,\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"dead-hang\",\n   \"name\": \"Dead Hang\",\n   \"primaryMuscles\": [\n    \"forearm_flexors\"\n   ],\n   \"secondaryMuscles\": [\n    \"forearm_extensors\"\n   ],\n   \"muscleShares\": {\n    \"forearm_extensors\": 0.2\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"bodyweight\",\n   \"loadType\": \"bodyweight\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"unit\": \"seconds\",\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"deadlift\",\n   \"name\": \"Deadlift\",\n   \"primaryMuscles\": [\n    \"glutes\",\n    \"hamstrings\",\n    \"lower_back\"\n   ],\n   \"secondaryMuscles\": [\n    \"quads\",\n    \"traps\",\n    \"forearm_flexors\"\n   ],\n   \"muscleShares\": {\n    \"forearm_flexors\": 0.25\n   },\n   \"movement\": \"legs\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"decline-bench-press\",\n   \"name\": \"Decline Bench Press\",\n   \"primaryMuscles\": [\n    \"chest\"\n   ],\n   \"secondaryMuscles\": [\n    \"triceps\",\n    \"front_delts\"\n   ],\n   \"muscleShares\": {\n    \"front_delts\": 0.25\n   },\n   \"movement\": \"push\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"decline-sit-up\",\n   \"name\": \"Decline Sit-Up\",\n   \"primaryMuscles\": [\n    \"abs\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"core\",\n   \"equipment\": \"bodyweight\",\n   \"loadType\": \"bodyweight\",\n   \"bodyweightFraction\": 0,\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"dip\",\n   \"name\": \"Dip\",\n   \"primaryMuscles\": [\n    \"chest\",\n    \"triceps\"\n   ],\n   \"secondaryMuscles\": [\n    \"front_delts\"\n   ],\n   \"muscleShares\": {\n    \"front_delts\": 0.75\n   },\n   \"movement\": \"push\",\n   \"equipment\": \"bodyweight\",\n   \"loadType\": \"bodyweight\",\n   \"bodyweightFraction\": 1,\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"dumbbell-bench-press\",\n   \"name\": \"Dumbbell Bench Press\",\n   \"primaryMuscles\": [\n    \"chest\"\n   ],\n   \"secondaryMuscles\": [\n    \"upper_chest\",\n    \"triceps\",\n    \"front_delts\"\n   ],\n   \"movement\": \"push\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"perHand\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"dumbbell-curl\",\n   \"name\": \"Dumbbell Curl\",\n   \"primaryMuscles\": [\n    \"biceps\"\n   ],\n   \"secondaryMuscles\": [\n    \"brachialis\",\n    \"brachioradialis\"\n   ],\n   \"muscleShares\": {\n    \"brachioradialis\": 0.25\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"perHand\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"dumbbell-fly\",\n   \"name\": \"Dumbbell Fly\",\n   \"primaryMuscles\": [\n    \"chest\"\n   ],\n   \"secondaryMuscles\": [\n    \"upper_chest\",\n    \"front_delts\"\n   ],\n   \"muscleShares\": {\n    \"front_delts\": 0.25\n   },\n   \"movement\": \"push\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"perHand\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"dumbbell-lateral-raise\",\n   \"name\": \"Dumbbell Lateral Raise\",\n   \"primaryMuscles\": [\n    \"side_delts\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"push\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"perHand\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"dumbbell-pullover\",\n   \"name\": \"Dumbbell Pullover\",\n   \"primaryMuscles\": [\n    \"lats\"\n   ],\n   \"secondaryMuscles\": [\n    \"chest\"\n   ],\n   \"movement\": \"pull\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"dumbbell-reverse-fly\",\n   \"name\": \"Dumbbell Reverse Fly\",\n   \"primaryMuscles\": [\n    \"rear_delts\"\n   ],\n   \"secondaryMuscles\": [\n    \"upper_back\"\n   ],\n   \"movement\": \"pull\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"perHand\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"dumbbell-romanian-deadlift\",\n   \"name\": \"Dumbbell Romanian Deadlift\",\n   \"primaryMuscles\": [\n    \"hamstrings\",\n    \"glutes\"\n   ],\n   \"secondaryMuscles\": [\n    \"lower_back\"\n   ],\n   \"movement\": \"legs\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"perHand\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"dumbbell-row\",\n   \"name\": \"One-Arm Dumbbell Row\",\n   \"primaryMuscles\": [\n    \"lats\",\n    \"upper_back\"\n   ],\n   \"secondaryMuscles\": [\n    \"biceps\",\n    \"rear_delts\"\n   ],\n   \"movement\": \"pull\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"perSide\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"dumbbell-shoulder-press\",\n   \"name\": \"Dumbbell Shoulder Press\",\n   \"primaryMuscles\": [\n    \"front_delts\"\n   ],\n   \"secondaryMuscles\": [\n    \"triceps\",\n    \"side_delts\"\n   ],\n   \"movement\": \"push\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"perHand\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"dumbbell-shrug\",\n   \"name\": \"Dumbbell Shrug\",\n   \"primaryMuscles\": [\n    \"traps\"\n   ],\n   \"secondaryMuscles\": [\n    \"forearm_flexors\"\n   ],\n   \"muscleShares\": {\n    \"forearm_flexors\": 0.25\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"perHand\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"dumbbell-side-bend\",\n   \"name\": \"Dumbbell Side Bend\",\n   \"primaryMuscles\": [\n    \"obliques\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"core\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"perSide\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"ez-bar-curl\",\n   \"name\": \"EZ-Bar Curl\",\n   \"primaryMuscles\": [\n    \"biceps\"\n   ],\n   \"secondaryMuscles\": [\n    \"brachialis\",\n    \"brachioradialis\"\n   ],\n   \"muscleShares\": {\n    \"brachioradialis\": 0.25\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"ez-bar-preacher-curl\",\n   \"name\": \"EZ Bar Preacher Curl\",\n   \"primaryMuscles\": [\n    \"biceps\"\n   ],\n   \"secondaryMuscles\": [\n    \"brachialis\",\n    \"brachioradialis\"\n   ],\n   \"muscleShares\": {\n    \"brachialis\": 0.6,\n    \"brachioradialis\": 0.4\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"face-pull\",\n   \"name\": \"Face Pull\",\n   \"primaryMuscles\": [\n    \"rear_delts\"\n   ],\n   \"secondaryMuscles\": [\n    \"upper_back\",\n    \"traps\"\n   ],\n   \"muscleShares\": {\n    \"traps\": 0.25\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"farmers-walk\",\n   \"name\": \"Farmer's Walk\",\n   \"primaryMuscles\": [\n    \"forearm_flexors\"\n   ],\n   \"secondaryMuscles\": [\n    \"traps\",\n    \"obliques\",\n    \"lower_back\",\n    \"abs\",\n    \"abductors\",\n    \"forearm_extensors\"\n   ],\n   \"muscleShares\": {\n    \"traps\": 0.5,\n    \"obliques\": 0.3,\n    \"lower_back\": 0.3,\n    \"abs\": 0.2,\n    \"abductors\": 0.2,\n    \"forearm_extensors\": 0.2\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"perHand\",\n   \"weightStep\": 2,\n   \"unit\": \"seconds\",\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"front-raise\",\n   \"name\": \"Front Raise\",\n   \"primaryMuscles\": [\n    \"front_delts\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"push\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"perHand\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"front-squat\",\n   \"name\": \"Front Squat\",\n   \"primaryMuscles\": [\n    \"quads\"\n   ],\n   \"secondaryMuscles\": [\n    \"glutes\",\n    \"lower_back\",\n    \"adductors\"\n   ],\n   \"muscleShares\": {\n    \"lower_back\": 0.25,\n    \"adductors\": 0.25\n   },\n   \"movement\": \"legs\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"glute-bridge\",\n   \"name\": \"Glute Bridge\",\n   \"primaryMuscles\": [\n    \"glutes\"\n   ],\n   \"secondaryMuscles\": [\n    \"hamstrings\"\n   ],\n   \"muscleShares\": {\n    \"hamstrings\": 0.25\n   },\n   \"movement\": \"legs\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"glute-kickback\",\n   \"name\": \"Cable Glute Kickback\",\n   \"primaryMuscles\": [\n    \"glutes\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"legs\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"perSide\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"goblet-squat\",\n   \"name\": \"Goblet Squat\",\n   \"primaryMuscles\": [\n    \"quads\"\n   ],\n   \"secondaryMuscles\": [\n    \"glutes\",\n    \"adductors\"\n   ],\n   \"muscleShares\": {\n    \"adductors\": 0.25\n   },\n   \"movement\": \"legs\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"good-morning\",\n   \"name\": \"Good Morning\",\n   \"primaryMuscles\": [\n    \"hamstrings\",\n    \"lower_back\"\n   ],\n   \"secondaryMuscles\": [\n    \"glutes\"\n   ],\n   \"movement\": \"legs\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"hack-squat\",\n   \"name\": \"Hack Squat\",\n   \"primaryMuscles\": [\n    \"quads\"\n   ],\n   \"secondaryMuscles\": [\n    \"glutes\",\n    \"adductors\"\n   ],\n   \"muscleShares\": {\n    \"glutes\": 0.4,\n    \"adductors\": 0.4\n   },\n   \"movement\": \"legs\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"hammer-curl\",\n   \"name\": \"Hammer Curl\",\n   \"primaryMuscles\": [\n    \"brachialis\",\n    \"biceps\"\n   ],\n   \"secondaryMuscles\": [\n    \"brachioradialis\"\n   ],\n   \"muscleShares\": {\n    \"brachioradialis\": 0.75\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"perHand\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"hanging-knee-raise\",\n   \"name\": \"Hanging Knee Raise\",\n   \"primaryMuscles\": [\n    \"abs\"\n   ],\n   \"secondaryMuscles\": [\n    \"obliques\",\n    \"forearm_flexors\"\n   ],\n   \"muscleShares\": {\n    \"obliques\": 0.6,\n    \"forearm_flexors\": 0.3\n   },\n   \"movement\": \"core\",\n   \"equipment\": \"bodyweight\",\n   \"loadType\": \"bodyweight\",\n   \"bodyweightFraction\": 0.3,\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"hanging-leg-raise\",\n   \"name\": \"Hanging Leg Raise\",\n   \"primaryMuscles\": [\n    \"abs\"\n   ],\n   \"secondaryMuscles\": [\n    \"obliques\"\n   ],\n   \"movement\": \"core\",\n   \"equipment\": \"bodyweight\",\n   \"loadType\": \"bodyweight\",\n   \"bodyweightFraction\": 0,\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"hip-abduction-machine\",\n   \"name\": \"Hip Abduction Machine\",\n   \"primaryMuscles\": [\n    \"abductors\"\n   ],\n   \"secondaryMuscles\": [\n    \"glutes\"\n   ],\n   \"movement\": \"legs\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"hip-adduction-machine\",\n   \"name\": \"Hip Adduction Machine\",\n   \"primaryMuscles\": [\n    \"adductors\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"legs\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"hip-thrust\",\n   \"name\": \"Barbell Hip Thrust\",\n   \"primaryMuscles\": [\n    \"glutes\"\n   ],\n   \"secondaryMuscles\": [\n    \"hamstrings\"\n   ],\n   \"muscleShares\": {\n    \"hamstrings\": 0.25\n   },\n   \"movement\": \"legs\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"incline-barbell-bench-press\",\n   \"name\": \"Incline Barbell Bench Press\",\n   \"primaryMuscles\": [\n    \"upper_chest\"\n   ],\n   \"secondaryMuscles\": [\n    \"chest\",\n    \"front_delts\",\n    \"triceps\"\n   ],\n   \"muscleShares\": {\n    \"front_delts\": 0.75,\n    \"triceps\": 0.25\n   },\n   \"movement\": \"push\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"incline-bench-press\",\n   \"name\": \"Incline Bench Press\",\n   \"primaryMuscles\": [\n    \"upper_chest\"\n   ],\n   \"secondaryMuscles\": [\n    \"front_delts\",\n    \"chest\",\n    \"triceps\"\n   ],\n   \"muscleShares\": {\n    \"front_delts\": 0.7,\n    \"chest\": 0.6,\n    \"triceps\": 0.5\n   },\n   \"movement\": \"push\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"incline-dumbbell-curl\",\n   \"name\": \"Incline Bench Curl\",\n   \"primaryMuscles\": [\n    \"biceps\"\n   ],\n   \"secondaryMuscles\": [\n    \"brachialis\",\n    \"brachioradialis\"\n   ],\n   \"muscleShares\": {\n    \"brachialis\": 0.5,\n    \"brachioradialis\": 0.3\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"perHand\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"incline-dumbbell-press\",\n   \"name\": \"Incline Dumbbell Press\",\n   \"primaryMuscles\": [\n    \"upper_chest\"\n   ],\n   \"secondaryMuscles\": [\n    \"front_delts\",\n    \"chest\",\n    \"triceps\"\n   ],\n   \"muscleShares\": {\n    \"front_delts\": 0.7,\n    \"chest\": 0.6,\n    \"triceps\": 0.4\n   },\n   \"movement\": \"push\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"perHand\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"incline-machine-press\",\n   \"name\": \"Incline Machine Press\",\n   \"primaryMuscles\": [\n    \"upper_chest\"\n   ],\n   \"secondaryMuscles\": [\n    \"chest\",\n    \"front_delts\",\n    \"triceps\"\n   ],\n   \"muscleShares\": {\n    \"front_delts\": 0.75,\n    \"triceps\": 0.25\n   },\n   \"movement\": \"push\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"incline-treadmill-walk\",\n   \"name\": \"Incline Treadmill Walk\",\n   \"primaryMuscles\": [\n    \"calves\"\n   ],\n   \"secondaryMuscles\": [\n    \"glutes\",\n    \"hamstrings\"\n   ],\n   \"muscleShares\": {\n    \"glutes\": 0.5,\n    \"hamstrings\": 0.3\n   },\n   \"movement\": \"legs\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 0.5,\n   \"unit\": \"minutes\",\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"lat-pulldown\",\n   \"name\": \"Lat Pulldown\",\n   \"primaryMuscles\": [\n    \"lats\"\n   ],\n   \"secondaryMuscles\": [\n    \"upper_back\",\n    \"biceps\",\n    \"brachialis\",\n    \"rear_delts\",\n    \"brachioradialis\",\n    \"forearm_flexors\"\n   ],\n   \"muscleShares\": {\n    \"upper_back\": 0.6,\n    \"biceps\": 0.5,\n    \"brachialis\": 0.4,\n    \"rear_delts\": 0.3,\n    \"brachioradialis\": 0.3,\n    \"forearm_flexors\": 0.2\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"leg-extension\",\n   \"name\": \"Leg Extension\",\n   \"primaryMuscles\": [\n    \"quads\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"legs\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"leg-press\",\n   \"name\": \"Leg Press\",\n   \"primaryMuscles\": [\n    \"quads\"\n   ],\n   \"secondaryMuscles\": [\n    \"glutes\",\n    \"adductors\"\n   ],\n   \"muscleShares\": {\n    \"glutes\": 0.5,\n    \"adductors\": 0.4\n   },\n   \"movement\": \"legs\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"leg-press-calf-raise\",\n   \"name\": \"Leg Press Calf Raise\",\n   \"primaryMuscles\": [\n    \"calves\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"legs\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"low-to-high-cable-fly\",\n   \"name\": \"Low-to-High Cable Fly\",\n   \"primaryMuscles\": [\n    \"upper_chest\"\n   ],\n   \"secondaryMuscles\": [\n    \"chest\",\n    \"front_delts\"\n   ],\n   \"muscleShares\": {\n    \"front_delts\": 0.5\n   },\n   \"movement\": \"push\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"lunge\",\n   \"name\": \"Lunge\",\n   \"primaryMuscles\": [\n    \"quads\",\n    \"glutes\"\n   ],\n   \"secondaryMuscles\": [\n    \"adductors\"\n   ],\n   \"movement\": \"legs\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"perSide\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"lying-leg-curl\",\n   \"name\": \"Lying Leg Curl\",\n   \"primaryMuscles\": [\n    \"hamstrings\"\n   ],\n   \"secondaryMuscles\": [\n    \"calves\"\n   ],\n   \"muscleShares\": {\n    \"calves\": 0.2\n   },\n   \"movement\": \"legs\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"lying-leg-raise\",\n   \"name\": \"Lying Leg Raise\",\n   \"primaryMuscles\": [\n    \"abs\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"core\",\n   \"equipment\": \"bodyweight\",\n   \"loadType\": \"bodyweight\",\n   \"bodyweightFraction\": 0,\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"machine-chest-press\",\n   \"name\": \"Machine Chest Press\",\n   \"primaryMuscles\": [\n    \"chest\"\n   ],\n   \"secondaryMuscles\": [\n    \"upper_chest\",\n    \"triceps\",\n    \"front_delts\"\n   ],\n   \"movement\": \"push\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"machine-chest-press-pronated\",\n   \"name\": \"Machine Chest Press (Pronated Grip)\",\n   \"primaryMuscles\": [\n    \"chest\"\n   ],\n   \"secondaryMuscles\": [\n    \"front_delts\",\n    \"upper_chest\",\n    \"triceps\"\n   ],\n   \"muscleShares\": {\n    \"front_delts\": 0.5,\n    \"upper_chest\": 0.4,\n    \"triceps\": 0.4\n   },\n   \"movement\": \"push\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"machine-fly\",\n   \"name\": \"Machine Fly\",\n   \"primaryMuscles\": [\n    \"chest\"\n   ],\n   \"secondaryMuscles\": [\n    \"upper_chest\",\n    \"front_delts\"\n   ],\n   \"muscleShares\": {\n    \"upper_chest\": 0.5,\n    \"front_delts\": 0.3\n   },\n   \"movement\": \"push\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"machine-lateral-raise\",\n   \"name\": \"Machine Lateral Raise\",\n   \"primaryMuscles\": [\n    \"side_delts\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"push\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"machine-row\",\n   \"name\": \"Machine Row\",\n   \"primaryMuscles\": [\n    \"lats\",\n    \"upper_back\"\n   ],\n   \"secondaryMuscles\": [\n    \"biceps\",\n    \"rear_delts\"\n   ],\n   \"movement\": \"pull\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"machine-shoulder-press\",\n   \"name\": \"Machine Shoulder Press\",\n   \"primaryMuscles\": [\n    \"front_delts\"\n   ],\n   \"secondaryMuscles\": [\n    \"triceps\",\n    \"side_delts\"\n   ],\n   \"movement\": \"push\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"neck-curl\",\n   \"name\": \"Neck Curl (plate)\",\n   \"primaryMuscles\": [\n    \"neck\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"core\",\n   \"equipment\": \"other\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 1.25,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"neck-extension\",\n   \"name\": \"Neck Extension (harness)\",\n   \"primaryMuscles\": [\n    \"neck\"\n   ],\n   \"secondaryMuscles\": [\n    \"traps\"\n   ],\n   \"muscleShares\": {\n    \"traps\": 0.25\n   },\n   \"movement\": \"core\",\n   \"equipment\": \"other\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 1.25,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"overhead-press\",\n   \"name\": \"Barbell Overhead Press\",\n   \"primaryMuscles\": [\n    \"front_delts\"\n   ],\n   \"secondaryMuscles\": [\n    \"triceps\",\n    \"side_delts\"\n   ],\n   \"movement\": \"push\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"overhead-triceps-extension\",\n   \"name\": \"Overhead Triceps Extension\",\n   \"primaryMuscles\": [\n    \"triceps\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"push\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"pec-deck\",\n   \"name\": \"Pec Deck (Machine Fly)\",\n   \"primaryMuscles\": [\n    \"chest\"\n   ],\n   \"secondaryMuscles\": [\n    \"upper_chest\",\n    \"front_delts\"\n   ],\n   \"muscleShares\": {\n    \"front_delts\": 0.25\n   },\n   \"movement\": \"push\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"plate-pinch\",\n   \"name\": \"Plate Pinch\",\n   \"primaryMuscles\": [\n    \"forearm_flexors\"\n   ],\n   \"secondaryMuscles\": [\n    \"forearm_extensors\"\n   ],\n   \"muscleShares\": {\n    \"forearm_extensors\": 0.2\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"other\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"perHand\",\n   \"weightStep\": 5,\n   \"unit\": \"seconds\",\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"preacher-curl\",\n   \"name\": \"Preacher Curl\",\n   \"primaryMuscles\": [\n    \"biceps\"\n   ],\n   \"secondaryMuscles\": [\n    \"brachialis\",\n    \"brachioradialis\"\n   ],\n   \"muscleShares\": {\n    \"brachioradialis\": 0.25\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"pull-up\",\n   \"name\": \"Pull-Up\",\n   \"primaryMuscles\": [\n    \"lats\"\n   ],\n   \"secondaryMuscles\": [\n    \"biceps\",\n    \"upper_back\",\n    \"forearm_flexors\"\n   ],\n   \"muscleShares\": {\n    \"forearm_flexors\": 0.25\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"bodyweight\",\n   \"loadType\": \"bodyweight\",\n   \"bodyweightFraction\": 1,\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"push-up\",\n   \"name\": \"Push-Up\",\n   \"primaryMuscles\": [\n    \"chest\"\n   ],\n   \"secondaryMuscles\": [\n    \"upper_chest\",\n    \"triceps\",\n    \"front_delts\"\n   ],\n   \"movement\": \"push\",\n   \"equipment\": \"bodyweight\",\n   \"loadType\": \"bodyweight\",\n   \"bodyweightFraction\": 0.65,\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"reverse-curl\",\n   \"name\": \"Reverse Curl\",\n   \"primaryMuscles\": [\n    \"brachioradialis\",\n    \"brachialis\"\n   ],\n   \"secondaryMuscles\": [\n    \"forearm_extensors\",\n    \"biceps\"\n   ],\n   \"muscleShares\": {\n    \"biceps\": 0.25\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"reverse-pec-deck\",\n   \"name\": \"Reverse Pec Deck\",\n   \"primaryMuscles\": [\n    \"rear_delts\"\n   ],\n   \"secondaryMuscles\": [\n    \"upper_back\"\n   ],\n   \"movement\": \"pull\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"reverse-wrist-curl\",\n   \"name\": \"Reverse Wrist Curl\",\n   \"primaryMuscles\": [\n    \"forearm_extensors\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"pull\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 1.25,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"romanian-deadlift\",\n   \"name\": \"Romanian Deadlift\",\n   \"primaryMuscles\": [\n    \"hamstrings\"\n   ],\n   \"secondaryMuscles\": [\n    \"glutes\",\n    \"lower_back\",\n    \"adductors\",\n    \"forearm_flexors\"\n   ],\n   \"muscleShares\": {\n    \"glutes\": 0.7,\n    \"lower_back\": 0.5,\n    \"adductors\": 0.4,\n    \"forearm_flexors\": 0.2\n   },\n   \"movement\": \"legs\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"russian-twist\",\n   \"name\": \"Russian Twist\",\n   \"primaryMuscles\": [\n    \"obliques\"\n   ],\n   \"secondaryMuscles\": [\n    \"abs\"\n   ],\n   \"movement\": \"core\",\n   \"equipment\": \"bodyweight\",\n   \"loadType\": \"bodyweight\",\n   \"bodyweightFraction\": 0,\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"seated-cable-row\",\n   \"name\": \"Seated Cable Row\",\n   \"primaryMuscles\": [\n    \"upper_back\"\n   ],\n   \"secondaryMuscles\": [\n    \"lats\",\n    \"rear_delts\",\n    \"traps\",\n    \"biceps\",\n    \"brachialis\",\n    \"brachioradialis\",\n    \"forearm_flexors\"\n   ],\n   \"muscleShares\": {\n    \"lats\": 0.8,\n    \"rear_delts\": 0.5,\n    \"traps\": 0.4,\n    \"biceps\": 0.4,\n    \"brachialis\": 0.4,\n    \"brachioradialis\": 0.3,\n    \"forearm_flexors\": 0.2\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"seated-calf-raise\",\n   \"name\": \"Seated Calf Raise\",\n   \"primaryMuscles\": [\n    \"calves\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"legs\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"seated-dumbbell-shoulder-press\",\n   \"name\": \"Seated Dumbbell Shoulder Press\",\n   \"primaryMuscles\": [\n    \"front_delts\"\n   ],\n   \"secondaryMuscles\": [\n    \"side_delts\",\n    \"triceps\",\n    \"upper_chest\",\n    \"traps\"\n   ],\n   \"muscleShares\": {\n    \"side_delts\": 0.5,\n    \"triceps\": 0.5,\n    \"upper_chest\": 0.3,\n    \"traps\": 0.2\n   },\n   \"movement\": \"push\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"perHand\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"seated-leg-curl\",\n   \"name\": \"Seated Leg Curl\",\n   \"primaryMuscles\": [\n    \"hamstrings\"\n   ],\n   \"secondaryMuscles\": [\n    \"calves\"\n   ],\n   \"muscleShares\": {\n    \"calves\": 0.2\n   },\n   \"movement\": \"legs\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"single-arm-cable-wrist-curl\",\n   \"name\": \"Single-Arm Cable Wrist Curl\",\n   \"primaryMuscles\": [\n    \"forearm_flexors\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"pull\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"perSide\",\n   \"weightStep\": 1.25,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"single-arm-cable-wrist-extension\",\n   \"name\": \"Single-Arm Cable Wrist Extension\",\n   \"primaryMuscles\": [\n    \"forearm_extensors\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"pull\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"perSide\",\n   \"weightStep\": 1.25,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"skull-crusher\",\n   \"name\": \"Skull Crusher\",\n   \"primaryMuscles\": [\n    \"triceps\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"push\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"smith-machine-bench-press\",\n   \"name\": \"Smith Machine Bench Press\",\n   \"primaryMuscles\": [\n    \"chest\"\n   ],\n   \"secondaryMuscles\": [\n    \"upper_chest\",\n    \"triceps\",\n    \"front_delts\"\n   ],\n   \"movement\": \"push\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"smith-machine-squat\",\n   \"name\": \"Smith Machine Squat\",\n   \"primaryMuscles\": [\n    \"quads\",\n    \"glutes\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"legs\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"standing-calf-raise\",\n   \"name\": \"Standing Calf Raise\",\n   \"primaryMuscles\": [\n    \"calves\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"legs\",\n   \"equipment\": \"machine\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"straight-arm-pulldown\",\n   \"name\": \"Straight-Arm Pulldown\",\n   \"primaryMuscles\": [\n    \"lats\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"pull\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"sumo-deadlift\",\n   \"name\": \"Sumo Deadlift\",\n   \"primaryMuscles\": [\n    \"glutes\",\n    \"hamstrings\"\n   ],\n   \"secondaryMuscles\": [\n    \"quads\",\n    \"lower_back\",\n    \"traps\",\n    \"forearm_flexors\",\n    \"adductors\"\n   ],\n   \"muscleShares\": {\n    \"quads\": 0.25,\n    \"forearm_flexors\": 0.25\n   },\n   \"movement\": \"legs\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"t-bar-row\",\n   \"name\": \"T-Bar Row\",\n   \"primaryMuscles\": [\n    \"lats\",\n    \"upper_back\"\n   ],\n   \"secondaryMuscles\": [\n    \"biceps\",\n    \"rear_delts\",\n    \"lower_back\"\n   ],\n   \"muscleShares\": {\n    \"lower_back\": 0.25\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"tibialis-raise\",\n   \"name\": \"Tibialis Raise\",\n   \"primaryMuscles\": [\n    \"tibialis\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"legs\",\n   \"equipment\": \"bodyweight\",\n   \"loadType\": \"bodyweight\",\n   \"bodyweightFraction\": 0,\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"trap-bar-deadlift\",\n   \"name\": \"Trap-Bar Deadlift\",\n   \"primaryMuscles\": [\n    \"quads\",\n    \"glutes\"\n   ],\n   \"secondaryMuscles\": [\n    \"hamstrings\",\n    \"lower_back\",\n    \"traps\",\n    \"forearm_flexors\"\n   ],\n   \"muscleShares\": {\n    \"traps\": 0.25,\n    \"forearm_flexors\": 0.25\n   },\n   \"movement\": \"legs\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"triceps-kickback\",\n   \"name\": \"Triceps Kickback\",\n   \"primaryMuscles\": [\n    \"triceps\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"push\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"perSide\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"triceps-pushdown\",\n   \"name\": \"Triceps Pushdown\",\n   \"primaryMuscles\": [\n    \"triceps\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"push\",\n   \"equipment\": \"cable\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"upright-row\",\n   \"name\": \"Upright Row\",\n   \"primaryMuscles\": [\n    \"side_delts\"\n   ],\n   \"secondaryMuscles\": [\n    \"traps\",\n    \"biceps\"\n   ],\n   \"muscleShares\": {\n    \"biceps\": 0.25\n   },\n   \"movement\": \"pull\",\n   \"equipment\": \"barbell\",\n   \"loadType\": \"external\",\n   \"compound\": true,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"weighted-decline-crunch\",\n   \"name\": \"Weighted Decline Crunch\",\n   \"primaryMuscles\": [\n    \"abs\"\n   ],\n   \"secondaryMuscles\": [\n    \"obliques\"\n   ],\n   \"muscleShares\": {\n    \"obliques\": 0.4\n   },\n   \"movement\": \"core\",\n   \"equipment\": \"bodyweight\",\n   \"loadType\": \"bodyweight\",\n   \"bodyweightFraction\": 0.4,\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 2.5,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-19T06:54:56.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"wrist-curl\",\n   \"name\": \"Wrist Curl\",\n   \"primaryMuscles\": [\n    \"forearm_flexors\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"pull\",\n   \"equipment\": \"dumbbell\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"perHand\",\n   \"weightStep\": 2,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"wrist-roller\",\n   \"name\": \"Wrist Roller\",\n   \"primaryMuscles\": [\n    \"forearm_flexors\",\n    \"forearm_extensors\"\n   ],\n   \"secondaryMuscles\": [],\n   \"movement\": \"pull\",\n   \"equipment\": \"other\",\n   \"loadType\": \"external\",\n   \"compound\": false,\n   \"load\": \"total\",\n   \"weightStep\": 1.25,\n   \"isCustom\": false,\n   \"updatedAt\": \"2026-11-17T17:00:00.000Z\",\n   \"deletedAt\": null\n  }\n ],\n \"templates\": [\n  {\n   \"id\": \"17fc695a-07a0-4a6e-8822-e8f36c031199\",\n   \"name\": \"Upper Body\",\n   \"items\": [\n    {\n     \"exerciseId\": \"dumbbell-bench-press\",\n     \"targetSets\": 3,\n     \"restSec\": 150,\n     \"repsMin\": 10,\n     \"repsMax\": 14\n    },\n    {\n     \"exerciseId\": \"pull-up\",\n     \"targetSets\": 4,\n     \"restSec\": 150,\n     \"repsMin\": 7,\n     \"repsMax\": 7\n    },\n    {\n     \"exerciseId\": \"dumbbell-shoulder-press\",\n     \"targetSets\": 2,\n     \"restSec\": 120,\n     \"repsMin\": 10,\n     \"repsMax\": 14\n    },\n    {\n     \"exerciseId\": \"machine-row\",\n     \"targetSets\": 4,\n     \"restSec\": 120,\n     \"repsMin\": 10,\n     \"repsMax\": 14\n    },\n    {\n     \"exerciseId\": \"dumbbell-curl\",\n     \"targetSets\": 2,\n     \"restSec\": 75,\n     \"repsMin\": 12,\n     \"repsMax\": 16\n    },\n    {\n     \"exerciseId\": \"overhead-triceps-extension\",\n     \"targetSets\": 2,\n     \"restSec\": 75,\n     \"repsMin\": 12,\n     \"repsMax\": 16\n    }\n   ],\n   \"updatedAt\": \"2026-09-21T14:30:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"23b8c1e9-3924-46de-beb1-3b9046685257\",\n   \"name\": \"Push Day\",\n   \"items\": [\n    {\n     \"exerciseId\": \"barbell-bench-press\",\n     \"targetSets\": 3,\n     \"restSec\": 180,\n     \"repsMin\": 8,\n     \"repsMax\": 8\n    },\n    {\n     \"exerciseId\": \"incline-dumbbell-press\",\n     \"targetSets\": 3,\n     \"restSec\": 150,\n     \"repsMin\": 10,\n     \"repsMax\": 14\n    },\n    {\n     \"exerciseId\": \"cable-fly\",\n     \"targetSets\": 2,\n     \"restSec\": 90,\n     \"repsMin\": 12,\n     \"repsMax\": 16\n    },\n    {\n     \"exerciseId\": \"overhead-press\",\n     \"targetSets\": 3,\n     \"restSec\": 150,\n     \"repsMin\": 8,\n     \"repsMax\": 8\n    },\n    {\n     \"exerciseId\": \"dumbbell-lateral-raise\",\n     \"targetSets\": 3,\n     \"restSec\": 75,\n     \"repsMin\": 14,\n     \"repsMax\": 18\n    },\n    {\n     \"exerciseId\": \"triceps-pushdown\",\n     \"targetSets\": 3,\n     \"restSec\": 90,\n     \"repsMin\": 12,\n     \"repsMax\": 16\n    }\n   ],\n   \"updatedAt\": \"2026-09-21T14:30:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"972a8469-1641-4f82-8b9d-2434e465e150\",\n   \"name\": \"Leg Day\",\n   \"items\": [\n    {\n     \"exerciseId\": \"back-squat\",\n     \"targetSets\": 3,\n     \"restSec\": 210,\n     \"repsMin\": 8,\n     \"repsMax\": 8\n    },\n    {\n     \"exerciseId\": \"leg-press\",\n     \"targetSets\": 3,\n     \"restSec\": 180,\n     \"repsMin\": 10,\n     \"repsMax\": 14\n    },\n    {\n     \"exerciseId\": \"leg-extension\",\n     \"targetSets\": 4,\n     \"restSec\": 90,\n     \"repsMin\": 12,\n     \"repsMax\": 16\n    },\n    {\n     \"exerciseId\": \"lying-leg-curl\",\n     \"targetSets\": 3,\n     \"restSec\": 90,\n     \"repsMin\": 12,\n     \"repsMax\": 16\n    },\n    {\n     \"exerciseId\": \"back-extension\",\n     \"targetSets\": 2,\n     \"restSec\": 75,\n     \"repsMin\": 15,\n     \"repsMax\": 19\n    },\n    {\n     \"exerciseId\": \"standing-calf-raise\",\n     \"targetSets\": 2,\n     \"restSec\": 75,\n     \"repsMin\": 12,\n     \"repsMax\": 16\n    }\n   ],\n   \"updatedAt\": \"2026-09-21T14:30:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"bd9c66b3-ad3c-4d6d-9a3d-1fa7bc8960a9\",\n   \"name\": \"Pull Day\",\n   \"items\": [\n    {\n     \"exerciseId\": \"lat-pulldown\",\n     \"targetSets\": 4,\n     \"restSec\": 120,\n     \"repsMin\": 10,\n     \"repsMax\": 14\n    },\n    {\n     \"exerciseId\": \"barbell-row\",\n     \"targetSets\": 4,\n     \"restSec\": 150,\n     \"repsMin\": 8,\n     \"repsMax\": 8\n    },\n    {\n     \"exerciseId\": \"seated-cable-row\",\n     \"targetSets\": 4,\n     \"restSec\": 120,\n     \"repsMin\": 10,\n     \"repsMax\": 14\n    },\n    {\n     \"exerciseId\": \"straight-arm-pulldown\",\n     \"targetSets\": 3,\n     \"restSec\": 90,\n     \"repsMin\": 12,\n     \"repsMax\": 16\n    },\n    {\n     \"exerciseId\": \"face-pull\",\n     \"targetSets\": 2,\n     \"restSec\": 75,\n     \"repsMin\": 15,\n     \"repsMax\": 19\n    },\n    {\n     \"exerciseId\": \"barbell-curl\",\n     \"targetSets\": 3,\n     \"restSec\": 90,\n     \"repsMin\": 10,\n     \"repsMax\": 14\n    },\n    {\n     \"exerciseId\": \"hammer-curl\",\n     \"targetSets\": 2,\n     \"restSec\": 75,\n     \"repsMin\": 12,\n     \"repsMax\": 16\n    }\n   ],\n   \"updatedAt\": \"2026-09-21T14:30:00.000Z\",\n   \"deletedAt\": null\n  }\n ],\n \"workouts\": [],\n \"bodyWeights\": [\n  {\n   \"id\": \"f5e90352-3745-49f2-b1d1-88b913f39289\",\n   \"measuredAt\": \"2026-11-15T05:54:00.000Z\",\n   \"weightKg\": 77.5,\n   \"updatedAt\": \"2026-11-15T05:54:00.000Z\",\n   \"deletedAt\": null\n  }\n ],\n \"measurements\": [\n  {\n   \"id\": \"1e07ea63-524c-498f-94dc-77a72ed0d50a\",\n   \"measuredAt\": \"2026-11-15T07:00:00.000Z\",\n   \"waistCm\": 81.7,\n   \"chestCm\": 104.2,\n   \"armCm\": 37.6,\n   \"thighCm\": 58.8,\n   \"calfCm\": null,\n   \"bodyFatPct\": 15.1,\n   \"updatedAt\": \"2026-11-15T07:00:00.000Z\",\n   \"deletedAt\": null\n  },\n  {\n   \"id\": \"f82785c8-3d91-423c-8099-a16c9ba08125\",\n   \"measuredAt\": \"2026-11-21T10:19:26.198Z\",\n   \"updatedAt\": \"2026-11-21T10:19:26.198Z\",\n   \"deletedAt\": null,\n   \"waistCm\": 81,\n   \"chestCm\": null,\n   \"armCm\": null,\n   \"thighCm\": null,\n   \"calfCm\": null,\n   \"bodyFatPct\": null\n  }\n ]\n}",
+      "exportedAt": "2026-11-21T10:19:26.568Z"
+     }
+    },
+    {
+     "key": "muscles",
+     "value": [
+      {
+       "id": "upper_chest",
+       "name": "Obere Brust",
+       "region": "upper"
+      },
+      {
+       "id": "chest",
+       "name": "Brust (Mitte/unten)",
+       "region": "upper"
+      },
+      {
+       "id": "front_delts",
+       "name": "Vordere Schulter",
+       "region": "upper"
+      },
+      {
+       "id": "side_delts",
+       "name": "Seitliche Schulter",
+       "region": "upper"
+      },
+      {
+       "id": "rear_delts",
+       "name": "Hintere Schulter",
+       "region": "upper"
+      },
+      {
+       "id": "rotator_cuff",
+       "name": "Rotatorenmanschette",
+       "region": "upper"
+      },
+      {
+       "id": "neck",
+       "name": "Nacken",
+       "region": "upper"
+      },
+      {
+       "id": "traps",
+       "name": "Trapez",
+       "region": "upper"
+      },
+      {
+       "id": "upper_back",
+       "name": "Oberer Rücken",
+       "region": "upper"
+      },
+      {
+       "id": "lats",
+       "name": "Latissimus",
+       "region": "upper"
+      },
+      {
+       "id": "biceps",
+       "name": "Bizeps",
+       "region": "upper"
+      },
+      {
+       "id": "brachialis",
+       "name": "Brachialis",
+       "region": "upper"
+      },
+      {
+       "id": "triceps",
+       "name": "Trizeps",
+       "region": "upper"
+      },
+      {
+       "id": "brachioradialis",
+       "name": "Brachioradialis",
+       "region": "upper"
+      },
+      {
+       "id": "forearm_flexors",
+       "name": "Unterarm-Beuger",
+       "region": "upper"
+      },
+      {
+       "id": "forearm_extensors",
+       "name": "Unterarm-Strecker",
+       "region": "upper"
+      },
+      {
+       "id": "abs",
+       "name": "Bauch",
+       "region": "core"
+      },
+      {
+       "id": "obliques",
+       "name": "Seitliche Bauchmuskeln",
+       "region": "core"
+      },
+      {
+       "id": "lower_back",
+       "name": "Unterer Rücken",
+       "region": "core"
+      },
+      {
+       "id": "glutes",
+       "name": "Gesäß",
+       "region": "lower"
+      },
+      {
+       "id": "abductors",
+       "name": "Abduktoren",
+       "region": "lower"
+      },
+      {
+       "id": "adductors",
+       "name": "Adduktoren",
+       "region": "lower"
+      },
+      {
+       "id": "quads",
+       "name": "Quadrizeps",
+       "region": "lower"
+      },
+      {
+       "id": "hamstrings",
+       "name": "Beinbeuger",
+       "region": "lower"
+      },
+      {
+       "id": "calves",
+       "name": "Waden",
+       "region": "lower"
+      },
+      {
+       "id": "tibialis",
+       "name": "Schienbeinmuskel",
+       "region": "lower"
+      }
+     ]
+    },
+    {
+     "key": "removedIds",
+     "value": [
+      "0227b8d5-b070-4a53-90ce-857f75c72fb6",
+      "002f2ca4-743e-4531-9dfb-19228aa6b006",
+      "03c501fe-2693-44ef-9717-26543b997815",
+      "04f718c8-5215-4503-b012-f8197df37378",
+      "144716cc-4352-4cea-b878-becf60dc12eb",
+      "14780c9d-d503-4b43-a3c7-ca9aedabddab",
+      "227dcecc-b972-493a-9bb0-dd7660b57717",
+      "27dd1ac4-4282-46e4-a986-305a5da3f9cf",
+      "285eed0a-3fac-4317-96e8-27b0c552f3c5",
+      "289ac251-52b4-44e8-afab-cd734fe66636",
+      "2ad820ca-03db-4a2e-9313-50e06f2537ce",
+      "3b30ee97-98d5-4cf5-8afc-f9e8cc476b72",
+      "3f46057b-7165-436b-b997-c779c56f05e6",
+      "3ff93134-650e-48e4-afe6-33f18f807d8b",
+      "40d91a8e-1f44-4a88-855b-6c5b8cb1457e",
+      "440c7e5b-9def-47b4-92da-43ec0eecc013",
+      "44d18524-cf0e-4567-882d-7fc1be3074f8",
+      "44e9f8fb-4838-4888-9a2e-9864f8eaca36",
+      "5808d790-22e4-4628-9913-057dc21f84fc",
+      "6f5aad52-9061-498f-a096-521ea2c723d4",
+      "74915c14-a30b-469c-9c40-50454a22eae9",
+      "7c413a2a-1b67-47bb-b3bb-738208018e83",
+      "7d6ab7c2-a86d-4706-a37b-3648d617b9c0",
+      "87f89f62-11a1-4557-a90c-44148df50b01",
+      "8a27b0b0-7b4d-4646-98e0-058fe8af301f",
+      "8af09ec3-4b72-4a7c-8f1c-3fa070000009",
+      "94c176b9-0ac0-43d5-b805-90f002493a09",
+      "9b1fc6d1-3881-49dc-9dc9-60970c90e028",
+      "9cf023dd-2775-49a2-8d2c-fe83c4072654",
+      "a50784cb-c9df-401e-8ef0-0de1fb4f1972",
+      "a8ad1539-85f0-486a-98a4-40bd1c4760a5",
+      "aaac826e-dd18-4b28-8d55-9b64e3347bac",
+      "bb7eb979-52dc-4ffd-9900-8d658b2ab759",
+      "c02553ea-d7f2-4678-9489-8025548b2ce3",
+      "c166a8b3-f26b-4ebf-bdef-3b8eec0dfc3a",
+      "c27288e6-ff39-4117-b83b-1806ee4c1b18",
+      "c6a90598-5d34-4833-9b59-2a199ea6ed4a",
+      "ca9d8831-894e-4397-b38a-3db1276732d3",
+      "cebd3b2b-9cfb-4ce7-a8f2-c584ccca1e14",
+      "d1ad3e51-89f9-4de9-b798-0131a885a7b4",
+      "e3f342a8-f030-4fd4-be54-898e8eda6433",
+      "e54c8739-3133-439e-ae7d-952b785b8a07",
+      "fb6bf1dc-aa7f-4e06-8569-5f97180dc855",
+      "ff7a884d-7f96-4d35-8ca9-9089c9254bb5",
+      "32833106-536e-45df-80b2-d002cc92d33d",
+      "3ce1268c-9c80-42e3-bfec-3fee8ed2305d",
+      "7f453a0e-f509-4b4f-95de-6e91074206e2",
+      "1e07ea63-524c-498f-94dc-77a72ed0d50a"
+     ]
+    },
+    {
+     "key": "settings",
+     "value": {
+      "defaultRestSec": 120,
+      "vibrateOn": true,
+      "keepScreenOn": true,
+      "theme": "dark",
+      "barKg": 20
+     }
+    }
+   ]
+  },
+  "templates": {
+   "keyPath": "id",
+   "indexes": [],
+   "records": [
+    {
+     "id": "17fc695a-07a0-4a6e-8822-e8f36c031199",
+     "name": "Upper Body",
+     "items": [
+      {
+       "exerciseId": "dumbbell-bench-press",
+       "targetSets": 3,
+       "restSec": 150,
+       "repsMin": 10,
+       "repsMax": 14
+      },
+      {
+       "exerciseId": "pull-up",
+       "targetSets": 4,
+       "restSec": 150,
+       "repsMin": 7,
+       "repsMax": 7
+      },
+      {
+       "exerciseId": "dumbbell-shoulder-press",
+       "targetSets": 2,
+       "restSec": 120,
+       "repsMin": 10,
+       "repsMax": 14
+      },
+      {
+       "exerciseId": "machine-row",
+       "targetSets": 4,
+       "restSec": 120,
+       "repsMin": 10,
+       "repsMax": 14
+      },
+      {
+       "exerciseId": "dumbbell-curl",
+       "targetSets": 2,
+       "restSec": 75,
+       "repsMin": 12,
+       "repsMax": 16
+      },
+      {
+       "exerciseId": "overhead-triceps-extension",
+       "targetSets": 2,
+       "restSec": 75,
+       "repsMin": 12,
+       "repsMax": 16
+      }
+     ],
+     "updatedAt": "2026-09-21T14:30:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "23b8c1e9-3924-46de-beb1-3b9046685257",
+     "name": "Push Day",
+     "items": [
+      {
+       "exerciseId": "barbell-bench-press",
+       "targetSets": 3,
+       "restSec": 180,
+       "repsMin": 8,
+       "repsMax": 8
+      },
+      {
+       "exerciseId": "incline-dumbbell-press",
+       "targetSets": 3,
+       "restSec": 150,
+       "repsMin": 10,
+       "repsMax": 14
+      },
+      {
+       "exerciseId": "cable-fly",
+       "targetSets": 2,
+       "restSec": 90,
+       "repsMin": 12,
+       "repsMax": 16
+      },
+      {
+       "exerciseId": "overhead-press",
+       "targetSets": 3,
+       "restSec": 150,
+       "repsMin": 8,
+       "repsMax": 8
+      },
+      {
+       "exerciseId": "dumbbell-lateral-raise",
+       "targetSets": 3,
+       "restSec": 75,
+       "repsMin": 14,
+       "repsMax": 18
+      },
+      {
+       "exerciseId": "triceps-pushdown",
+       "targetSets": 3,
+       "restSec": 90,
+       "repsMin": 12,
+       "repsMax": 16
+      }
+     ],
+     "updatedAt": "2026-09-21T14:30:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "972a8469-1641-4f82-8b9d-2434e465e150",
+     "name": "Leg Day",
+     "items": [
+      {
+       "exerciseId": "back-squat",
+       "targetSets": 3,
+       "restSec": 210,
+       "repsMin": 8,
+       "repsMax": 8
+      },
+      {
+       "exerciseId": "leg-press",
+       "targetSets": 3,
+       "restSec": 180,
+       "repsMin": 10,
+       "repsMax": 14
+      },
+      {
+       "exerciseId": "leg-extension",
+       "targetSets": 4,
+       "restSec": 90,
+       "repsMin": 12,
+       "repsMax": 16
+      },
+      {
+       "exerciseId": "lying-leg-curl",
+       "targetSets": 3,
+       "restSec": 90,
+       "repsMin": 12,
+       "repsMax": 16
+      },
+      {
+       "exerciseId": "back-extension",
+       "targetSets": 2,
+       "restSec": 75,
+       "repsMin": 15,
+       "repsMax": 19
+      },
+      {
+       "exerciseId": "standing-calf-raise",
+       "targetSets": 2,
+       "restSec": 75,
+       "repsMin": 12,
+       "repsMax": 16
+      }
+     ],
+     "updatedAt": "2026-09-21T14:30:00.000Z",
+     "deletedAt": null
+    },
+    {
+     "id": "bd9c66b3-ad3c-4d6d-9a3d-1fa7bc8960a9",
+     "name": "Pull Day",
+     "items": [
+      {
+       "exerciseId": "lat-pulldown",
+       "targetSets": 4,
+       "restSec": 120,
+       "repsMin": 10,
+       "repsMax": 14
+      },
+      {
+       "exerciseId": "barbell-row",
+       "targetSets": 4,
+       "restSec": 150,
+       "repsMin": 8,
+       "repsMax": 8
+      },
+      {
+       "exerciseId": "seated-cable-row",
+       "targetSets": 4,
+       "restSec": 120,
+       "repsMin": 10,
+       "repsMax": 14
+      },
+      {
+       "exerciseId": "straight-arm-pulldown",
+       "targetSets": 3,
+       "restSec": 90,
+       "repsMin": 12,
+       "repsMax": 16
+      },
+      {
+       "exerciseId": "face-pull",
+       "targetSets": 2,
+       "restSec": 75,
+       "repsMin": 15,
+       "repsMax": 19
+      },
+      {
+       "exerciseId": "barbell-curl",
+       "targetSets": 3,
+       "restSec": 90,
+       "repsMin": 10,
+       "repsMax": 14
+      },
+      {
+       "exerciseId": "hammer-curl",
+       "targetSets": 2,
+       "restSec": 75,
+       "repsMin": 12,
+       "repsMax": 16
+      }
+     ],
+     "updatedAt": "2026-09-21T14:30:00.000Z",
+     "deletedAt": null
+    }
+   ]
+  },
+  "workouts": {
+   "keyPath": "id",
+   "indexes": [
+    {
+     "name": "startedAt",
+     "keyPath": "startedAt"
+    }
+   ],
+   "records": [
+    {
+     "id": "68a025b7-7639-48f3-b085-79dd1f5fffdc",
+     "name": "Training",
+     "templateId": null,
+     "startedAt": "2026-11-21T10:19:27.468Z",
+     "finishedAt": "2026-11-21T10:19:28.868Z",
+     "utcOffsetMin": 60,
+     "notes": "",
+     "updatedAt": "2026-11-21T10:19:28.868Z",
+     "deletedAt": null,
+     "exercises": [
+      {
+       "id": "4ef4381c-b051-4247-81ad-9ff7d059eafc",
+       "exerciseId": "barbell-bench-press",
+       "order": 0,
+       "notes": "",
+       "sets": [
+        {
+         "id": "9f3eca06-4bd4-4872-8fd4-2fcb859571ce",
+         "order": 0,
+         "type": "work",
+         "weightKg": 60,
+         "reps": 8,
+         "rpe": null,
+         "startedAt": null,
+         "completedAt": "2026-11-21T10:19:28.149Z",
+         "targetRestSec": 180
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b3014b84-1042-4bb0-bc3e-1ec39c99e595",
+     "name": "Training",
+     "templateId": null,
+     "startedAt": "2026-11-21T10:19:29.216Z",
+     "finishedAt": null,
+     "utcOffsetMin": 60,
+     "notes": "",
+     "updatedAt": "2026-11-21T10:19:29.851Z",
+     "deletedAt": null,
+     "exercises": [
+      {
+       "id": "73d58f06-ab1c-4722-bf49-42dc25c3831c",
+       "exerciseId": "barbell-bench-press",
+       "order": 0,
+       "notes": "",
+       "sets": [
+        {
+         "id": "18ca390d-1ecf-41e9-8abf-6ac5606ec34b",
+         "order": 0,
+         "type": "work",
+         "weightKg": 60,
+         "reps": 8,
+         "rpe": null,
+         "startedAt": null,
+         "completedAt": "2026-11-21T10:19:29.851Z",
+         "targetRestSec": 180
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

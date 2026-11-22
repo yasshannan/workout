@@ -1,0 +1,357 @@
+{
+ "schemaVersion": 1,
+ "app": "workout-tracker",
+ "exportedAt": "2026-11-22T21:00:00.000Z",
+ "exportType": "full",
+ "changedSince": null,
+ "settings": {
+  "unit": "kg",
+  "defaultRestSec": 120,
+  "soundOn": false,
+  "keepScreenOn": true,
+  "vibrateOn": true,
+  "theme": "auto"
+ },
+ "exercises": [],
+ "templates": [
+  {
+   "id": "d21eaf75-b3d4-5a84-9f73-3f0e4ba214cc",
+   "name": "Tag 1 · Oberkörper A",
+   "items": [
+    {
+     "exerciseId": "barbell-bench-press",
+     "targetSets": 3,
+     "repsMin": 6,
+     "repsMax": 10,
+     "restSec": 180,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "chest-supported-t-bar-row-pronated",
+     "targetSets": 3,
+     "repsMin": 8,
+     "repsMax": 12,
+     "restSec": 150,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "incline-dumbbell-press",
+     "targetSets": 3,
+     "repsMin": 8,
+     "repsMax": 12,
+     "restSec": 150,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "lat-pulldown",
+     "targetSets": 3,
+     "repsMin": 8,
+     "repsMax": 12,
+     "restSec": 120,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "cable-lateral-raise",
+     "targetSets": 3,
+     "repsMin": 12,
+     "repsMax": 20,
+     "restSec": 60,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "bayesian-cable-curl",
+     "targetSets": 3,
+     "repsMin": 10,
+     "repsMax": 15,
+     "restSec": 90,
+     "supersetGroup": "A"
+    },
+    {
+     "exerciseId": "cable-overhead-triceps-extension-bar",
+     "targetSets": 3,
+     "repsMin": 10,
+     "repsMax": 15,
+     "restSec": 90,
+     "supersetGroup": "A"
+    },
+    {
+     "exerciseId": "cable-reverse-curl",
+     "targetSets": 2,
+     "repsMin": 12,
+     "repsMax": 15,
+     "restSec": 60,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "single-arm-cable-wrist-curl",
+     "targetSets": 2,
+     "repsMin": 15,
+     "repsMax": 20,
+     "restSec": 60,
+     "supersetGroup": "B"
+    },
+    {
+     "exerciseId": "single-arm-cable-wrist-extension",
+     "targetSets": 2,
+     "repsMin": 15,
+     "repsMax": 20,
+     "restSec": 60,
+     "supersetGroup": "B"
+    },
+    {
+     "exerciseId": "dead-hang",
+     "targetSets": 2,
+     "repsMin": 30,
+     "repsMax": 60,
+     "restSec": 90,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "cable-crunch",
+     "targetSets": 3,
+     "repsMin": 10,
+     "repsMax": 15,
+     "restSec": 60,
+     "supersetGroup": null
+    }
+   ],
+   "updatedAt": "2026-11-22T21:00:00.000Z",
+   "deletedAt": null
+  },
+  {
+   "id": "61efe444-9b02-5d0d-b5e5-0d7a3ae8f9c6",
+   "name": "Tag 2 · Beine A",
+   "items": [
+    {
+     "exerciseId": "hack-squat",
+     "targetSets": 3,
+     "repsMin": 6,
+     "repsMax": 10,
+     "restSec": 180,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "romanian-deadlift",
+     "targetSets": 3,
+     "repsMin": 8,
+     "repsMax": 10,
+     "restSec": 180,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "seated-leg-curl",
+     "targetSets": 3,
+     "repsMin": 10,
+     "repsMax": 15,
+     "restSec": 90,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "standing-calf-raise",
+     "targetSets": 3,
+     "repsMin": 10,
+     "repsMax": 15,
+     "restSec": 90,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "farmers-walk",
+     "targetSets": 2,
+     "repsMin": 30,
+     "repsMax": 45,
+     "restSec": 120,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "cable-pronation",
+     "targetSets": 2,
+     "repsMin": 12,
+     "repsMax": 15,
+     "restSec": 60,
+     "supersetGroup": "A"
+    },
+    {
+     "exerciseId": "cable-supination",
+     "targetSets": 2,
+     "repsMin": 12,
+     "repsMax": 15,
+     "restSec": 60,
+     "supersetGroup": "A"
+    },
+    {
+     "exerciseId": "hanging-knee-raise",
+     "targetSets": 3,
+     "repsMin": 10,
+     "repsMax": 15,
+     "restSec": 60,
+     "supersetGroup": null
+    }
+   ],
+   "updatedAt": "2026-11-22T21:00:00.000Z",
+   "deletedAt": null
+  },
+  {
+   "id": "3b0ff589-86d3-57b3-8ee2-d57ff73aa6d8",
+   "name": "Tag 3 · Oberkörper B",
+   "items": [
+    {
+     "exerciseId": "assisted-pull-up",
+     "targetSets": 3,
+     "repsMin": 6,
+     "repsMax": 10,
+     "restSec": 150,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "seated-dumbbell-shoulder-press",
+     "targetSets": 3,
+     "repsMin": 8,
+     "repsMax": 12,
+     "restSec": 150,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "seated-cable-row",
+     "targetSets": 3,
+     "repsMin": 8,
+     "repsMax": 12,
+     "restSec": 120,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "machine-chest-press-pronated",
+     "targetSets": 3,
+     "repsMin": 8,
+     "repsMax": 12,
+     "restSec": 120,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "cable-lateral-raise",
+     "targetSets": 3,
+     "repsMin": 12,
+     "repsMax": 20,
+     "restSec": 60,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "cable-face-pull",
+     "targetSets": 3,
+     "repsMin": 12,
+     "repsMax": 15,
+     "restSec": 60,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "ez-bar-preacher-curl",
+     "targetSets": 3,
+     "repsMin": 8,
+     "repsMax": 12,
+     "restSec": 90,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "cable-hammer-curl",
+     "targetSets": 3,
+     "repsMin": 10,
+     "repsMax": 15,
+     "restSec": 90,
+     "supersetGroup": "A"
+    },
+    {
+     "exerciseId": "cable-triceps-pushdown-bar",
+     "targetSets": 3,
+     "repsMin": 10,
+     "repsMax": 15,
+     "restSec": 90,
+     "supersetGroup": "A"
+    },
+    {
+     "exerciseId": "cable-internal-rotation",
+     "targetSets": 2,
+     "repsMin": 12,
+     "repsMax": 15,
+     "restSec": 60,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "plate-pinch",
+     "targetSets": 2,
+     "repsMin": 20,
+     "repsMax": 40,
+     "restSec": 90,
+     "supersetGroup": null
+    }
+   ],
+   "updatedAt": "2026-11-22T21:00:00.000Z",
+   "deletedAt": null
+  },
+  {
+   "id": "006478e5-ca6a-512d-bdfd-a0c9178da1e4",
+   "name": "Tag 4 · Beine B",
+   "items": [
+    {
+     "exerciseId": "leg-press",
+     "targetSets": 3,
+     "repsMin": 8,
+     "repsMax": 12,
+     "restSec": 150,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "leg-extension",
+     "targetSets": 3,
+     "repsMin": 10,
+     "repsMax": 15,
+     "restSec": 90,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "lying-leg-curl",
+     "targetSets": 3,
+     "repsMin": 10,
+     "repsMax": 15,
+     "restSec": 90,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "seated-calf-raise",
+     "targetSets": 3,
+     "repsMin": 12,
+     "repsMax": 20,
+     "restSec": 60,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "weighted-decline-crunch",
+     "targetSets": 3,
+     "repsMin": 10,
+     "repsMax": 15,
+     "restSec": 60,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "tibialis-raise",
+     "targetSets": 2,
+     "repsMin": 15,
+     "repsMax": 20,
+     "restSec": 60,
+     "supersetGroup": null
+    },
+    {
+     "exerciseId": "incline-treadmill-walk",
+     "targetSets": 1,
+     "repsMin": 10,
+     "repsMax": 15,
+     "restSec": null,
+     "supersetGroup": null
+    }
+   ],
+   "updatedAt": "2026-11-22T21:00:00.000Z",
+   "deletedAt": null
+  }
+ ],
+ "workouts": [],
+ "bodyWeights": [],
+ "measurements": []
+}

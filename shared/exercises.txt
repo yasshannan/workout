@@ -1,0 +1,54 @@
+# Eine Zeile pro Übung:
+#   Name [id] | Hauptmuskel | Nebenmuskel Anteil, ... | Bewegung Gerät Last Schritt [Extras] | Technik-Tipp; Tipp; Tipp
+# [id] nur wenn sie nicht dem Namen entspricht. Ids nie ändern.
+# Anteil 0.1–0.9 · Bewegung: push pull legs core · Gerät: barbell dumbbell cable machine bodyweight other
+# Last: total perHand perSide · Schritt in kg
+# Extras: compound (Mehrgelenk) · bodyweight[=0.3] (Eigengewicht, Anteil) · assisted · seconds · minutes (Ausdauer)
+# Danach: python tools/build_library.py
+# Muskeln: upper_chest chest front_delts side_delts rear_delts rotator_cuff neck traps upper_back lats biceps brachialis triceps brachioradialis forearm_flexors forearm_extensors abs obliques lower_back glutes abductors adductors quads hamstrings calves tibialis
+
+Lat Pulldown | lats | upper_back 0.6, biceps 0.5, brachialis 0.4, rear_delts 0.3, brachioradialis 0.3, forearm_flexors 0.2 | pull cable total 5 compound | Brust raus, leicht zurücklehnen; Ellbogen nach unten zu den Hüften ziehen; oben ganz strecken und die Schultern mitgehen lassen
+Bench Press [barbell-bench-press] | chest | upper_chest 0.6, triceps 0.6, front_delts 0.5 | push barbell total 2.5 compound | Schulterblätter zusammen und nach unten; Stange zur unteren Brust, Ellbogen etwa 45° vom Körper; Füße fest, der Po bleibt auf der Bank
+Chest Supported T-Bar Row (Pronated) | upper_back | rear_delts 0.7, lats 0.6, brachioradialis 0.5, biceps 0.4, brachialis 0.4, traps 0.3, forearm_flexors 0.2 | pull machine total 2.5 compound | Brust bleibt am Polster; Ellbogen breit nach hinten, oben die Schulterblätter zusammen; unten ganz strecken
+Incline Bench Curl [incline-dumbbell-curl] | biceps | brachialis 0.5, brachioradialis 0.3 | pull dumbbell perHand 2 | Oberarme hängen senkrecht und bleiben dort; unten ganz strecken, dort ist der Reiz am größten; nicht schwingen
+Cable Lateral Raise | side_delts | front_delts 0.3, traps 0.3, rear_delts 0.2 | push cable perSide 2.5 | Seilzug auf Handhöhe; seitlich bis Schulterhöhe heben, der Ellbogen führt; langsam ablassen, Schultern nicht hochziehen
+Cable Crunch | abs | obliques 0.4 | core cable total 5 | Die Hüfte bleibt, wo sie ist; Brustkorb zum Becken einrollen; nicht mit den Armen ziehen
+Cable Face Pull | rear_delts | upper_back 0.7, rotator_cuff 0.5, traps 0.4, side_delts 0.3, biceps 0.2, brachialis 0.2, brachioradialis 0.2 | pull cable total 2.5 | Seil auf Augenhöhe; zum Gesicht ziehen und die Hände dabei nach außen drehen; Ellbogen hoch, hinten kurz halten
+Cable Reverse Curl | brachioradialis | brachialis 0.8, forearm_extensors 0.5, biceps 0.4 | pull cable total 2.5 | Obergriff, Handgelenke gerade; Ellbogen bleiben am Körper; langsam ablassen
+Single-Arm Cable Wrist Extension | forearm_extensors | - | pull cable perSide 1.25 | Der Unterarm liegt fest auf der anderen Hand; nur das Handgelenk bewegt sich; ganzer Weg, langsam
+Single-Arm Cable Wrist Curl | forearm_flexors | - | pull cable perSide 1.25 | Der Unterarm liegt fest auf der anderen Hand; Handgelenk ganz nach hinten sinken lassen, dann einrollen; langsam
+Cable Overhead Triceps Extension (Bar) | triceps | - | push cable total 2.5 | Ellbogen zeigen nach vorne und bleiben eng; tief nach hinten sinken lassen, das dehnt den langen Kopf; oben ganz strecken
+Incline Bench Press | upper_chest | front_delts 0.7, chest 0.6, triceps 0.5 | push barbell total 2.5 compound | Bank auf 30–45°; Stange zur oberen Brust; Schulterblätter zusammen, Füße fest
+Machine Fly | chest | upper_chest 0.5, front_delts 0.3 | push machine total 2.5 | Arme leicht gebeugt, der Winkel bleibt; Brust raus, Schultern hinten; vorne zusammendrücken, hinten die Dehnung spüren
+Machine Chest Press (Pronated Grip) [machine-chest-press-pronated] | chest | front_delts 0.5, upper_chest 0.4, triceps 0.4 | push machine total 5 compound | Sitz so einstellen, dass die Griffe auf Höhe der unteren Brust sind; Schulterblätter am Polster; vorne nicht ganz durchdrücken
+Cable Triceps Pushdown (Bar) | triceps | - | push cable total 2.5 | Ellbogen fest an der Seite; unten ganz strecken; Oberkörper ruhig
+EZ Bar Preacher Curl | biceps | brachialis 0.6, brachioradialis 0.4 | pull barbell total 2.5 | Achseln eng ans Pult; unten fast ganz strecken, kontrolliert; Ellbogen nicht vom Pult heben
+
+# Tag 1
+Incline Dumbbell Press | upper_chest | front_delts 0.7, chest 0.6, triceps 0.4 | push dumbbell perHand 2 compound | Bank auf 30–45°; Hanteln tief bis neben die Brust; oben nicht zusammenschlagen
+Bayesian Cable Curl | biceps | brachialis 0.5, brachioradialis 0.3 | pull cable perSide 2.5 | Mit dem Rücken zum Seilzug, der Arm zeigt nach hinten; der Ellbogen bleibt hinter dem Körper; unten ganz strecken
+Dead Hang | forearm_flexors | forearm_extensors 0.2 | pull bodyweight total 2.5 bodyweight seconds | Ganz hängen lassen, die Schultern dürfen hochgehen; fest zugreifen, Daumen um die Stange; ruhig atmen
+# Tag 2
+Hack Squat | quads | glutes 0.4, adductors 0.4 | legs machine total 5 compound | Füße schulterbreit, mittig auf der Platte; tief gehen, die Knie dürfen über die Zehen; Rücken bleibt am Polster
+Romanian Deadlift | hamstrings | glutes 0.7, lower_back 0.5, adductors 0.4, forearm_flexors 0.2 | legs barbell total 2.5 compound | Hüfte nach hinten schieben, Knie leicht gebeugt; Stange nah an den Beinen, Rücken gerade; runter bis zur Dehnung hinten im Oberschenkel
+Seated Leg Curl | hamstrings | calves 0.2 | legs machine total 2.5 | Oberschenkel fest unter dem Polster; ganz einrollen, langsam zurück; die Hüfte nicht anheben
+Standing Calf Raise | calves | - | legs machine total 5 | Unten tief dehnen und kurz halten; oben ganz auf die Zehen; Knie gestreckt
+Farmer's Walk [farmers-walk] | forearm_flexors | traps 0.5, obliques 0.3, lower_back 0.3, abs 0.2, abductors 0.2, forearm_extensors 0.2 | pull dumbbell perHand 2 compound seconds | Aufrecht, Schultern zurück; kurze, ruhige Schritte; fest zugreifen, nicht schwingen
+Cable Pronation | forearm_flexors | brachioradialis 0.3 | pull cable perSide 1.25 | Ellbogen 90°, am Körper; nur den Unterarm nach innen drehen; langsam zurück
+Cable Supination | forearm_extensors | biceps 0.6, brachioradialis 0.3 | pull cable perSide 1.25 | Ellbogen 90°, am Körper; den Unterarm nach außen drehen, bis die Handfläche oben ist; langsam zurück
+Hanging Knee Raise | abs | obliques 0.6, forearm_flexors 0.3 | core bodyweight total 2.5 bodyweight=0.3 | Nicht schwingen; Becken einrollen, Knie zur Brust; langsam ablassen
+# Tag 3
+Assisted Pull-Up | lats | upper_back 0.6, biceps 0.5, brachialis 0.4, brachioradialis 0.3, forearm_flexors 0.3, rear_delts 0.2 | pull machine total 5 compound assisted | Brust zur Stange; Ellbogen nach unten ziehen; unten ganz strecken
+Seated Dumbbell Shoulder Press | front_delts | side_delts 0.5, triceps 0.5, upper_chest 0.3, traps 0.2 | push dumbbell perHand 2 compound | Lehne fast senkrecht; Hanteln bis auf Kinnhöhe ablassen; oben nicht zusammenschlagen
+Seated Cable Row | upper_back | lats 0.8, rear_delts 0.5, traps 0.4, biceps 0.4, brachialis 0.4, brachioradialis 0.3, forearm_flexors 0.2 | pull cable total 5 compound | Aufrecht sitzen, nicht nach hinten werfen; Griff zum Bauch, Schulterblätter zusammen; vorne strecken lassen
+Cable Hammer Curl | brachioradialis | brachialis 0.8, biceps 0.5 | pull cable total 2.5 | Daumen oben (neutraler Griff); Ellbogen am Körper; langsam ablassen
+Cable Internal Rotation | rotator_cuff | chest 0.2, lats 0.1 | push cable perSide 1.25 | Ellbogen 90° und fest an der Seite (ein Handtuch dazwischen hilft); Unterarm zum Bauch drehen; leicht und langsam
+Plate Pinch | forearm_flexors | forearm_extensors 0.2 | pull other perHand 5 seconds | Scheiben mit der glatten Seite nach außen; nur mit den Fingern halten, die Handfläche bleibt frei; aufrecht stehen
+# Tag 4
+Leg Press | quads | glutes 0.5, adductors 0.4 | legs machine total 5 compound | Füße schulterbreit; tief, aber der untere Rücken bleibt am Polster; Knie oben nicht ganz durchdrücken
+Leg Extension | quads | - | legs machine total 2.5 | Rücken an die Lehne, Knie auf Höhe des Drehpunkts; oben kurz halten; langsam ablassen
+Lying Leg Curl | hamstrings | calves 0.2 | legs machine total 2.5 | Hüfte bleibt auf dem Polster; ganz einrollen; langsam zurück
+Seated Calf Raise | calves | - | legs machine total 5 | Knie fest unter dem Polster; unten tief dehnen; oben kurz halten
+Weighted Decline Crunch | abs | obliques 0.4 | core bodyweight total 2.5 bodyweight=0.4 | Scheibe an der Brust; Oberkörper einrollen, ohne Schwung; langsam zurück, die Spannung halten
+Tibialis Raise | tibialis | - | legs bodyweight total 2.5 bodyweight=0 | Rücken an die Wand, Fersen ein Stück vor; Zehen so hoch wie möglich ziehen; langsam ablassen
+Incline Treadmill Walk | calves | glutes 0.5, hamstrings 0.3 | legs machine total 0.5 minutes | Nicht am Geländer festhalten; aufrecht gehen; lieber mehr Steigung als mehr Tempo
